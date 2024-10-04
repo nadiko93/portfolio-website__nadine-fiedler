@@ -222,3 +222,87 @@ nav ul {
   min-height: 56px;
 }
 
+/* -----------------------------------------------------------
+ 3.2 ABOUT SECTION
+ ------------------------------------------------------------*/
+
+#about {
+  color: #e3fafc;
+  position: relative;
+  padding: 48px 16px;
+  padding-bottom: 0;
+}
+
+#about::before {
+  content: "";
+  position: absolute;
+  height: 85%;
+  width: 110%;
+  left: -10%;
+  top: 0%;
+  z-index: -1;
+  background-color: #1098ad;
+}
+
+.container__about {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 0 1em; */
+}
+
+#about h2 {
+  position: relative;
+  margin-bottom: 77px;
+}
+
+.heading-underline {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#about p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-content {
+  padding: 0 32px;
+}
+
+.homepage__about-text {
+  position: relative;
+}
+
+.decoration__about--S {
+  position: absolute;
+  top: -29px;
+  left: -29px;
+}
+
+.about-link {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  font-size: 20px;
+}
+
+.img__homepage-about--x1 {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  height: auto;
+}
+
+.decoration__about-img--right {
+  display: none;
+}
+
+.deco__about-img--left {
+  display: none;
+}
+

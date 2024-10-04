@@ -1,0 +1,118 @@
+/* ---------------------------------------------------
+  1. GENERAL STYLE
+------------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafbfc;
+  color: #343a40;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.img--center {
+  display: block;
+  margin: 0 auto;
+}
+
+.txt--center {
+  text-align: center;
+}
+
+.container {
+  padding: 0 1em;
+  margin-top: 5em;
+}
+
+.container__tool-icons {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+/* --------------------------------------------------------
+  1.1. TYPOGRAPHY
+---------------------------------------------------------- */
+
+h1,
+h2,
+h3 {
+  font-family: "Amatic SC", "Outfit", sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.25em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.125em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  max-width: 500px;
+}
+
+/* ---------------------------------------------------------
+  1.2 ELEMENTS
+----------------------------------------------------------- */
+
+a:link,
+a:visited {
+  font-family: "Amatic SC", "Outfit", sans-serif;
+  text-decoration: none;
+  color: #e3fafc;
+  font-size: 1.4em;
+}
+
+.btn__main:link,
+.btn__main:visited {
+  display: inline-block;
+  background-color: #1864ab;
+  padding: 8px 24px;
+  border-radius: 20px 0;
+  font-size: 1.2em;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.btn__main span {
+  margin-right: 8px;
+}
+

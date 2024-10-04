@@ -726,3 +726,221 @@ div[id*=" carousel--"] {
   margin-top: 5px;
 }
 
+/* -----------------------------------------------------------
+  7. RESPONSIVE DESIGN
+-------------------------------------------------------------*/
+
+/*-----------------------------------------------------------
+  7.1 SMALL DEVICES (530px and larger)
+-------------------------------------------------------------*/
+@media only screen and (min-width: 530px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .hero-img {
+    background-image: url(../img/homepage/homepage__hero-background--S.svg);
+  }
+
+  .hero-intro {
+    background-image: url(../img/homepage/homepage__hero-circle--S.svg);
+    height: 398px;
+    width: 398px;
+    padding-top: 105px;
+  }
+
+  .typewriter-text {
+    min-height: 84px;
+  }
+
+  .text__hero {
+    font-size: 20px;
+  }
+
+  .hero--el1--XS {
+    display: none;
+  }
+
+  .hero--el1--S {
+    display: block;
+  }
+
+  .hero--el2 {
+    transform: scale(1.2);
+  }
+
+  .hero--el4 {
+    transform: scale(1.2);
+  }
+
+}
+
+/* ------------------------------------------------------------
+  7.2 MEDIUM DEVICES (744px and larger) 
+-------------------------------------------------------------*/
+@media only screen and (min-width: 744px) {
+  .col-md-6 {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  /* HERO SECTION */
+
+  .hero-img {
+    background-image: url(../img/homepage/homepage__hero-background--M.svg);
+    /* height: 1030px; */
+  }
+
+  .hero-intro {
+    background-image: url(../img/homepage/homepage__hero-circle--M.svg);
+    height: 550px;
+    width: 550px;
+    padding-top: 130px;
+  }
+
+  .typewriter-text {
+    min-height: 98px;
+  }
+
+  .text__hero {
+    font-size: 32px;
+  }
+
+  .hero--el2 {
+    transform: scale(1.4);
+    top: 64vh;
+    left: 3vh;
+  }
+
+  .hero--el4 {
+    transform: scale(1.4);
+    top: 55vh;
+    right: 1.5vh;
+  }
+
+  .container {
+    padding: 0 48px;
+    max-width: 1200px;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/* ----------------------------------------------------------
+  7.3 LARGE DEVICES (1280px and larger)
+--------------------------------------------------------------*/
+@media only screen and (min-width: 1020px) {
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  .hero-img {
+    background-image: url(../img/homepage/homepage__hero-background--L.svg);
+    /* height: 900px; */
+  }
+
+  .hero-intro {
+    margin: 0 auto;
+    height: 653px;
+    width: 653px;
+    padding-top: 170px;
+  }
+
+  .typewriter-text {
+    min-height: 112px;
+  }
+
+  .hero--el1--S {
+    display: none;
+  }
+
+  .hero--el1--M {
+    display: block;
+  }
+
+  .hero--el2 {
+    transform: scale(1.7);
+    top: 50vh;
+    left: 2vh;
+  }
+
+  .hero--el3 {
+    display: block;
+    top: 1vh;
+    right: -5vh;
+  }
+
+  .hero--el4 {
+    transform: scale(1.7);
+    top: 50vh;
+    right: 10vh;
+  }
+
+}
+
+/* ----------------------------------------------------------
+  7.3 X-LARGE DEVICES (1440px and larger)
+--------------------------------------------------------------*/
+@media only screen and (min-width: 1440px) {
+  .hero--el1--M {
+    display: none;
+  }
+
+  .hero--el1--L {
+    display: block;
+  }
+
+  .hero--el2 {
+    top: 60vh;
+    left: 2vh;
+  }
+
+  .hero--el3 {
+    top: 3vh;
+    right: -15vh;
+  }
+
+  .hero--el4 {
+    top: 50vh;
+    right: 5vh;
+  }
+
+}
+
+/* ----------------------------------------------------------
+  7.4 XX-LARGE DEVICES (1920px and larger)
+--------------------------------------------------------------*/
+@media only screen and (min-width: 1920px) {
+  #about::before {
+    width: 83%;
+  }
+}

@@ -116,3 +116,22 @@ a:visited {
   margin-right: 8px;
 }
 
+/* ---------------------------------------------------------
+ 2. NAVBAR
+ -----------------------------------------------------------*/
+
+.navtoggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.nav-item {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+}
+

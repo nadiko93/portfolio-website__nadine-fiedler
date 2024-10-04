@@ -631,6 +631,13 @@ div[id*=" carousel--"] {
   font-size: 1em;
 }
 
+/* IMAGE CONTAINER */
+
+.img__span {
+  width: 100%;
+  object-fit: cover;
+}
+
 /* ------------------------------------------------------------
   6.2 LINGOSHELF
 --------------------------------------------------------------- */
@@ -684,5 +691,38 @@ div[id*=" carousel--"] {
   height: 100%;
   z-index: -1;
   background: rgba(219, 243, 251, 0.8);
+}
+
+.lingo__mass-mockup--2 {
+  max-height: 1038px;
+  margin-top: 5em;
+}
+
+.background__light-blue {
+  background-color: #d8edf5;
+  height: 100%;
+}
+
+.background__light-blue .container {
+  margin-top: 0;
+  padding-top: 6em;
+  padding-bottom: 2em;
+}
+
+.img__usability--lingo {
+  display: block;
+  margin: 2em auto 1em auto;
+  width: 50%;
+}
+
+.lingo__solution--3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.lingo__solution--3 img {
+  display: block;
+  margin-top: 5px;
 }
 

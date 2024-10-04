@@ -494,6 +494,43 @@ footer p {
   border-radius: 15px;
 }
 
+.user-flow__chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 1em 3em;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+  width: 313px;
+  border-radius: 20px;
+  background: #fafbfc;
+  margin: 0 auto;
+}
+
+.user-flow__chart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-flow__chart-item img {
+  max-height: 50px;
+}
+
+.user-flow__chart-item p {
+  font-size: 0.75em;
+  margin-bottom: 0;
+}
+
+.container__user-flow {
+  margin-top: 4em;
+}
+
+.user-flow-diagram {
+  width: 100%;
+  margin-top: 2em;
+}
+
 /* ------------------------------------------------------------
   6.2 LINGOSHELF
 --------------------------------------------------------------- */
@@ -519,5 +556,33 @@ footer p {
   top: -8%;
   z-index: -1;
   background-color: #ddf6f9;
+}
+
+.lingo__5WH {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 4em;
+}
+
+.background__lingo--books {
+  position: relative;
+  display: block;
+  background-image: url(../img/lingoshelf/lingo__background--books@x1.jpg);
+  background-size: 80%;
+  margin-top: 0;
+  z-index: -2;
+  padding: 3em 1em;
+}
+
+.background__lingo--books::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(219, 243, 251, 0.8);
 }
 

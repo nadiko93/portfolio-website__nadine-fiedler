@@ -135,3 +135,90 @@ nav ul {
   list-style: none;
 }
 
+/* ---------------------------------------------------------
+  3. HOMEPAGE
+------------------------------------------------------------ */
+
+/* ---------------------------------------------------------
+  3.1 HERO SECTION
+------------------------------------------------------------- */
+
+.hero-img {
+  background-image: url(../img/homepage/homepage__hero-background--XS.svg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.container__relative {
+  position: relative;
+}
+
+.hero--el1--XS {
+  position: absolute;
+  z-index: -1;
+}
+
+.hero--el1--S {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero--el1--M {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero--el1--L {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero--el2 {
+  position: absolute;
+  top: 55vh;
+  left: 2vh;
+}
+
+.hero--el3 {
+  position: absolute;
+  display: none;
+}
+
+.hero--el4 {
+  position: absolute;
+  top: 50vh;
+  right: 2vh;
+}
+
+.hero-intro {
+  position: absolute;
+  text-align: center;
+  background-image: url(../img/homepage/homepage__hero-circle--XS.svg);
+  height: 343px;
+  width: 343px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 94px;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text__hero {
+  font-family: "Amatic SC", "Outfit", sans-serif;
+  font-size: 1.125em;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.typewriter-text {
+  display: block;
+  color: #1864ab;
+  min-height: 56px;
+}
+

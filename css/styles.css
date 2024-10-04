@@ -439,6 +439,61 @@ footer p {
   width: 100%;
 }
 
+.project--overview {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 4em;
+  border-bottom: solid 1px #343a40;
+}
+
+.icon__tool--project {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.tags__project {
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.btn__prototype:link,
+.btn__prototype:visited {
+  margin-top: 4em;
+  padding: 0.5em 2em;
+}
+
+.container__problems-solutions {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+  background-color: #1098ad;
+  color: #e3fafc;
+  font-size: 1em;
+  padding: 4em 3em;
+  border-radius: 1.875em 0;
+  margin-top: 5em;
+}
+
+.container__problems-solutions ul {
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.project-headline {
+  border-bottom: solid 1px #343a40;
+  margin-bottom: 2em;
+}
+
+.container__list {
+  background-color: #1098ad;
+  color: #e3fafc;
+  padding: 2em 3em;
+  border-radius: 15px;
+}
+
 /* ------------------------------------------------------------
   6.2 LINGOSHELF
 --------------------------------------------------------------- */
@@ -449,5 +504,20 @@ footer p {
   font-size: 1.5em;
   margin-top: 1em;
   max-width: none;
+}
+
+.container__lingo--background--1 {
+  position: relative;
+  padding-bottom: 5em;
+}
+
+.container__lingo--background--1::before {
+  position: absolute;
+  content: "";
+  height: 108%;
+  width: 100%;
+  top: -8%;
+  z-index: -1;
+  background-color: #ddf6f9;
 }
 

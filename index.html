@@ -24,6 +24,7 @@
   </head>
   <body>
     <!-- Header Section -->
+    
      <div class="hero-img">
       <div class="container__relative">
         <img class="hero--el1--XS" src="img/homepage/homepage__hero-el1--XS.svg">
@@ -32,31 +33,40 @@
         <img class="hero--el1--L" src="img/homepage/homepage__hero-el1--L.svg">
       </div>
 
-       <header>
+     
+      <header>
          <div class="navtoggle" id="myNavtoggle">
            <a href="index.html"
            ><img
            src="img/other/icon__logo.svg"
            alt="The logo which contains a blue circle with the letter N inside"
            /></a>
-           <nav>
-             <ul>
-               <li><img src="img/other/icon__hamburger.svg" /></li>
-               <li class="nav-item"><a href="#work">Work</a></li>
-               <li class="nav-item"><a href="about.html">About</a></li>
-               <li class="nav-item"><a href="#contact">Contact</a></li>
-               <li class="lang--en nav-item">
-                 <img
-                 src="img/other/icon__flag--en.svg"
-                 alt="icon of a british flag" />
+            <nav>    
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"></button>
+              <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+                <li class="active">
+                  <a class="nav-item" href="index.html">
+                    <span aria-hidden="true">00</span>Home</a>
                 </li>
-                <li class="lang--jp nav-item">
-                  <img
+                <li>
+                  <a class="nav-item" href="#work"><span aria-hidden="true">01</span>Work</a>
+                </li>
+                <li>
+                  <a class="nav-item" href="about.html"><span aria-hidden="true">02</span>About</a>
+                </li>
+                <li>
+                  <div class="languages">
+                    <img class="lang--en"
+                  src="img/other/icon__flag--en.svg"
+                  alt="icon of a british flag" />
+                  <img class="lang--jp"
                   src="img/other/icon__flag--jp.svg"
                   alt="icon of a japanese flag" />
+                  </div>
                 </li>
               </ul>
             </nav>
+
           </div>
         </header>
         

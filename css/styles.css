@@ -15,6 +15,7 @@ body {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   line-height: 1.75;
+  overflow-x: hidden;
 }
 
 .bold {
@@ -127,12 +128,76 @@ a:visited {
   padding: 8px 16px;
 }
 
-.nav-item {
-  display: none;
-}
-
 nav ul {
   list-style: none;
+}
+
+.primary-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: fixed;
+  inset: 0 0 0 30%;
+
+  z-index: 1000;
+  align-items: flex-start;
+  padding: min(20vh, 10rem) 4rem;
+
+  background: hsl(188, 83%, 37%, 0.1);
+
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+
+  transform: translateX(100%);
+  transition: transform 350ms ease-out;
+}
+
+.nav-item:link,
+.nav-item:visited {
+  color: #343a40;
+  font-size: 2em;
+}
+
+.nav-item > span {
+  font-weight: 700;
+  margin-inline-end: 0.5rem;
+}
+
+.mobile-nav-toggle {
+  position: absolute;
+  z-index: 9999;
+  background-image: url(../img/other/icon__hamburger.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 2rem;
+  aspect-ratio: 1;
+  top: 1.5rem;
+  right: 2rem;
+  border: 0;
+}
+
+.mobile-nav-toggle[aria-expanded="true"] {
+  background-image: url(../img/other/icon__close.svg);
+}
+
+.primary-navigation[data-visible="true"] {
+  transform: translateX(0%);
+}
+
+.languages {
+  display: flex;
+  height: 20px;
+  gap: 1rem;
+}
+
+.lang--jp {
+  border: solid 0.5px #868e96;
+}
+
+.open-navbar {
+  position: fixed;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 /* ---------------------------------------------------------
@@ -799,6 +864,32 @@ div[id*=" carousel--"] {
     font-size: 1em;
   }
 
+  /* NAVBAR */
+
+  .primary-navigation {
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    inset: 0 0 0 0;
+
+    padding: 8px 16px;
+
+    background-color: transparent;
+    backdrop-filter: none;
+
+    transform: translateX(0%);
+    transition: none;
+  }
+
+  .nav-item:link,
+  .nav-item:visited {
+    font-size: 1.5em;
+  }
+
+  .mobile-nav-toggle {
+    display: none;
+  }
+
   /* HERO SECTION */
 
   .hero-img {
@@ -861,6 +952,13 @@ div[id*=" carousel--"] {
 
   h1 {
     font-size: 4em;
+  }
+
+  /* NAVBAR */
+
+  .nav-item:link,
+  .nav-item:visited {
+    font-size: 2em;
   }
 
   .hero-img {

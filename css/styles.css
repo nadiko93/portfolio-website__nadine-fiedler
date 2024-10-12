@@ -44,6 +44,10 @@ body {
   height: 1.5rem;
 }
 
+.margin-top--4 {
+  margin-top: 4rem;
+}
+
 .txt__color--orange {
   color: #df823e;
 }
@@ -79,7 +83,6 @@ h3 {
 
 h4 {
   font-size: 1.25em;
-  /* margin-top: 1.5em; */
   margin-bottom: 0.5em;
   font-weight: 700;
 }
@@ -145,6 +148,19 @@ a:visited {
   width: 65vw;
   border: none;
 }
+
+ul {
+  margin-left: 1rem;
+}
+
+li {
+  max-width: 31.25rem;
+}
+
+.flex__list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* ---------------------------------------------------------
@@ -343,7 +359,6 @@ nav ul {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  /* padding: 0 1em; */
 }
 
 #about h2 {
@@ -489,7 +504,6 @@ nav ul {
 ---------------------------------------------------------*/
 
 footer {
-  /* height: 300px; */
   background-color: #1098ad;
   color: #d8edf5;
   padding: 2em 0;
@@ -700,6 +714,9 @@ footer p {
   width: 100%;
   object-fit: cover;
 }
+
+.underline__white {
+  border-bottom: solid 1px #d8edf5;
 }
 
 /* ------------------------------------------------------------
@@ -713,7 +730,6 @@ footer p {
 }
 
 .plantwise__catchphrase {
-  /* margin-top: 2em; */
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -734,24 +750,122 @@ footer p {
   background-color: #ebfbee;
 }
 
+/* PLANTWISE USER RESEARCH SECTION */
+
+.background__dark-green--gradient {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 24px;
+  color: #d8edf5;
 }
 
-  display: flex;
-}
+.background__dark-green--gradient::before {
+  position: absolute;
+  content: "";
+  background: rgb(106, 178, 155);
+  background: linear-gradient(
+    45deg,
+    rgba(106, 178, 155, 1) 0%,
+    rgba(36, 113, 88, 0.95) 54%
+  );
 
-}
-
-}
-
-}
-
-}
-
-/* IMAGE CONTAINER */
-
-.img__span {
+  height: 105%;
   width: 100%;
-  object-fit: cover;
+  z-index: -1000;
+  top: 0%;
+}
+
+#plantwise__user-research.container {
+  margin-top: 0;
+}
+
+.plantwise__user-research-deco-S--1 {
+  display: none;
+}
+
+.plantwise__user-research-deco-S--2 {
+  display: none;
+}
+
+.plantwise__user-research-deco-L--1 {
+  display: none;
+}
+
+.plantwise__user-research-deco-L--2 {
+  display: none;
+}
+
+.plantwise__user-research-deco-L--3 {
+  display: none;
+}
+
+.plantwise__user-research-deco-L--4 {
+  display: none;
+}
+
+.plantwise__user-research-deco-L--5 {
+  display: none;
+}
+
+.plantwise__challenges {
+  margin-top: 2rem;
+}
+
+.plantwise__challenges ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.plantwise__user-interview--results {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 250px 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #247158;
+  background-image: url(../img/plantwise/plantwise__research-results--background--S.svg);
+  background-repeat: none;
+  background-size: cover;
+  padding: 64px 24px;
+  border-radius: 40px;
+}
+
+.plantwise__speech-bubble--1 {
+  position: absolute;
+  top: -200px;
+  right: 50px;
+}
+
+.plantwise__speech-bubble--2 {
+  position: absolute;
+  bottom: -150px;
+  left: 60px;
+}
+
+/* PLANTWISE PERSONAS */
+
+.plantwise__personas {
+  margin-top: 80px;
+}
+
+.plantwise__container-persona-image {
+  position: relative;
+  max-width: 236px;
+  margin: 0 auto;
+}
+
+.plantwise__persona--quote {
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: 600;
+  max-width: 237px;
+  margin: 1rem auto 4rem auto;
+}
+
+.plantwise__mockup--1 {
+  width: 100%;
 }
 
 /* ------------------------------------------------------------
@@ -965,6 +1079,33 @@ footer p {
     height: 120%;
     top: -20%;
   }
+
+  /* PLANTWISE PERSONAS */
+
+  .background__dark-green--gradient::before {
+    height: 111%;
+  }
+
+  .plantwise__user-research-deco-S--1 {
+    display: block;
+    position: absolute;
+    z-index: -500;
+    top: -40%;
+    right: -35%;
+  }
+
+  .plantwise__user-research-deco-S--2 {
+    display: block;
+    position: absolute;
+    z-index: -500;
+    top: -35%;
+    left: -25%;
+  }
+
+  .plantwise__persona {
+    margin-top: 100px;
+  }
+
   /* ---------------------------------------------------------
     LINGOSHELF
   -----------------------------------------------------------*/
@@ -1007,6 +1148,9 @@ footer p {
     font-size: 1.125em;
   }
 
+  .container__flex--row {
+    display: flex;
+    gap: 3rem;
   }
 
   /* NAVBAR */
@@ -1039,7 +1183,6 @@ footer p {
 
   .hero-img {
     background-image: url(../img/homepage/homepage__hero-background--M.svg);
-    /* height: 1030px; */
   }
 
   .hero-intro {
@@ -1184,6 +1327,49 @@ footer p {
   .plantwise__challenges {
     margin-top: 0;
   }
+
+  .plantwise__user-interview--results {
+    flex-direction: row;
+    background-image: url(../img/plantwise/plantwise__research-results--background--L.svg);
+  }
+
+  .background__dark-green--gradient::before {
+    height: 110%;
+  }
+
+  .plantwise__container-persona-image {
+    max-width: 331px;
+  }
+
+  .plantwise__persona-image {
+    width: 100%;
+  }
+
+  .plantwise__mathew {
+    margin-top: 150px;
+  }
+
+  .plantwise__persona--quote {
+    max-width: 300px;
+  }
+
+  .persona__item-heading {
+    font-weight: 700;
+  }
+
+  .persona__item-list {
+    row-gap: 2rem;
+    column-gap: 3rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .plantwise__mockup--1 {
+    max-width: 70%;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+
   /* ---------------------------------------------------------
     LINGOSHELF
   -----------------------------------------------------------*/
@@ -1287,7 +1473,6 @@ footer p {
 
   .hero-img {
     background-image: url(../img/homepage/homepage__hero-background--L.svg);
-    /* height: 900px; */
   }
 
   .hero-intro {
@@ -1469,6 +1654,39 @@ footer p {
     height: 135%;
     top: -35%;
   }
+
+  .background__dark-green--gradient::before {
+    height: 106%;
+  }
+
+  .plantwise__user-research-deco-S--1 {
+    display: none;
+  }
+
+  .plantwise__user-research-deco-S--2 {
+    display: none;
+  }
+
+  .plantwise__user-interview--results {
+    padding: 64px 64px;
+    gap: 4rem;
+  }
+
+  .plantwise__personas {
+    position: relative;
+    display: flex;
+    gap: 10rem;
+  }
+
+  .plantwise__persona {
+    margin: 0;
+  }
+
+  .plantwise__mockup--1 {
+    width: 40%;
+    margin-top: -10rem;
+  }
+
   /* ------------------------------------------------------
     7.2.2 LINGOSHELF
   -------------------------------------------------------- */
@@ -1825,6 +2043,66 @@ footer p {
 
   #about::before {
     width: 90%;
+  }
+
+  /* --------------------------------------------------
+    PLANTWISE
+  ----------------------------------------------------*/
+
+  .background__dark-green--gradient::before {
+    height: 108%;
+  }
+
+  .plantwise__user-research-deco-L--1 {
+    display: block;
+    position: absolute;
+    transform: scale(0.8);
+    z-index: -500;
+    top: -50%;
+    left: -14%;
+  }
+
+  .plantwise__user-research-deco-L--2 {
+    display: block;
+    position: absolute;
+    z-index: -500;
+    top: 30%;
+    right: -10%;
+  }
+
+  .plantwise__user-research-deco-L--3 {
+    display: block;
+    position: absolute;
+    transform: rotate(-60deg);
+    z-index: -500;
+    left: -40%;
+    top: -5%;
+  }
+
+  .plantwise__user-research-deco-L--4 {
+    display: block;
+    position: absolute;
+    z-index: -500;
+    top: -50%;
+    right: -40%;
+  }
+
+  .plantwise__user-research-deco-L--5 {
+    display: block;
+    position: absolute;
+    transform: rotate(-40deg);
+    z-index: -500;
+    bottom: -16%;
+    left: 33%;
+  }
+
+  .plantwise__mockup--1 {
+    width: 550px;
+  }
+
+  .container__plantwise-mockup--1 {
+    max-width: 1500px;
+    margin: 0 auto;
   }
 
   /* LINGOSHELF FINAL SCREEN MOCKUPS */

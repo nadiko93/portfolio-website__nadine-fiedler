@@ -770,6 +770,27 @@ footer p {
   margin-top: 5px;
 }
 
+.lingo__screen-mockup-slider {
+  grid-auto-columns: 60%;
+  gap: 2rem;
+}
+
+.lingo__caption--hidden {
+  display: none;
+}
+
+.lingo__caption {
+  display: none;
+}
+
+.lingo__caption-arrow {
+  display: none;
+}
+
+.lingo__screen-mockups {
+  display: none;
+}
+
 /* -----------------------------------------------------------
   7. RESPONSIVE DESIGN
 -------------------------------------------------------------*/
@@ -874,6 +895,9 @@ footer p {
     align-items: center;
   }
 
+  .lingo__screen-mockup-slider {
+    grid-auto-columns: 40%;
+  }
 }
 
 /* ------------------------------------------------------------
@@ -892,6 +916,8 @@ footer p {
     font-size: 1.125em;
   }
 
+  .txt__caption {
+    font-size: 1em;
   }
 
   li {
@@ -1106,6 +1132,26 @@ footer p {
 
   .lingo__solution--3 {
     margin-top: 2rem;
+  }
+
+  .media-scroller.lingo__screen-mockup-slider {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+
+    padding: 0 48px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lingo__screen-mockup-slider p {
+    max-width: 200px;
+  }
+
+  .lingo__screen-mockup {
+    max-width: 208px;
   }
 }
 
@@ -1495,10 +1541,153 @@ footer p {
     grid-row: 3;
     align-self: center;
   }
+
+  /* LINGOSHELF FINAL SCREEN MOCKUPS */
+
+  .lingo__screen-mockups {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .lingo__screen-mockup-slider .media-element {
+    display: none;
+  }
+
+  .lingo__screens {
+    position: relative;
+    margin-top: 5em;
+  }
+
+  .lingo__caption {
+    position: absolute;
+    display: block;
+    max-width: 150px;
+    font-size: 0.875em;
+  }
+
+  .lingo__caption-arrow {
+    position: absolute;
+    display: block;
+  }
+
+  .lingo__functionality--1 {
+    top: 28%;
+    left: -2%;
+  }
+
+  .lingo__caption-arrow--1 {
+    top: 64%;
+    left: 8%;
+  }
+
+  .lingo__caption-arrow--2 {
+    top: -6%;
+    left: 42%;
+  }
+
+  .lingo__functionality--2 {
+    max-width: 250px;
+    top: -20%;
+    left: 48%;
+  }
+
+  .lingo__caption-arrow--3 {
+    right: 12%;
+    top: 25%;
+  }
+
+  .lingo__functionality--3 {
+    right: -2%;
+    top: 35%;
+  }
+
+  .lingo__caption-arrow--4 {
+    top: -4%;
+    left: 43%;
+  }
+
+  .lingo__functionality--4 {
+    max-width: 250px;
+    top: -15%;
+    left: 46%;
+  }
+
+  .lingo__caption-arrow--5 {
+    bottom: -8%;
+    right: 37%;
+  }
+
+  .lingo__functionality--5 {
+    bottom: -20%;
+    right: 21%;
+  }
+
+  .lingo__caption-arrow--6 {
+    top: 56%;
+    right: 15%;
+  }
+
+  .lingo__functionality--6 {
+    top: 63%;
+    right: 2%;
+  }
+
+  .lingo__caption-arrow--7 {
+    top: -5%;
+    left: 32%;
+  }
+
+  .lingo__functionality--7 {
+    max-width: 200px;
+    top: -19%;
+    left: 30%;
+  }
+
+  .lingo__caption-arrow--8 {
+    bottom: -8%;
+    left: 26%;
+  }
+
+  .lingo__functionality--8 {
+    max-width: 200px;
+    bottom: -21%;
+    left: 29%;
+  }
+
+  .lingo__caption-arrow--9 {
+    top: -9%;
+    right: 39%;
+  }
+
+  .lingo__functionality--9 {
+    max-width: 250px;
+    top: -23%;
+    right: 14%;
+  }
+
+  .lingo__caption-arrow--10 {
+    bottom: 12%;
+    right: 15%;
+  }
+
+  .lingo__functionality--10 {
+    bottom: 18%;
+    right: 2%;
+  }
 @media only screen and (min-width: 1180px) {
   .lingo__solution2--1 {
     grid-column: 3;
     margin: 0;
+  }
+
+  .lingo__functionality--5 {
+    bottom: -20%;
+    right: 23%;
+  }
+
+  .lingo__functionality--9 {
+    right: 17%;
   }
 }
 
@@ -1531,6 +1720,128 @@ footer p {
 
   #about::before {
     width: 90%;
+  }
+
+  /* LINGOSHELF FINAL SCREEN MOCKUPS */
+
+  .lingo__screen-mockups {
+    width: 90%;
+  }
+
+  .lingo__caption {
+    max-width: 200px;
+    font-size: 1em;
+  }
+
+  .lingo__screens {
+    margin-top: 8em;
+  }
+
+  .lingo__caption-arrow--1 {
+    top: 68%;
+    left: -1%;
+  }
+
+  .lingo__functionality--1 {
+    top: 47%;
+    left: -13%;
+  }
+
+  .lingo__caption-arrow--2 {
+    top: -2%;
+    left: 39%;
+  }
+
+  .lingo__functionality--2 {
+    max-width: 300px;
+    top: -11%;
+    left: 44%;
+  }
+
+  .lingo__caption-arrow--3 {
+    right: 3%;
+    top: 30%;
+  }
+
+  .lingo__functionality--3 {
+    max-width: 190px;
+    right: -13%;
+    top: 36%;
+  }
+
+  .lingo__caption-arrow--4 {
+    top: -1%;
+    left: 41%;
+  }
+
+  .lingo__functionality--4 {
+    max-width: 300px;
+    top: -11%;
+    left: 43%;
+  }
+
+  .lingo__caption-arrow--5 {
+    bottom: -4%;
+    right: 37%;
+  }
+
+  .lingo__functionality--5 {
+    bottom: -15%;
+    right: 19%;
+  }
+
+  .lingo__caption-arrow--6 {
+    top: 56%;
+    right: 6%;
+  }
+
+  .lingo__functionality--6 {
+    max-width: 190px;
+    top: 60%;
+    right: -8%;
+  }
+
+  .lingo__caption-arrow--7 {
+    top: 0%;
+    left: 26%;
+  }
+
+  .lingo__functionality--7 {
+    top: -13%;
+    left: 23%;
+  }
+
+  .lingo__caption-arrow--8 {
+    bottom: -4%;
+    left: 19%;
+  }
+
+  .lingo__functionality--8 {
+    max-width: 250px;
+    bottom: -15%;
+    left: 22%;
+  }
+
+  .lingo__caption-arrow--9 {
+    top: -4%;
+    right: 38%;
+  }
+
+  .lingo__functionality--9 {
+    max-width: 300px;
+    top: -17%;
+    right: 12%;
+  }
+
+  .lingo__caption-arrow--10 {
+    bottom: 12%;
+    right: 6%;
+  }
+
+  .lingo__functionality--10 {
+    max-width: 170px;
+    bottom: 15%;
+    right: -7%;
   }
 }
 

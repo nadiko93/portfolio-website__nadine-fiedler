@@ -312,7 +312,7 @@ nav ul {
 .typewriter-text {
   display: block;
   color: #1864ab;
-  min-height: 56px;
+  min-height: 70px;
 }
 
 /* -----------------------------------------------------------
@@ -405,6 +405,7 @@ nav ul {
 
 #work {
   margin-top: 64px;
+  margin-bottom: 100px;
 }
 
 #work h2 {
@@ -488,7 +489,6 @@ nav ul {
 footer {
   /* height: 300px; */
   background-color: #1098ad;
-  margin-top: 100px;
   color: #d8edf5;
   padding: 2em 0;
   text-align: center;

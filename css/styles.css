@@ -163,6 +163,10 @@ li {
   gap: 1rem;
 }
 
+.img--100 {
+  width: 100%;
+}
+
 /* ---------------------------------------------------------
  2. NAVBAR
  -----------------------------------------------------------*/
@@ -625,7 +629,7 @@ footer p {
   width: 313px;
   border-radius: 20px;
   background: #fafbfc;
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 
 .user-flow__chart-item {
@@ -769,7 +773,7 @@ footer p {
     rgba(36, 113, 88, 0.95) 54%
   );
 
-  height: 105%;
+  height: 107%;
   width: 100%;
   z-index: -1000;
   top: 0%;
@@ -866,6 +870,16 @@ footer p {
 
 .plantwise__mockup--1 {
   width: 100%;
+}
+
+/*  PLANTWISE USER FLOW */
+
+.plantwise__tree-card--1 {
+  display: none;
+}
+
+.plantwise__tree-card--2 {
+  display: none;
 }
 
 /* ------------------------------------------------------------
@@ -1315,6 +1329,10 @@ footer p {
     margin: 2rem 0;
   }
 
+  .user-flow__chart {
+    margin-top: 5rem;
+  }
+
   /* -------------------------------------------------------------
     PLANTWISE
   ---------------------------------------------------------------- */
@@ -1651,8 +1669,8 @@ footer p {
   --------------------------------------------------------*/
 
   .plantwise__background--light-green::before {
-    height: 135%;
-    top: -35%;
+    height: 140%;
+    top: -40%;
   }
 
   .background__dark-green--gradient::before {
@@ -2049,6 +2067,11 @@ footer p {
     PLANTWISE
   ----------------------------------------------------*/
 
+  .plantwise__background--light-green::before {
+    height: 145%;
+    top: -45%;
+  }
+
   .background__dark-green--gradient::before {
     height: 108%;
   }
@@ -2104,6 +2127,29 @@ footer p {
     max-width: 1500px;
     margin: 0 auto;
   }
+
+  /* PLANTWISE USER FLOW */
+
+  .plantwise__tree-card--1 {
+    display: block;
+    position: absolute;
+    z-index: -500;
+    transform: scale(0.8);
+    right: 6%;
+  }
+
+  .plantwise__tree-card--2 {
+    display: block;
+    position: absolute;
+    z-index: -400;
+    transform: scale(0.8);
+    right: -9%;
+    top: 11%;
+  }
+
+  /* --------------------------------------------------
+    LINGOSHELF
+  --------------------------------------------------- */
 
   /* LINGOSHELF FINAL SCREEN MOCKUPS */
 

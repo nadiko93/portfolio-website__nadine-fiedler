@@ -882,6 +882,157 @@ footer p {
   display: none;
 }
 
+/* PLANTWISE USABILITY TESTING */
+
+.plantwise__background--dark-green {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 64px;
+  color: #d8edf5;
+  margin-top: 100px;
+}
+
+.plantwise__background--dark-green::before {
+  position: absolute;
+  content: "";
+  background: rgb(36, 113, 88);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 113, 88, 1) 0%,
+    rgba(10, 126, 91, 1) 100%
+  );
+  border-radius: 0 130px 0 0;
+
+  z-index: -1000;
+  height: 103%;
+  width: 100%;
+  top: 0;
+}
+
+.plantwise__grass--S {
+  position: absolute;
+  top: -1%;
+  left: -3%;
+  z-index: -1500;
+}
+
+.plantwise__grass--M {
+  display: none;
+}
+
+.plantwise__low-fi {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.plantwise__usability {
+  margin-top: 5rem;
+}
+
+.plantwise__container-usability-image {
+  position: relative;
+  width: 216px;
+  margin: 0 auto;
+}
+
+.plantwise__usability-explanation {
+  background-color: #d3f9d8;
+  padding: 1rem;
+  margin: 2rem auto 0 auto;
+  color: #343a40;
+  border-radius: 20px;
+  max-width: 400px;
+}
+.plantwise__usability-explanation p {
+  margin-bottom: 0;
+}
+
+.plantwise__usability-describtion-arrow-1--S {
+  position: absolute;
+  transform: scale(0.7);
+  right: 20%;
+  bottom: -10%;
+}
+
+.plantwise__usability-describtion-arrow-1--L {
+  display: none;
+}
+
+.plantwise__usability-description-arrow-2 {
+  display: none;
+}
+
+.plantwise__usability-arrow--S {
+  display: block;
+  margin: 3rem auto -2rem auto;
+}
+
+.plantwise__usability-arrow--M--2 {
+  display: none;
+}
+
+.plantwise__leave-deco--1 {
+  position: absolute;
+  z-index: -500;
+  top: 20%;
+  left: -30%;
+}
+
+.plantwise__leave-deco--2 {
+  position: absolute;
+  z-index: -500;
+  bottom: -90%;
+  right: 15%;
+}
+
+.plantwise__leave-deco--3 {
+  position: absolute;
+  z-index: -500;
+  bottom: 10%;
+  left: -20%;
+}
+
+.plantwise__leave-deco--4 {
+  position: absolute;
+  z-index: -500;
+  top: 15%;
+  left: -30%;
+}
+
+.plantwise__leave-deco--5 {
+  position: absolute;
+  z-index: -500;
+  bottom: -7%;
+  right: -22%;
+}
+
+.plantwise__usability-problem--1 {
+  display: none;
+}
+
+.plantwise__usability-problem--3 {
+  display: none;
+}
+
+.plantwise__usability-problem--4 {
+  display: none;
+}
+
+.container__usability-testing {
+  margin-top: 5em;
+}
+
+.plantwise__solution--2 {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.plantwise__solution--2 img {
+  width: 100%;
+}
+
 /* ------------------------------------------------------------
   6.2 LINGOSHELF
 --------------------------------------------------------------- */
@@ -1118,6 +1269,12 @@ footer p {
 
   .plantwise__persona {
     margin-top: 100px;
+  }
+
+  /* PLANTWISE USABILITY TESTING */
+
+  .plantwise__background--dark-green::before {
+    height: 105%;
   }
 
   /* ---------------------------------------------------------
@@ -1386,6 +1543,52 @@ footer p {
     max-width: 70%;
     margin-left: 4rem;
     margin-top: 2rem;
+  }
+
+  /* PLANTWISE USABILITY TESTING */
+
+  .plantwise__grass--S {
+    top: -0.5%;
+    left: -1%;
+  }
+
+  .plantwise__usability-describtion-arrow-1--S {
+    transform: scale(0.8);
+    bottom: -6%;
+  }
+
+  .plantwise__leave-deco--1 {
+    left: -25%;
+  }
+
+  .plantwise__leave-deco--2 {
+    bottom: -80%;
+  }
+
+  .plantwise__leave-deco--3 {
+    bottom: 13%;
+    left: -16%;
+  }
+
+  .plantwise__leave-deco--4 {
+    left: -24%;
+  }
+
+  .plantwise__leave-deco--5 {
+    bottom: -5%;
+    right: -19%;
+  }
+
+  .plantwise__container-usability-image {
+    width: 300px;
+  }
+
+  .plantwise__usability-image {
+    width: 300px;
+  }
+
+  .plantwise__solution--2 img {
+    width: 300px;
   }
 
   /* ---------------------------------------------------------
@@ -1703,6 +1906,129 @@ footer p {
   .plantwise__mockup--1 {
     width: 40%;
     margin-top: -10rem;
+  }
+
+  /* PLANTWISE USABILITY TESTING */
+
+  .plantwise__background--dark-green::before {
+    border-radius: 0 230px 0 0;
+    height: 110%;
+  }
+
+  .plantwise__grass--S {
+    display: none;
+  }
+
+  .plantwise__grass--M {
+    display: block;
+    position: absolute;
+    top: -3%;
+    left: -3%;
+    z-index: -1500;
+  }
+
+  .plantwise__leave-deco--1 {
+    display: none;
+  }
+
+  .plantwise__leave-deco--2 {
+    display: none;
+  }
+
+  .plantwise__leave-deco--3 {
+    display: none;
+  }
+
+  .plantwise__leave-deco--4 {
+    display: none;
+  }
+
+  .plantwise__leave-deco--5 {
+    display: none;
+  }
+
+  .plantwise__usability-describtion-arrow-1--S {
+    display: none;
+  }
+
+  .plantwise__usability-describtion-arrow-1--L {
+    display: block;
+    position: absolute;
+    bottom: -15%;
+    left: 16%;
+  }
+
+  .plantwise__usability-description-arrow-2 {
+    display: block;
+    position: absolute;
+    transform: scale(0.3);
+    bottom: -29%;
+    right: -9%;
+  }
+
+  .plantwise__usability-arrow--S {
+    display: none;
+  }
+
+  .plantwise__usability-arrow--M--2 {
+    display: block;
+    position: absolute;
+    transform: scale(0.8);
+    bottom: 40%;
+    left: 53%;
+  }
+
+  .plantwise__usability-problem--1 {
+    display: block;
+  }
+
+  .plantwise__usability-problem--3 {
+    display: block;
+  }
+
+  .plantwise__usability-problem--4 {
+    display: block;
+  }
+
+  .plantwise__usability-image {
+    width: 212px;
+  }
+
+  .plantwise__container-usability-image {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+
+  .plantwise__problem--1 {
+    width: 900px;
+  }
+
+  .plantwise__usability-explanation {
+    margin-top: 4.3rem;
+    max-width: 450px;
+  }
+
+  .plantwise__solution--2 {
+    margin-top: 99px;
+  }
+
+  .plantwise__solution--2 img {
+    width: 212px;
+  }
+
+  .plantwise__container-usability-problem-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plantwise__usability-problem-2--txt {
+    max-width: 400px;
+  }
+
+  .plantwise__usability-explanation-solution--2 {
+    margin-top: 2rem;
   }
 
   /* ------------------------------------------------------
@@ -2030,6 +2356,10 @@ footer p {
   .lingo__functionality--9 {
     right: 17%;
   }
+
+  .plantwise__usability-arrow--M--2 {
+    left: 68%;
+  }
 }
 
 /* ----------------------------------------------------------
@@ -2145,6 +2475,33 @@ footer p {
     transform: scale(0.8);
     right: -9%;
     top: 11%;
+  }
+
+  /*  PLANTWISE USABILITY TESTING */
+
+  .plantwise__background--dark-green::before {
+    border-radius: 0 350px 0 0;
+    height: 115%;
+  }
+
+  .plantwise__background--leaves {
+    background-image: url(../img/plantwise/plantwise__background--leaves.svg);
+    background-size: 95%;
+    background-position: top 0px left 150px;
+    background-repeat: no-repeat;
+    z-index: -800;
+  }
+
+  .plantwise__usability-arrow--L--1 {
+    position: absolute;
+    right: -100%;
+    top: -170%;
+  }
+
+  .plantwise__tree-card--3 {
+    position: absolute;
+    right: -38%;
+    bottom: -82%;
   }
 
   /* --------------------------------------------------
@@ -2280,5 +2637,12 @@ footer p {
 @media only screen and (min-width: 1920px) {
   #about::before {
     width: 83%;
+  }
+
+  /* PLANTWISE */
+
+  .plantwise__background--dark-green::before {
+    border-radius: 0 400px 0 0;
+    height: 120%;
   }
 }

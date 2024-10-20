@@ -1033,6 +1033,92 @@ footer p {
   width: 100%;
 }
 
+/* PLANTWISE STYLE GUIDE */
+
+.plantwise__style-heading {
+  margin-top: 4rem;
+  text-decoration: underline;
+}
+
+.plantwsie__media-scroller--color {
+  grid-template-columns: 160px 160px 160px 160px 160px;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.plantwise__color-element {
+  width: 160px;
+}
+
+.plantwise__color-list {
+  list-style: none;
+}
+
+.plantwise__color-code {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.plantwise__color-list h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.plantwise__color-list p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.plantwsie__media-scroller--typography {
+  grid-auto-columns: 80%;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.plantwise__typography-name {
+  text-align: center;
+}
+
+.plantwsie__container-buttons {
+  margin: 2rem auto;
+  padding: 0 2rem;
+  max-width: 500px;
+}
+
+.plantwsie__container-buttons img {
+  width: 100%;
+}
+
+.plantwsie__container-buttons h5 {
+  margin-top: 2rem;
+}
+
+.plantwsie__container-secondary-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.plantwsie__container-mockups {
+  position: relative;
+  margin-top: 6rem;
+  margin-bottom: 110%;
+}
+
+.plantwise__mockup--3 {
+  width: 100%;
+  border-radius: 0 50px 0 0;
+}
+
+.plantwise__mockup--4 {
+  position: absolute;
+  width: 80%;
+  border-radius: 50px 0 0 50px;
+  right: 0%;
+  bottom: -125%;
+}
 /* ------------------------------------------------------------
   6.2 LINGOSHELF
 --------------------------------------------------------------- */
@@ -1275,6 +1361,12 @@ footer p {
 
   .plantwise__background--dark-green::before {
     height: 105%;
+  }
+
+  /* PLANTWISE STYLE GUIDE */
+
+  .plantwsie__media-scroller--typography {
+    grid-auto-columns: 60%;
   }
 
   /* ---------------------------------------------------------
@@ -1589,6 +1681,35 @@ footer p {
 
   .plantwise__solution--2 img {
     width: 300px;
+  }
+
+  /* PLANTWISE STYLE GUIDE */
+
+  .plantwsie__media-scroller--color {
+    margin-left: -48px;
+    margin-right: -48px;
+  }
+
+  .plantwsie__media-scroller--typography {
+    grid-auto-columns: 40%;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .plantwsie__container-mockups {
+    margin-bottom: 35%;
+  }
+
+  .plantwise__mockup--3 {
+    width: 60%;
+  }
+
+  .plantwise__mockup--4 {
+    width: 45%;
+    right: 0%;
+    bottom: -50%;
   }
 
   /* ---------------------------------------------------------
@@ -2029,6 +2150,59 @@ footer p {
 
   .plantwise__usability-explanation-solution--2 {
     margin-top: 2rem;
+  }
+
+  /* PLANTWISE STYLE GUIDE */
+
+  .plantwsie__style-guide-explanation {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  .plantwsie__style-guide--image {
+    grid-column: 2;
+  }
+
+  .plantwsie__style-guide--text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .plantwsie__media-scroller--color {
+    justify-content: center;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .plantwsie__media-scroller--typography {
+    grid-template-columns: auto auto;
+    padding: 0;
+    justify-items: start;
+  }
+
+  .plantwsie__media-scroller--typography img {
+    max-width: 250px;
+  }
+
+  .plantwise__container-style-flex {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 3rem;
+    justify-items: center;
+    /* justify-content: start; */
+  }
+
+  .plantwsie__container-buttons {
+    margin-top: 1rem;
+    max-width: 400px;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .plantwsie__container-buttons h5:first-child {
+    margin-top: 0;
   }
 
   /* ------------------------------------------------------

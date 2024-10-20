@@ -1119,6 +1119,80 @@ footer p {
   right: 0%;
   bottom: -125%;
 }
+
+/* PLANTWISE SCREEN MOCKUPS */
+
+.plantwsie__container--screen-mockups {
+  grid-auto-columns: 68%;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.plantwise__deco-cloud--1 {
+  display: none;
+}
+
+.plantwise__deco-cloud--2 {
+  display: none;
+}
+
+.plantwise__deco-cloud--3 {
+  display: none;
+}
+
+.plantwise__deco-cloud--4 {
+  display: none;
+}
+
+.plantwise__deco-cloud--5 {
+  display: none;
+}
+
+.plantwise__deco-cloud--6 {
+  display: none;
+}
+
+.plantwise__deco-cloud--7 {
+  display: none;
+}
+
+.plantwise__deco-cloud--8 {
+  display: none;
+}
+
+.plantwise__deco-cloud--9 {
+  display: none;
+}
+
+.plantwise__deco-cloud--10 {
+  display: none;
+}
+
+.plantwise__deco-cloud--11 {
+  display: none;
+}
+
+.plantwise__deco-cloud--12 {
+  display: none;
+}
+
+.plantwise__deco-cloud--13 {
+  display: none;
+}
+
+.plantwsie__screen-mockup--text {
+  text-align: center;
+  max-width: 350px;
+  padding: 0 1rem;
+  margin: 0 auto 4rem auto;
+}
+
+.plantwise__screen-mockup--single-screen {
+  display: block;
+  width: 68%;
+  margin: 2rem auto;
+}
+
 /* ------------------------------------------------------------
   6.2 LINGOSHELF
 --------------------------------------------------------------- */
@@ -1712,6 +1786,136 @@ footer p {
     bottom: -50%;
   }
 
+  /* PLANTWISE SCREEN MOCKUPS */
+
+  .plantwsie__container--screen-mockups {
+    grid-auto-columns: 25%;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    margin-top: 4rem;
+  }
+
+  .plantwise__cloud-container {
+    position: relative;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+  }
+
+  .plantwise__deco-cloud--1 {
+    display: block;
+    position: absolute;
+    top: -70%;
+    left: -13%;
+    z-index: -50;
+  }
+
+  .plantwise__deco-cloud--2 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -100%;
+    transform: scale(1.1);
+  }
+
+  .plantwise__deco-cloud--3 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    transform: scale(1.2);
+    top: -65%;
+  }
+
+  .plantwise__deco-cloud--4 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -120%;
+    left: 5%;
+    transform: scale(1.1);
+  }
+
+  .plantwise__deco-cloud--5 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -130%;
+  }
+
+  .plantwise__deco-cloud--6 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -120%;
+    left: -5%;
+  }
+
+  .plantwise__deco-cloud--7 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -110%;
+    left: -10%;
+    transform: scale(0.9);
+  }
+
+  .plantwise__deco-cloud--8 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -120%;
+    left: 5%;
+    transform: scale(1.3);
+  }
+
+  .plantwise__deco-cloud--9 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -65%;
+    left: -10%;
+  }
+
+  .plantwise__deco-cloud--10 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -110%;
+    left: 7%;
+    transform: scale(1.2);
+  }
+
+  .plantwise__deco-cloud--11 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -110%;
+    left: -10%;
+  }
+
+  .plantwise__deco-cloud--12 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -90%;
+    transform: scale(1.2);
+  }
+
+  .plantwise__deco-cloud--13 {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    top: -140%;
+    transform: scale(1.2);
+  }
+
+  .plantwise__screen-mockup--single-screen {
+    width: 25%;
+  }
+
   /* ---------------------------------------------------------
     LINGOSHELF
   -----------------------------------------------------------*/
@@ -2205,6 +2409,123 @@ footer p {
     margin-top: 0;
   }
 
+  /* PLANTWISE SCREEN MOCKUPS */
+
+  .plantwise__screen-mockup-container--1 {
+    margin-top: -5rem;
+  }
+
+  .plantwsie__container--screen-mockups {
+    grid-auto-columns: auto;
+  }
+
+  .plantwise__screen-mockup--2 {
+    justify-content: start;
+  }
+
+  .plantwise__screen-mockup--3 {
+    margin-right: 2rem;
+    margin-top: -3rem;
+  }
+
+  .plantwise__screen-mockup--5 {
+    justify-content: start;
+  }
+
+  .plantwise__screen-mockup--7 {
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+
+  .plantwise__screen-mockup--8 {
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+
+  .plantwise__screen-mockup--9 {
+    margin-right: 9rem;
+    margin-top: -29.5rem;
+    margin: -29.5rem 9rem 15rem auto;
+  }
+
+  .plantwise__screen-mockup--10 {
+    justify-content: start;
+  }
+
+  .plantwise__screen-mockup--13 {
+    margin-right: 9rem;
+    margin-top: -29.5rem;
+    margin: -29.5rem 9rem 15rem auto;
+  }
+
+  .plantwise__screen-explanation--2 {
+    position: absolute;
+    top: 30%;
+    left: 26rem;
+  }
+
+  .plantwise__screen-explanation--3 {
+    position: absolute;
+    top: 40%;
+    right: 15rem;
+  }
+
+  .plantwise__screen-explanation--4 {
+    position: absolute;
+    right: 0rem;
+  }
+
+  .plantwise__screen-explanation--5 {
+    position: absolute;
+    top: 30%;
+    left: 25rem;
+  }
+
+  .plantwise__screen-explanation--6 {
+    position: absolute;
+    right: 0rem;
+  }
+
+  .plantwise__screen-explanation--7 {
+    position: absolute;
+    top: 50%;
+    left: 14rem;
+  }
+
+  .plantwise__screen-explanation--8 {
+    position: absolute;
+    top: 50%;
+    left: 13rem;
+  }
+
+  .plantwise__screen-explanation--9 {
+    position: absolute;
+    top: 105%;
+    right: 5rem;
+  }
+
+  .plantwise__screen-explanation--10 {
+    position: absolute;
+    top: 60%;
+    left: 25rem;
+  }
+
+  .plantwise__screen-explanation--12 {
+    position: absolute;
+    top: 30%;
+    left: 1rem;
+  }
+
+  .plantwise__screen-explanation--13 {
+    position: absolute;
+    top: 110%;
+    right: 0rem;
+  }
+
+  .plantwise__deco-cloud--2 {
+    transform: scale(1.1);
+  }
+
   /* ------------------------------------------------------
     7.2.2 LINGOSHELF
   -------------------------------------------------------- */
@@ -2676,6 +2997,99 @@ footer p {
     position: absolute;
     right: -38%;
     bottom: -82%;
+  }
+
+  /* PLANTWISE SCREEN MOCKUPS */
+
+  .plantwise__screen-mockup-container--1 {
+    margin-top: -12%;
+  }
+
+  .plantwise__screen-mockup--1 {
+    justify-content: end;
+  }
+
+  .plantwise__screen-mockup--3 {
+    margin-right: 0rem;
+    margin-top: -10rem;
+  }
+
+  .plantwise__screen-mockup--6 {
+    justify-content: end;
+  }
+
+  .plantwise__screen-mockup--7 {
+    margin-right: 0rem;
+    margin-top: -13rem;
+  }
+
+  .plantwise__screen-mockup--9 {
+    margin-right: 0rem;
+  }
+
+  .plantwise__screen-mockup--10 {
+    margin-top: -10%;
+  }
+
+  .plantwise__screen-mockup--11 {
+    justify-content: end;
+  }
+
+  .plantwise__screen-mockup--12 {
+    margin-left: 33%;
+  }
+
+  .plantwise__screen-mockup--13 {
+    margin-left: 55%;
+  }
+
+  .plantwise__screen-explanation--1 {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+  }
+
+  .plantwise__screen-explanation--3 {
+    right: 13rem;
+  }
+
+  .plantwise__screen-explanation--4 {
+    top: -17%;
+    left: -61%;
+  }
+
+  .plantwise__screen-explanation--6 {
+    top: -20%;
+    right: -10%;
+  }
+
+  .plantwise__screen-explanation--7 {
+    top: 65%;
+    left: 20%;
+  }
+
+  .plantwise__screen-explanation--8 {
+    top: 25%;
+  }
+
+  .plantwise__screen-explanation--9 {
+    top: 70%;
+    right: 19%;
+  }
+
+  .plantwise__screen-explanation--10 {
+    top: 30%;
+  }
+
+  .plantwise__screen-explanation--11 {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+  }
+
+  .plantwise__screen-explanation--13 {
+    top: 80%;
+    right: -5%;
   }
 
   /* --------------------------------------------------

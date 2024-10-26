@@ -112,9 +112,10 @@ a:link,
 a:visited {
   font-family: "Amatic SC", "Outfit", sans-serif;
   text-decoration: none;
-  color: #e3fafc;
-  font-size: 1.4em;
+   color: #e3fafc;
+   font-size: 1.4em;
 }
+
 
 .btn__main:link,
 .btn__main:visited {
@@ -125,6 +126,12 @@ a:visited {
   font-size: 1.2em;
   font-weight: 700;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease; 
+}
+
+.btn__main:hover,
+.btn__main:focus {
+  background-color: #295278;
 }
 
 .btn-center {
@@ -233,8 +240,34 @@ nav ul {
 
 .nav-item:link,
 .nav-item:visited {
+  position: relative;
+  display: inline-block;
   color: #343a40;
   font-size: 2em;
+}
+
+.nav-item:hover, 
+.nav-item:focus {
+  color: #1864ab;
+  font-weight: 700;
+}
+
+.nav-item::after {
+  content: '';
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 1px; 
+    background-color: #1864ab; 
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease; 
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .nav-item > span {
@@ -267,6 +300,14 @@ nav ul {
   display: flex;
   height: 20px;
   gap: 1rem;
+}
+
+.btn__language {
+  transition: transform .2s;
+}
+
+.btn__language:hover {
+  transform: scale(1.2);
 }
 
 .lang--jp {
@@ -425,11 +466,39 @@ nav ul {
   left: -29px;
 }
 
-.about-link {
+.container__about-link {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.about-link:link,
+.about-link:visited {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   gap: 8px;
   font-size: 20px;
+   font-family: "Amatic SC", "Outfit", sans-serif;
+   color: #e3fafc;
+   font-size: 1.4em;
+}
+
+.about-link::after {
+  content: '';
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 1px; 
+    background-color: #d8edf5; 
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease; 
+}
+
+.about-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 
@@ -608,8 +677,34 @@ footer p {
 }
 
 .tags__project {
-  justify-content: center;
-  margin-top: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.project-section-link:link,
+.project-section-link:visited {
+  display: inline-block;
+  font-family: "Outfit", sans-serif;
+  color: #343a40;
+  border: solid 1px #343a40;
+  border-radius: 100px;
+  padding: 4px 16px;
+  font-size: 0.8em;
+  /* margin-top: 1rem; */
+  transition: transform 0.3s ease; 
+}
+
+.project-section-link:hover,
+.project-section-link:focus {
+  border: solid 1px transparent;
+  background-color: #1864ab;
+  color: #d8edf5;
 }
 
 .btn__prototype:link,
@@ -712,6 +807,7 @@ footer p {
   padding-left: 1rem;
   scroll-padding-inline: 1rem;
   margin: 2rem 0;
+  margin-right: -16px;
 }
 
 .media-element {

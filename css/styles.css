@@ -1437,6 +1437,40 @@ footer p {
   margin-bottom: 100px;
 }
 
+/* MEAL COMPASS MOCKUPS */
+
+.mealcompass__cotainer-mockups {
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 55%;
+}
+
+.mealcompass__mockup--2 {
+  position: absolute;
+  display: block;
+  width: 70%;
+  z-index: -1;
+  top: 85%;
+  max-width: 900px;
+}
+
+.mealcompass__mockup--3 {
+  display: block;
+  width: 70%;
+  margin-right: 0;
+  margin-left: auto;
+  max-width: 900px;
+}
+
+.mealcompass__yellow-background-box {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  background-color: #FEC732;
+  z-index: -10;
+  top: 30%;
+}
+
   .tags {
     justify-content: center;
     gap: 16px;
@@ -1543,6 +1577,20 @@ footer p {
   .mealcompass__persona-slider {
     grid-auto-columns: 90%;
   }
+
+
+  /* MEAL COMPASS MVP */
+
+  .mealcompass__orange-box {
+    height: 150px;
+  }
+
+  /* MEAL COMPASS MOCKUPS */
+
+  .mealcompass__yellow-background-box {
+    height: 300px;
+  }
+  
 
 }
 
@@ -2059,6 +2107,10 @@ footer p {
     justify-content: center;
   }
   
+  /* MEAL COMPASS MOCKUPS */
+
+  .mealcompass__yellow-background-box {
+    height: 400px;
   }
 
   .lingo__user-flow-diagram {

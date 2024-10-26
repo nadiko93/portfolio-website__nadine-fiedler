@@ -1,0 +1,554 @@
+{
+  "hpAbout1": "Hello, my name is Nadine Fiedler, a ",
+
+  "hpAbout4": "UI/UX Designer ",
+
+  "hpAbout25": "originally from Germany and currently based in ",
+
+  "hpAbout26": "Japan",
+
+  "hpAbout5": ". I'm passionate about finding ",
+
+  "hpAbout6": "engaging solutions ",
+
+  "hpAbout7": "for user problems and creating immersive and visually appealing designs.",
+
+  "hpAbout8": "After graduating from university with a degree in Japanese Studies, I came to Japan in November 2020 to work for a Japanese company. During this time, I discovered my ",
+
+  "hpAbout9": "passion ",
+
+  "hpAbout10": "for UI/UX Design, and in February 2024, I graduated in UI Design at Careerfoundry.",
+
+  "hpAbout11": "My experience of living in different countries gives me a ",
+
+  "hpAbout12": "unique perspective ",
+
+  "hpAbout13": "and understanding of both the Western and Japanese markets, enabling me to find ",
+
+  "hpAbout14": "diverse solutions ",
+
+  "hpAbout15": "based on user needs from various regions.",
+
+  "hpAbout16": "When I'm not designing, I enjoy ",
+
+  "hpAbout17": "reading books ",
+
+  "hpAbout18": "in different languages, ",
+
+  "hpAbout19": "exploring new cafes",
+
+  "hpAbout20": ", or relaxing while playing ",
+
+  "hpAbout21": "video games",
+
+  "hpAbout22": ". I'm also a passionate ",
+
+  "hpAbout23": "self-learner ",
+
+  "hpAbout24": "with an urge to constantly improve my current skill set or acquire a totally new one.",
+
+  "hpProjectNamePlantwise": "Plantwise",
+
+  "hpPlantwiseDescription": "A money saving app with an environmental approach. Plant trees by saving for your goals and make the planet greener.",
+
+  "tagNameUI1": "UI Design",
+
+  "tagNameUX1": "UX Design",
+
+  "tagNameMobileApp1": "Native Mobile App",
+
+  "tagNameFintech1": "Fintech",
+
+  "tagNameGamification1": "Gamification",
+
+  "hpProjectNameLingoshelf": "Lingoshelf",
+
+  "hpLingoshelfDescription": "A language learning app for advanced language learner. Read your favorite books and become fluent in your target language by having fun.",
+
+  "tagNameUI2": "UI Design",
+
+  "tagNameUX2": "UX Design",
+
+  "tagNameMobileApp2": "Native Mobile App",
+
+  "tagNameLanguageLearning2": "Language Learning",
+
+  "tagNamereading2": "Reading",
+
+  "footerThankYou": "Thank you for watching.",
+
+
+  "lingoshelfCatchphrase": "Learn languages while reading your favorite books",
+
+  "projectOverview": "Project Overview",
+
+  "projectTagUserFlow": "User Flow",
+
+  "projectTagLowFi": "Low-Fidelity Wireframes",
+
+  "projectTagUsabilityTesting": "Usability Testing",
+
+  "projectTagHighFi": "High-Fidelity Wireframes",
+
+  "projectTagPrototype": "Prototyping",
+
+  "projectTagMockups": "Mockups",
+
+  "projectButtonPrototype": "View Prototype",
+
+  "projectHeadingBackground": "Background",
+
+  "lingoshelfBackground": "As a passionate language learner myself, I've encountered numerous challenges and setbacks on my language journey and I understand firsthand how daunting it can be to transition to native materials. When learners begin to gain confidence with their study materials, delving into books aimed at native speakers can feel intimidating and it often shows them how much there is still to learn. This often leads to negative emotions such as overwhelm and insecurity. To prevent these feelings, it's essential to help learners ease into native reading materials and seamlessly merge language learning with the joy of reading.",
+
+  "projectHeadingProblems": "Problems",
+
+  "lingoshelfProblem1": "Switching between the book and an external dictionary can disrupt the reading flow.",
+
+  "lingoshelfProblem2": "Evaluating a book's difficulty solely based on its cover or summary can lead to a frustrating experience when the level doesn't align with the learner's current language skills.",
+
+  "lingoshelfProblem3": "While reading is an effective way to passively grow your vocabulary, translating this into an active learning experience can be daunting and tiring, often diminishing the enjoyment of reading.",
+
+  "projectHeadingSolutions": "Solutions",
+
+  "lingoshelfSolution1": "Implement a built-in dictionary to look up words directly while reading.",
+
+  "lingoshelfSolution2": "Display the difficulty level for each book so that learners can better evaluate if the book matches their skill level.",
+
+  "lingoshelfSolution3": "Offer a built-in learning opportunity that uses sentences from the books users have read, enabling users to learn in context.",
+
+  "lingoshelfHeadline1": "Defining the Direction",
+
+  "lingoshelfHeading5WH": "Asking the right questions",
+
+  "lingoshelf5WHExplanation1": "To gain a deeper understanding of the design requirements, I started by defining the 5WH questions. These questions helped me initially identify my target audience and the key functionalities that should be implemented in the app.",
+
+  "lingoshelf5WHQuestion1": "Who is the user?",
+
+  "lingoshelf5WHAnswer1": "Intermediate and advanced language learners",
+
+  "lingoshelf5WHQuestion2": "What kind of tasks and goals will user achieve?",
+
+  "lingoshelf5WHAnswer2": "Users will improve their language skills through immersive reading of authentic content.",
+
+  "lingoshelf5WHAnswer3": "Users will actively practice newly acquired words.",
+
+  "lingoshelf5WHQuestion3": "How will the users achieve their goals?",
+
+  "lingoshelf5WHAnswer4": "Users can access e-books matching their language proficiency and interests.",
+
+  "lingoshelf5WHAnswer5": "Users can look up and save word meanings while reading.",
+
+  "lingoshelf5WHAnswer6": "Users can practice new vocabulary with exercises or flashcards.",
+
+  "lingoshelfHeadline2": "Understanding the user flow",
+
+  "lingoshelfUserFlowExplanation1": "Utilizing the functionalities defined during the 5WH questions, I created 4 different user flows representing the necessary steps for users to achieve their goals. In addition to the onboarding process, I outlined user flows for the book search, word saving during reading, and vocabulary flashcards.",
+
+  "lingoshelfUserFlowExplanation2": "I then translated these user flows into low-fidelity wireframes, highlighting essential elements to ensure a smooth and user-friendly experience throughout the app.",
+
+  "projectUserFlowStart": "Start/End",
+
+  "projectUserFlowScreen": "Screen",
+
+  "projectUserFlowDecision": "Decision",
+
+  "lingoshelfUserFlow1": "Onboarding Flow",
+
+  "lingoshelfLowFi1": "Welcome Screen",
+
+  "lingoshelfLowFi2": "Sign Up",
+
+  "lingoshelfLowFi3": "Login",
+
+  "lingoshelfLowFi4": "Create Profile",
+
+  "lingoshelfLowFi5": "Home Screen",
+
+  "lingoshelfKeyPointHeading1": "Key Point",
+
+  "lingoshelfUserFlowKeyPoint1": "For a quick and easy onboarding the users can sign up with their social media accounts, select the language they want to learn and easily start to read their first book.",
+
+  "lingoshelfUserFlow2": "Book Search Flow",
+
+  "lingoshelfLowFi6": "Explore Screen",
+
+  "lingoshelfLowFi7": "Book Details",
+
+  "lingoshelfKeyPointHeading2": "Key Point",
+
+  "lingoshelfUserFlowKeyPoint2": "Searching for a book should be simple and intuitive. Books can be searched via the explore page and users can easily access book details.",
+
+  "lingoshelfUserFlow3": "Word Save Flow",
+
+  "lingoshelfLowFi8": "Reading View",
+
+  "lingoshelfLowFi9": "Word View",
+
+  "lingoshelfKeyPointHeading3": "Key Point",
+
+  "lingoshelfUserFlowKeyPoint3": "It should be easy and intuitive to look up words while reading. A small pop-up screen shows the translation and users can save words in their flashcards.",
+
+  "lingoshelfUserFlow4": "Flashcard Flow",
+
+  "lingoshelfLowFi10": "Vocabulary",
+
+  "lingoshelfLowFi11": "Flashcard Front",
+
+  "lingoshelfLowFi12": "Flashcard Back",
+
+  "lingoshelfKeyPointHeading4": "Key Point",
+
+  "lingoshelfUserFlowKeyPoint4": "From their vocabulary list users should be able to easily access their flashcards.",
+
+  "lingoshelfHeadline3": "From Planning to Visual Design",
+
+  "lingoshelfHeadingWireframes": "Refining the Wireframes - From Low-Fidelity to High-Fidelity",
+
+  "lingoshelfWireframesExplanation": "The wireframes I initially created, based on the user flows, were minimal, focusing solely on essential flows and functionalities. Through further iterations, I refined the screen layouts and developed a visual style for the app. Given that the app aims to create an immersive environment for language learners to focus on improving their skills, the visual design is intentionally minimal and unobtrusive, allowing users to concentrate on their reading content without distractions.",
+
+  "lingoshelfHeadingUsability": "Uncovering Usability Problems",
+
+  "lingoshelfUsabilityExplanation": "With my high-fidelity wireframes, I created prototypes to test with users and collect their feedback for further improvements. The user tests revealed that users had difficulties understanding the flashcards correctly. They were unsure how to input, receive feedback, or evaluate their answers using the colored buttons. Since this presented a significant usability issue that could result in a poor user experience, I iterated on ideas to better inform the user about what was happening.",
+
+  "lingoshelfHeadingUsabilityProblem1": "Problem 1",
+
+  "lingoshelfUsabilityProblem1": "Users were uncertain about the input method and how to receive feedback on their answers.",
+
+  "lingoshelfHeadingUsabilitySolution1": "Solution 1",
+
+  "lingoshelfUsabilitySolution1": "I added the text 'Tab to reveal the answer' at the bottom of the screen to cue users to flip the card and reduce ambiguity.",
+
+  "lingoshelfHeadingUsabilityProblem2": "Problem 2",
+
+  "lingoshelfUsabilityProblem2": "Users were unsure about the purpose of the colored buttons on the bottom on the screen.",
+
+  "lingoshelfHeadingUsabilitySolution2": "Solution 2",
+
+  "lingoshelfUsabilitySolution2": "To address this issue, I introduced two distinct solutions to improve the flashcard experience at different stages of the flow.",
+
+  "lingoshelfUsabilitySolution3": "User testing revealed that not everyone is familiar with SRS-based flashcards. That is why I decided to introduce an additional screen to explain SRS when users access their flashcards for the first time.",
+
+  "lingoshelfUsabilitySolution4": "The second solution mirrors the approach taken for the first problem: I added a cue directly on the screen to remind users of the buttons' functionality.",
+
+  "lingoshelfHeadline4": "Creating an Immersive Learning Experience",
+
+  "lingoshelfHeadingScreens1": "Learn languages by reading your favorite books",
+
+  "lingoshelfScreens1": "Lingoshelf offers a huge library of literature in a variety of languages. Users can search for books that match their language skills and interests for an enjoyable learning experience.",
+
+  "lingoshelfFunctionality1": "Due to the tags indicating difficulty levels, users can easily find books that match their personal skill level.",
+
+  "lingoshelfFunctionality2": "Discover new books you'll love by browsing Lingoshelf's extensive collection.",
+
+  "lingoshelfFunctionality3": "Search for your favorite authors or books and simply start reading.",
+
+  "lingoshelfFunctionality4": "Due to the tags indicating difficulty levels, users can easily find books that match their personal skill level.",
+
+  "lingoshelfFunctionality5": "Discover new books you'll love by browsing Lingoshelf's extensive collection.",
+
+  "lingoshelfFunctionality6": "Search for your favorite authors or books and simply start reading.",
+
+  "lingoshelfHeadingScreens2": "Look up word meanings while reading and save new vocabulary",
+
+  "lingoshelfScreens2": "Users can look up the meaning of words directly while reading without the need to rely on an external dictionary. They also can save words for later reference and add them to different flashcard sets.",
+
+  "lingoshelfFunctionality7": "Read without distraction and immerse yourself in your target language.",
+
+  "lingoshelfFunctionality8": "Simply click on a word to look up its meaning.",
+
+  "lingoshelfFunctionality9": "Save words in vocabulary decks to organize new words and flashcard sets for targeted learning.",
+
+  "lingoshelfFunctionality10": "Read without distraction and immerse yourself in your target language.",
+
+  "lingoshelfFunctionality11": "Simply click on a word to look up its meaning.",
+
+  "lingoshelfFunctionality12": "Save words in vocabulary decks to organize new words and flashcard sets for targeted learning.",
+
+  "lingoshelfHeadingScreens3": "Practice new words with SRS based Flashcards",
+
+  "lingoshelfScreens3": "Lingoshelf utilizes spaced repetition to offer an effective method for actively practicing saved words, in addition to the more passive and immersive reading approach. Flashcards display words in sentences that users have encountered during their readings to provide context and enhance memorization.",
+
+  "lingoshelfFunctionality13": "Add your own vocabulary by clicking on the plus icon.",
+
+  "lingoshelfFunctionality14": "Easily access your saved vocabulary and look up words.",
+
+  "lingoshelfFunctionality15": "Flashcard show the words in context by using sentences you have encountered while reading different book.",
+
+  "lingoshelfFunctionality16": "By choosing the words difficulty the SRS determines when you will see the word next time to support optimal word retention.",
+
+  "lingoshelfFunctionality17": "Add your own vocabulary by clicking on the plus icon.",
+
+  "lingoshelfFunctionality18": "Easily access your saved vocabulary and look up words.",
+
+  "lingoshelfFunctionality19": "Flashcard show the words in context by using sentences you have encountered while reading different book.",
+
+  "lingoshelfFunctionality20": "By choosing the words difficulty the SRS determines when you will see the word next time to support optimal word retention.",
+
+  "headlineLearnings": "What I've learned",
+
+  "lingoshelfHeadingLearning1": "Be aware of your own biases",
+
+  "lingoshelfLearning1": "Being a part of the product's target audience yourself can provide an advantage as it allows you to empathize better with the user's perspective. However, it can also be a disadvantage as it may make you more susceptible to biases based on your own preferences. Therefore, it is crucial to remain aware of these biases and be willing to set aside personal preferences when user research and testing reveal different needs and preferences.",
+
+  "lingoshelfHeadingLearning2": "Consider users who may not appear to be your target audience at first glance",
+
+  "lingoshelfLearning2": "To avoid designing in isolation and excluding individuals who may have less experience with language learning, it is essential to involve people from diverse backgrounds in both the research and design phases. This approach yields valuable insights and prevents the pitfall of designing exclusively for one specific group",
+
+
+  "plantwiseCatchphrase1": "An engaging and motivating approach to ",
+
+  "plantwiseCatchphrase2": "money saving ",
+  
+  "plantwiseCatchphrase3": "and ",
+
+  "plantwiseCatchphrase4": "environmental protection",
+
+  "projectUserInterview": "User Interviews",
+
+  "projectPersona": "Personas",
+
+  "projectStyleGuide": "Style Guide",
+
+  "plantwiseBackground": "For many, handling money and addressing environmental concerns can be intimidating, making their implementation in our lives challenging or bothersome. Nevertheless, both are crucial topics that we shouldn't neglect, as they can have negative outcomes in the long run if overlooked. To bring everyone on board with these seemingly difficult issues, Plantwise adopts a gamified approach, making personal finance management and contributing to the environment motivating and engaging for everyone, regardless of expertise.",
+
+  "projectChallenges": "Challenges",
+
+  "plantwiseChallenge1": "Unite a challenging topic like personal financial management with fun and engaging gaming elements to motivate users who may not enjoy dealing with their finances.",
+
+  "plantwiseChallenge2": "Managing money can be overwhelming, leading many people to avoid dealing with it altogether. To make money management less intimidating, the app must offer an easy and understandable interface with functionalities that enable users to spend less time on their finances while still achieving positive outcomes.",
+
+  "plantwiseHeadline1": "Understanding User Needs",
+
+  "plantwiseHeadingUserInterview": "Why do people refrain from financial management and what would motivate them?",
+
+  "plantwiseUserInterview": "To tackle the challenges mentioned above, I began by questioning why personal finances are often perceived as an 'evil villain' and how I could assist people in combating this adversary. To achieve this, I initiated user interviews to gain a deeper understanding of my audience's struggles. These interviews unveiled the pain points and needs of my participants concerning money saving.",
+
+  "projectPainPoints": "Pain Points",
+
+  "plantwisePainPoint1": "Impulse purchases",
+
+  "plantwisePainPoint2": "Unplanned expenses",
+
+  "plantwisePainPoint3": "Apps for financial management are often to complicated",
+
+  "projectNeeds": "Needs",
+
+  "plantwiseNeed1": "A way to store savings out of reach",
+
+  "plantwiseNeed2": "Flexible saving options",
+
+  "plantwiseNeed3": "An app that is easy to use and can be simply accessed from everywhere",
+
+  "plantwiseHeadingPersona": "From Interview Findings to User Personas: Unwinding User Pain Points and Goals",
+
+  "plantwisePersona": "With the insights gained from my interviews, I created two personas, Ally and Matthew, to represent the pain points and goals of my target audience. These personas helped me give my audience a more tangible identity and guided the development of features tailored to the users.",
+
+  "plantwisePersonaQuote1": "“It is challenging for me to save the same amount every month.”",
+
+  "plantwisePersonaItemHeading1": "Age:",
+
+  "plantwisePersonaItem1": "24 years",
+
+  "plantwisePersonaItemHeading2": "Occupation:",
+
+  "plantwisePersonaItem2": "Freelance Copywriter",
+
+  "plantwisePersonaItemHeading3": "Monthly Income",
+
+  "plantwisePersonaItem3": "Instable (1,000 $ - 3.000 $)",
+
+  "plantwisePersonaItemHeading4": "Family",
+
+  "plantwisePersonaItem4": "Single",
+
+  "plantwisePersonaItemHeading5": "Interests",
+
+  "plantwisePersonaItem5": "Traveling, Writing, Camping",
+
+  "plantwisePersonaItemHeading6": "Goals",
+
+  "plantwisePersonaItem6": "Building a travel fund.",
+
+  "plantwisePersonaItem7": "Track her income and expenses.",
+
+  "plantwisePersonaItemHeading7": "Pain Points",
+
+  "plantwisePersonaItem8": "Difficulty in setting aside a fixed amount.",
+
+  "plantwisePersonaItem9": "Lack of visibility into her spending habits.",
+
+  "plantwisePersonaItem10": "Forgetting to track expenses.",
+
+  "plantwisePersonaItemHeading8": "Needs",
+
+  "plantwisePersonaItem11": "Flexible budgeting options.",
+
+  "plantwisePersonaItem12": "Integration with her bank accounts.",
+
+  "plantwisePersonaQuote2": "“As long as the money is available for me I will spend it.”",
+
+  "plantwisePersonaItemHeading9": "Age:",
+
+  "plantwisePersonaItem13": "36 years",
+
+  "plantwisePersonaItemHeading10": "Occupation:",
+
+  "plantwisePersonaItem14": "Electrician",
+
+  "plantwisePersonaItemHeading11": "Monthly Income",
+
+  "plantwisePersonaItem15": "Stable: $3,500",
+
+  "plantwisePersonaItemHeading12": "Family",
+
+  "plantwisePersonaItem16": "Wife, 2 kids",
+
+  "plantwisePersonaItemHeading13": "Interests",
+
+  "plantwisePersonaItem17": "Movies, Soccer, Cars",
+
+  "plantwisePersonaItemHeading14": "Goals",
+
+  "plantwisePersonaItem18": "Save money for specific products or occasions.",
+
+  "plantwisePersonaItem19": "Pay off debts.",
+
+  "plantwisePersonaItemHeading15": "Pain Points",
+
+  "plantwisePersonaItem20": "Feeling overwhelmed by financial responsibilities.",
+
+  "plantwisePersonaItem21": "Not being able to save enough money.",
+
+  "plantwisePersonaItem22": "Often spends money on impulse.",
+
+  "plantwisePersonaItem23": "Dealing with unexpected expenses.",
+
+  "plantwisePersonaItemHeading16": "Needs",
+
+  "plantwisePersonaItem24": "Budgeting and financial planning.",
+
+  "plantwisePersonaItem25": "Transfer money to a separate saving account.",
+
+  "plantwisePersonaItem26": "Security of financial information.",
+
+  "plantwiseHeadline2": "From Research to Ideation: Building the app",
+
+  "plantwiseHeadingUserFlow": "Developing the structure of the app",
+
+  "plantwiseUserFlow": "With an idea of the features to implement, I began iterating on a user flow to explore how I could integrate these features meaningfully while maintaining an easy and intuitive structure. The onboarding process should be both intuitive and trustworthy, considering the app deals with sensitive data. The transaction flow needs to be swift and straightforward, avoiding unnecessary complexity, as users are likely to use this feature daily. Lastly, the saving goal flow should be engaging and motivating, encouraging users to persist in their money-saving journey and ultimately achieve their goals.",
+
+  "plantwiseHeadingLowFi": "Iterating and idea creation: The development of the screens",
+
+  "plantwiseLowFi": "At this point, I already had a decent understanding of the app's requirements and the necessary screens for a good user experience. However, figuring out how to layout the features on the screens and create a visually appealing app posed a different challenge. Overcoming this hurdle required many pieces of paper and some strolls outside to finally come up with solutions that I felt comfortable working with, ultimately defining the first rough structure of the app.",
+
+  "plantwiseHeadingUsabilityTesting": "Prototyping and testing the usability of the design",
+
+  "plantwiseUsabilityTesting1": "I believe we've all reached a point where ideas that seem intuitive to us can be confusing to others. Therefore, testing the design with real users is crucial. To do this, I created a prototype to assess if users could achieve their goals seamlessly and to identify potential pain points in my design that could lead to an unpleasant user experience.",
+
+  "plantwiseUsabilityTesting2": "I recruited four participants and assigned them three distinctive tasks to complete. While the testers navigated the app and fulfilled the tasks without any problems, the testing revealed two points that needed addressing to improve the navigation and overall user experience of the app.",
+
+  "plantwiseHeadingProblem1": "Problem 1:",
+
+  "plantwiseProblem1": "Buttons are too small and difficult to reach.",
+
+  "plantwiseProblem2": "Buttons were right-aligned what made it difficult to reach when holding the phone with the left hand.",
+
+  "plantwiseHeadingSolution1": "Solution:",
+
+  "plantwiseSolution1": "To provide a better user experience and make the button easier to reach from different positions I decided to center the button and increase its size. This adjustment not only improves usability but also contributes to a more balanced layout.",
+
+  "plantwiseHeadingProblem2": "Problem 2:",
+
+  "plantwiseProblem3": "The Home Screen lacks the feature to directly add transactions or saving goals.",
+
+  "plantwiseHeadingSolution2": "Solution:",
+
+  "plantwiseSolution2": "To provide an easy and fast way for users to add new transactions and goals I decided to implement the plus button also on the home screen.",
+
+  "plantwiseHeadline3": "The Visual Design: From Style Guide to Screen Implementation",
+
+  "plantwiseHeadingStyleGuide": "Giving the design a personality",
+
+  "plantwiseStyleGuide1": "Following the user tests and the implementation of improvements in my grayscale wireframes, I progressed by further developing the app's identity. This involved deciding on a color palette, typography, and the style of different elements. Plantwise embodies a gamified approach to money-saving and management with a focus on the environment. To seamlessly integrate the brand's key principles within the app, I aimed to select colors and fonts that create a fun atmosphere, conveying the essence of nature and the environment to the user.",
+
+  "plantwiseStyleGuide2": "To achieve this, I opted for greenish hues as primary and secondary colors, with an earthy orange as the accent color. Additionally, I chose a round and friendly typography to emphasize the playful nature of the app.",
+
+  "projectColors": "Colors:",
+
+  "projectPrimary": "Primary",
+
+  "projectSecondary": "Secondary",
+
+  "projectAccent": "Accent",
+
+  "projectBlack": "Black",
+
+  "projectWhite": "White",
+
+  "projectTypography": "Typography:",
+
+  "projectHeadingButtons": "Buttons:",
+
+  "projectPrimaryButton": "Primary",
+
+  "projectSecondaryButton": "Secondary",
+
+  "plantwsieHeadingFlow1": "Dealing with sensitive data: Building up trust during the onboarding process",
+
+  "plantwiseFlow1": "To ensure the protection of user data, I implemented a verification process and the setting of a passcode within the onboarding process. As an app dealing with sensitive user data, it's important to establish trust from the beginning, allowing users to engage with the app carefree.",
+
+  "plantwiseFunctionality1": "To safeguard user data, Plantwise employs a secure sign-up process, guiding users in setting optimal protection measures, such as ensuring password security.",
+
+  "plantwiseFunctionality2": "The verification of the user's phone number helps confirm their identity and ensures the safety of the account.",
+
+  "plantwiseFunctionality3": "Setting a passcode ensures that transactions can only be initiated by the user, protecting them from unauthorized transactions by third parties.",
+
+  "plantwiseFunctionality4": "Users can link their bank account for seamless and easy money transfers.",
+
+  "plantwsieHeadingFlow2": "Uncomplicated process for tracking everyday spendings",
+
+  "plantwiseFlow2": "Given that users will utilize the app daily, it is crucial to simplify the tracking process, allowing them to easily monitor their everyday expenses. To achieve this, I implemented a straightforward transaction tracking process that can be easily accessed from various app screens.",
+
+  "plantwiseFunctionality5": "User can simply add new transactions directly from the home screen.",
+
+  "plantwiseFunctionality6": "Or add transactions via the transaction screen with just a few simple steps.",
+
+  "plantwiseFunctionality7": "Categorize transactions, keep track of spending habits, and gain insights into monthly expenditures.",
+
+  "plantwsieHeadingFlow3": "Making money saving fun and engaging: Plant a tree for every goal and see how your forest grows",
+
+  "plantwiseFlow3": "As money-saving can be a dull and unpleasant topic, making the saving process engaging and motivating is a crucial aspect of Plantwise. Users can collect tree illustrations and even plant real trees for every certain amount saved.",
+
+  "plantwiseFunctionality8": "Save money and watch your tree and savings grow as you achieve your saving goals.",
+
+  "plantwiseFunctionality9": "Collect trees and watch your forest grow with every saving goal you achieve. Keep track of your total savings and the real trees planted, or share your forest with friends.",
+
+  "plantwiseFunctionality10": "Choose a tree you want to grow from a variety of tree illustrations.",
+
+  "plantwiseFunctionality11": "Decide if you want to calculate the amount to save based on a due date or save money by setting either a fixed amount or a percentage of your income.",
+
+  "plantwiseFunctionality12": "Transfer money manually every month or set uo a direct debit for an automatic and easy money transfer every month.",
+
+  "plantwiseFunctionality13": "Start saving for your goals and contribute to making the planet greener.",
+
+  "plantwiseHeadingLearning1": "Make it as simple as possible for the user and provide different options",
+
+  "plantwiseLearning1": "In my initial concept of the screens, I didn't include the functionality to directly add transactions or goals from the home screen. However, by only allowing the addition of new transactions and goals from the transaction and savings screens, there would always be an extra step for the user. Especially for everyday use, this small extra step can quickly add up, leading to user frustration. Therefore, providing the fastest and easiest way for the user is crucial to ensure a pleasurable user experience.",
+
+  "fontSizeBody": "16px",
+
+  "fontFamilyBody": "'Outfit', sans-serif",
+
+  "lineHeightBody": "1.75",
+
+  "fontFamilyH3": "'Amatic SC', 'Outfit', sans-serif",
+
+  "fontSizeP": "1em",
+
+  "textHero": "1.125em",
+
+  "fontFamilyCatchphrase":  "'Amatic SC', 'Outfit', sans-serif",
+
+  "styleSheet": "css/stylesEN.css"
+
+}

@@ -57,11 +57,11 @@
             <li>
               <div class="languages">
                 <img
-                  class="lang--en"
+                  class="lang--en btn__language" onclick="switchLanguage('en')"
                   src="img/other/icon__flag--en.svg"
                   alt="icon of a british flag" />
                 <img
-                  class="lang--jp"
+                  class="lang--jp btn__language" onclick="switchLanguage('jp')"
                   src="img/other/icon__flag--jp.svg"
                   alt="icon of a japanese flag" />
               </div>
@@ -78,7 +78,9 @@
           class="img--center lingo__logo"
           src="img/lingoshelf/logo__lingoshelf.svg"
           alt="lingoshelf logo in blue letters" />
-        <p class="project-catchphrase lingo--catchphrase">
+        <p
+          id="lingoshelfCatchphrase"
+          class="project-catchphrase lingo--catchphrase">
           Learn languages while reading your favorite books
         </p>
         <picture>
@@ -96,7 +98,7 @@
       <div class="container__lingo--background--1">
         <div class="container">
           <div class="project--overview">
-            <h3>Project Overview</h3>
+            <h3 id="projectOverview">Project Overview</h3>
             <div class="container__tool-icons">
               <img
                 class="icon__tool--project"
@@ -112,22 +114,29 @@
                 alt="adobe photoshop icon" />
             </div>
           </div>
-          <ul class="tags tags__project">
-            <li>User Flow</li>
-            <li>Low-Fidelity Wireframes</li>
-            <li>Usability Testing</li>
-            <li>High-Fidelity Wireframes</li>
-            <li>Prototyping</li>
-            <li>Mockups</li>
+
+          <ul class="tags__project">
+            <li><a class="project-section-link" href="#lingoshelfHeadline2">User Flow</a></li>
+            <li id="projectTagLowFi"><a class="project-section-link" href="#lowFiWireframes">Low-Fidelity Wireframes</a></li>
+            <li id="projectTagUsabilityTesting"><a class="project-section-link" href="#lingoshelfHeadingUsability">Usability Testing</a></li>
+            <li id="projectTagHighFi"><a class="project-section-link" href="#lingoshelfHeadline4">High-Fidelity Wireframes</a></li>
+            <li id="projectTagPrototype"><a class="project-section-link" href="#lingoPrototype">Prototyping</a></li>
+            <li id="projectTagMockups"><a class="project-section-link" href="#lingoMockup">Mockups</a></li>
           </ul>
+
           <div class="btn-center">
-            <a class="btn__main btn__prototype" href="#">View Prototype</a>
+            <a
+              id="projectButtonPrototype"
+              class="btn__main btn__prototype"
+              href="#lingoPrototype"
+              >View Prototype</a
+            >
           </div>
         </div>
 
         <div class="container">
-          <h4>The Background</h4>
-          <p>
+          <h4 id="projectHeadingBackground">Background</h4>
+          <p id="lingoshelfBackground">
             As a passionate language learner myself, I've encountered numerous
             challenges and setbacks on my language journey and I understand
             firsthand how daunting it can be to transition to native materials.
@@ -142,18 +151,18 @@
 
           <div class="container__problems-solutions">
             <div class="problems">
-              <h5>Problems</h5>
+              <h5 id="projectHeadingProblems">Problems</h5>
               <ul>
-                <li>
+                <li id="lingoshelfProblem1">
                   Switching between the book and an external dictionary can
                   disrupt the reading flow.
                 </li>
-                <li>
+                <li id="lingoshelfProblem2">
                   Evaluating a book's difficulty solely based on its cover or
                   summary can lead to a frustrating experience when the level
                   doesn't align with the learner's current language skills.
                 </li>
-                <li>
+                <li id="lingoshelfProblem3">
                   While reading is an effective way to passively grow your
                   vocabulary, translating this into an active learning
                   experience can be daunting and tiring, often diminishing the
@@ -162,17 +171,17 @@
               </ul>
             </div>
             <div class="solutions">
-              <h5>Solutions</h5>
+              <h5 id="projectHeadingSolutions">Solutions</h5>
               <ul>
-                <li>
+                <li id="lingoshelfSolution1">
                   Implement a built-in dictionary to look up words directly
                   while reading.
                 </li>
-                <li>
+                <li id="lingoshelfSolution2">
                   Display the difficulty level for each book so that learners
                   can better evaluate if the book matches their skill level.
                 </li>
-                <li>
+                <li id="lingoshelfSolution3">
                   Offer a built-in learning opportunity that uses sentences from
                   the books users have read, enabling users to learn in context.
                 </li>
@@ -182,9 +191,11 @@
         </div>
 
         <div class="container">
-          <h3 class="project-headline">Defining the Direction</h3>
-          <h4>Asking the right questions</h4>
-          <p>
+          <h3 id="lingoshelfHeadline1" class="project-headline">
+            Defining the Direction
+          </h3>
+          <h4 id="lingoshelfHeading5WH">Asking the right questions</h4>
+          <p id="lingoshelf5WHExplanation1">
             To gain a deeper understanding of the design requirements, I started
             by defining the 5WH questions. These questions helped me initially
             identify my target audience and the key functionalities that should
@@ -193,32 +204,42 @@
 
           <div class="lingo__5WH">
             <div class="container__list lingo__5WH--1">
-              <h5>Who is the user?</h5>
+              <h5 id="lingoshelf5WHQuestion1">Who is the user?</h5>
               <ul>
-                <li>Intermediate and advanced language learners</li>
+                <li id="lingoshelf5WHAnswer1">
+                  Intermediate and advanced language learners
+                </li>
               </ul>
             </div>
 
             <div class="container__list lingo__5WH--2">
-              <h5>What kind of tasks and goals will user achieve?</h5>
+              <h5 id="lingoshelf5WHQuestion2">
+                What kind of tasks and goals will user achieve?
+              </h5>
               <ul>
-                <li>
+                <li id="lingoshelf5WHAnswer2">
                   Users will improve their language skills through immersive
                   reading of authentic content.
                 </li>
-                <li>Users will actively practice newly acquired words.</li>
+                <li id="lingoshelf5WHAnswer3">
+                  Users will actively practice newly acquired words.
+                </li>
               </ul>
             </div>
 
             <div class="container__list lingo__5WH--3">
-              <h5>How will the users achieve their goals?</h5>
+              <h5 id="lingoshelf5WHQuestion3">
+                How will the users achieve their goals?
+              </h5>
               <ul>
-                <li>
+                <li id="lingoshelf5WHAnswer4">
                   Users can access e-books matching their language proficiency
                   and interests.
                 </li>
-                <li>Users can look up and save word meanings while reading.</li>
-                <li>
+                <li id="lingoshelf5WHAnswer5">
+                  Users can look up and save word meanings while reading.
+                </li>
+                <li id="lingoshelf5WHAnswer6">
                   Users can practice new vocabulary with exercises or
                   flashcards.
                 </li>
@@ -230,15 +251,17 @@
 
       <div class="background__lingo--books">
         <div class="background__lingo--books-content">
-          <h3 class="project-headline">Understanding the user flow</h3>
-          <p>
+          <h3 id="lingoshelfHeadline2" class="project-headline">
+            Understanding the user flow
+          </h3>
+          <p id="lingoshelfUserFlowExplanation1">
             Utilizing the functionalities defined during the 5WH questions, I
             created 4 different user flows representing the necessary steps for
             users to achieve their goals. In addition to the onboarding process,
             I outlined user flows for the book search, word saving during
             reading, and vocabulary flashcards.
           </p>
-          <p>
+          <p id="lingoshelfUserFlowExplanation2">
             I then translated these user flows into low-fidelity wireframes,
             highlighting essential elements to ensure a smooth and user-friendly
             experience throughout the app.
@@ -250,15 +273,15 @@
         <div class="user-flow__chart">
           <div class="user-flow__chart-item">
             <img src="img/other/user-flow__circle.svg" />
-            <p>Start/End</p>
+            <p id="projectUserFlowStart">Start/End</p>
           </div>
           <div class="user-flow__chart-item">
             <img src="img/other/user-flow__rectangle.svg" />
-            <p>Screen</p>
+            <p id="projectUserFlowScreen">Screen</p>
           </div>
           <div class="user-flow__chart-item">
             <img src="img/other/user-flow__triangle.svg" />
-            <p>Decision</p>
+            <p id="projectUserFlowDecision">Decision</p>
           </div>
         </div>
       </div>
@@ -266,7 +289,7 @@
       <div class="container__user-flow">
         <div class="container">
           <div class="lingo__user-flow-chart lingo__user-flow-chart--1">
-            <h4>Onboarding Flow</h4>
+            <h4 id="lingoshelfUserFlow1">Onboarding Flow</h4>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__onboarding-flow@x1.png"
@@ -279,9 +302,11 @@
           </div>
         </div>
 
-        <div class="media-scroller lingo__low-fi-slider">
+        <div id="lowFiWireframes" class="media-scroller lingo__low-fi-slider">
           <div class="media-element">
-            <h5 class="carousel__heading">Welcome Screen</h5>
+            <h5 id="lingoshelfLowFi1" class="carousel__heading">
+              Welcome Screen
+            </h5>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__low-fi--01@x1.jpg"
@@ -294,7 +319,7 @@
           </div>
 
           <div class="media-element">
-            <h5 class="carousel__heading">Sign Up</h5>
+            <h5 id="lingoshelfLowFi2" class="carousel__heading">Sign Up</h5>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__low-fi--02@x1.jpg"
@@ -307,7 +332,7 @@
           </div>
 
           <div class="media-element">
-            <h5 class="carousel__heading">Login</h5>
+            <h5 id="lingoshelfLowFi3" class="carousel__heading">Login</h5>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__low-fi--03@x1.jpg"
@@ -320,7 +345,9 @@
           </div>
 
           <div class="media-element">
-            <h5 class="carousel__heading">Create Profile</h5>
+            <h5 id="lingoshelfLowFi4" class="carousel__heading">
+              Create Profile
+            </h5>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__low-fi--04@x1.jpg"
@@ -333,7 +360,7 @@
           </div>
 
           <div class="media-element">
-            <h5 class="carousel__heading">Home Screen</h5>
+            <h5 id="lingoshelfLowFi5" class="carousel__heading">Home Screen</h5>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__low-fi--05@x1.jpg"
@@ -346,8 +373,8 @@
           </div>
         </div>
         <div class="lingo__user-flow--key-points">
-          <h5>Key Point</h5>
-          <p>
+          <h5 id="lingoshelfKeyPointHeading1">Key Point</h5>
+          <p id="lingoshelfUserFlowKeyPoint1">
             For a quick and easy onboarding the users can sign up with their
             social media accounts, select the language they want to learn and
             easily start to read their first book.
@@ -355,7 +382,7 @@
         </div>
         <div class="container">
           <div class="lingo__user-flow-chart lingo__user-flow-chart--2">
-            <h4>Book Search Flow</h4>
+            <h4 id="lingoshelfUserFlow2">Book Search Flow</h4>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__book-search-flow@x1.png"
@@ -371,7 +398,9 @@
         <div class="lingo__user-flow-description--2">
           <div class="media-scroller lingo__low-fi-slider">
             <div class="media-element">
-              <h5 class="carousel__heading">Explore Screen</h5>
+              <h5 id="lingoshelfLowFi6" class="carousel__heading">
+                Explore Screen
+              </h5>
               <picture>
                 <source
                   srcset="img/lingoshelf/lingo__low-fi--06@x1.jpg"
@@ -384,7 +413,9 @@
             </div>
 
             <div class="media-element">
-              <h5 class="carousel__heading">Book Details</h5>
+              <h5 id="lingoshelfLowFi7" class="carousel__heading">
+                Book Details
+              </h5>
               <picture>
                 <source
                   srcset="img/lingoshelf/lingo__low-fi--07@x1.jpg"
@@ -397,8 +428,8 @@
             </div>
           </div>
           <div class="lingo__user-flow--key-points">
-            <h5>Key Point</h5>
-            <p>
+            <h5 id="lingoshelfKeyPointHeading2">Key Point</h5>
+            <p id="lingoshelfUserFlowKeyPoint2">
               Searching for a book should be simple and intuitive. Books can be
               searched via the explore page and users can easily access book
               details.
@@ -408,7 +439,7 @@
 
         <div class="container">
           <div class="lingo__user-flow-chart lingo__user-flow-chart--3">
-            <h4>Word Save Flow</h4>
+            <h4 id="lingoshelfUserFlow3">Word Save Flow</h4>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__word-save-flow@x1.png"
@@ -424,7 +455,9 @@
         <div class="lingo__user-flow-description--3">
           <div class="media-scroller lingo__low-fi-slider">
             <div class="media-element">
-              <h5 class="carousel__heading">Reading View</h5>
+              <h5 id="lingoshelfLowFi8" class="carousel__heading">
+                Reading View
+              </h5>
               <picture>
                 <source
                   srcset="img/lingoshelf/lingo__low-fi--08@x1.jpg"
@@ -437,7 +470,7 @@
             </div>
 
             <div class="media-element">
-              <h5 class="carousel__heading">Word View</h5>
+              <h5 id="lingoshelfLowFi9" class="carousel__heading">Word View</h5>
               <picture>
                 <source
                   srcset="img/lingoshelf/lingo__low-fi--09@x1.jpg"
@@ -450,8 +483,8 @@
             </div>
           </div>
           <div class="lingo__user-flow--key-points lingo__flow-key-points--3">
-            <h5>Key Point</h5>
-            <p>
+            <h5 id="lingoshelfKeyPointHeading3">Key Point</h5>
+            <p id="lingoshelfUserFlowKeyPoint3">
               It should be easy and intuitive to look up words while reading. A
               small pop-up screen shows the translation and users can save words
               in their flashcards.
@@ -461,7 +494,7 @@
 
         <div class="container">
           <div class="lingo__user-flow-chart lingo__user-flow-chart--4">
-            <h4>Flashcard Flow</h4>
+            <h4 id="lingoshelfUserFlow4">Flashcard Flow</h4>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__flashcard-flow@x1.png"
@@ -476,7 +509,7 @@
 
         <div class="media-scroller lingo__low-fi-slider">
           <div class="media-element">
-            <h5 class="carousel__heading">Vocabulary</h5>
+            <h5 id="lingoshelfLowFi10" class="carousel__heading">Vocabulary</h5>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__low-fi--10@x1.jpg"
@@ -488,7 +521,9 @@
             </picture>
           </div>
           <div class="media-element">
-            <h5 class="carousel__heading">Flashcard Front</h5>
+            <h5 id="lingoshelfLowFi11" class="carousel__heading">
+              Flashcard Front
+            </h5>
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__low-fi--11@x1.jpg"
@@ -501,7 +536,8 @@
           </div>
 
           <div class="media-element">
-            <h5 class="carousel__heading">Flashcard Back</h5>
+            <h5 id="lingoshelfLowFi12" class="carousel__heading">
+              Flashcard Back
             <picture>
               <source
                 srcset="img/lingoshelf/lingo__low-fi--12@x1.jpg"
@@ -514,15 +550,15 @@
           </div>
         </div>
         <div class="lingo__user-flow--key-points">
-          <h5>Key Point</h5>
-          <p>
+          <h5 id="lingoshelfKeyPointHeading4">Key Point</h5>
+          <p id="lingoshelfUserFlowKeyPoint4">
             From their vocabulary list users should be able to easily access
             their flashcards.
           </p>
         </div>
       </div>
 
-      <div class="lingo__mass-mockup--2">
+      <div id="lingoMockup" class="lingo__mass-mockup--2">
         <picture>
           <source
             srcset="img/lingoshelf/lingo__mass-mockup@x1.jpg"
@@ -536,9 +572,13 @@
 
       <div class="background__light-blue">
         <div class="container">
-          <h3 class="project-headline">From Planning to Visual Design</h3>
-          <h4>Refining the Wireframes - From Low-Fidelity to High-Fidelity</h4>
-          <p>
+          <h3 id="lingoshelfHeadline3" class="project-headline">
+            From Planning to Visual Design
+          </h3>
+          <h4 id="lingoshelfHeadingWireframes">
+            Refining the Wireframes - From Low-Fidelity to High-Fidelity
+          </h4>
+          <p id="lingoshelfWireframesExplanation">
             The wireframes I initially created, based on the user flows, were
             minimal, focusing solely on essential flows and functionalities.
             Through further iterations, I refined the screen layouts and
@@ -548,8 +588,8 @@
             and unobtrusive, allowing users to concentrate on their reading
             content without distractions.
           </p>
-          <h4>Uncovering Usability Problems</h4>
-          <p>
+          <h4 id="lingoshelfHeadingUsability">Uncovering Usability Problems</h4>
+          <p id="lingoshelfUsabilityExplanation">
             With my high-fidelity wireframes, I created prototypes to test with
             users and collect their feedback for further improvements. The user
             tests revealed that users had difficulties understanding the
@@ -565,8 +605,8 @@
       <div class="container">
         <div class="lingo__usability-test">
           <div>
-            <h5>Problem 1</h5>
-            <p>
+            <h5 id="lingoshelfHeadingUsabilityProblem1">Problem 1</h5>
+            <p id="lingoshelfUsabilityProblem1">
               Users were uncertain about the input method and how to receive
               feedback on their answers.
             </p>
@@ -584,8 +624,8 @@
           </div>
 
           <div class="lingo__solution">
-            <h5>Solution 1</h5>
-            <p>
+            <h5 id="lingoshelfHeadingUsabilitySolution1">Solution 1</h5>
+            <p id="lingoshelfUsabilitySolution1">
               I added the text 'Tab to reveal the answer' at the bottom of the
               screen to cue users to flip the card and reduce ambiguity.
             </p>
@@ -603,8 +643,8 @@
           </div>
 
           <div class="lingo__problem lingo__problem--2">
-            <h5>Problem 2</h5>
-            <p>
+            <h5 id="lingoshelfHeadingUsabilityProblem2">Problem 2</h5>
+            <p id="lingoshelfUsabilityProblem2">
               Users were unsure about the purpose of the colored buttons on the
               bottom on the screen.
             </p>
@@ -622,8 +662,8 @@
           </div>
 
           <div class="lingo__solution lingo__solution--2">
-            <h5>Solution 2</h5>
-            <p>
+            <h5 id="lingoshelfHeadingUsabilitySolution2">Solution 2</h5>
+            <p id="lingoshelfUsabilitySolution2">
               To address this issue, I introduced two distinct solutions to
               improve the flashcard experience at different stages of the flow.
             </p>
@@ -639,7 +679,7 @@
           </picture>
           <div class="lingo__solution--3 lingo__solution2--1">
             <img src="img/other/icon__first.svg" />
-            <p>
+            <p id="lingoshelfUsabilitySolution3">
               User testing revealed that not everyone is familiar with SRS-based
               flashcards. That is why I decided to introduce an additional
               screen to explain SRS when users access their flashcards for the
@@ -660,7 +700,7 @@
           </div>
           <div class="lingo__solution--3 lingo__solution2--2">
             <img src="img/other/icon__second.svg" />
-            <p>
+            <p id="lingoshelfUsabilitySolution4">
               The second solution mirrors the approach taken for the first
               problem: I added a cue directly on the screen to remind users of
               the buttons' functionality.
@@ -670,11 +710,13 @@
       </div>
 
       <div class="container">
-        <h3 class="project-headline">
+        <h3 id="lingoshelfHeadline4" class="project-headline">
           Creating an Immersive Learning Experience
         </h3>
-        <h4>Learn languages by reading your favorite books</h4>
-        <p>
+        <h4 id="lingoshelfHeadingScreens1">
+          Learn languages by reading your favorite books
+        </h4>
+        <p id="lingoshelfScreens1">
           Lingoshelf offers a huge library of literature in a variety of
           languages. Users can search for books that match their language skills
           and interests for an enjoyable learning experience.
@@ -684,21 +726,35 @@
             class="lingo__screen-mockups"
             src="img/lingoshelf/lingo__screen-mockups--1@2x.png"
             alt="lingoshelf final screens of the book search flow" />
-            <p class="txt__caption lingo__caption lingo__functionality--1">
-              Due to the tags indicating difficulty levels, users can easily find
-              books that match their personal skill level.
-            </p>
-            <p class="txt__caption lingo__caption lingo__functionality--2">
-              Discover new books you'll love by browsing Lingoshelf's extensive
-              collection.
-            </p>
-            <p class="txt__caption lingo__caption lingo__functionality--3">
-              Search for your favorite authors or books and simply start reading.
-            </p>
-            <img class="lingo__caption-arrow lingo__caption-arrow--1" src="img/lingoshelf/lingo__caption-arrow--1.svg" alt="">
-            <img class="lingo__caption-arrow lingo__caption-arrow--2" src="img/lingoshelf/lingo__caption-arrow--2.svg" alt="">
-            <img class="lingo__caption-arrow lingo__caption-arrow--3" src="img/lingoshelf/lingo__caption-arrow--3.svg" alt="">
-                 
+          <p
+            id="lingoshelfFunctionality1"
+            class="txt__caption lingo__caption lingo__functionality--1">
+            Due to the tags indicating difficulty levels, users can easily find
+            books that match their personal skill level.
+          </p>
+          <p
+            id="lingoshelfFunctionality2"
+            class="txt__caption lingo__caption lingo__functionality--2">
+            Discover new books you'll love by browsing Lingoshelf's extensive
+            collection.
+          </p>
+          <p
+            id="lingoshelfFunctionality3"
+            class="txt__caption lingo__caption lingo__functionality--3">
+            Search for your favorite authors or books and simply start reading.
+          </p>
+          <img
+            class="lingo__caption-arrow lingo__caption-arrow--1"
+            src="img/lingoshelf/lingo__caption-arrow--1.svg"
+            alt="" />
+          <img
+            class="lingo__caption-arrow lingo__caption-arrow--2"
+            src="img/lingoshelf/lingo__caption-arrow--2.svg"
+            alt="" />
+          <img
+            class="lingo__caption-arrow lingo__caption-arrow--3"
+            src="img/lingoshelf/lingo__caption-arrow--3.svg"
+            alt="" />
         </div>
       </div>
 
@@ -713,7 +769,7 @@
               src="img/lingoshelf/lingo__screen--1@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality4" class="txt__caption">
             Due to the tags indicating difficulty levels, users can easily find
             books that match their personal skill level.
           </p>
@@ -728,7 +784,7 @@
               src="img/lingoshelf/lingo__screen--2@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality5" class="txt__caption">
             Discover new books you'll love by browsing Lingoshelf's extensive
             collection.
           </p>
@@ -743,7 +799,7 @@
               src="img/lingoshelf/lingo__screen--3@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality6" class="txt__caption">
             Search for your favorite authors or books and simply start reading.
           </p>
         </div>
@@ -761,8 +817,10 @@
       </div>
 
       <div class="container">
-        <h4>Look up word meanings while reading and save new vocabulary</h4>
-        <p>
+        <h4 id="lingoshelfHeadingScreens2">
+          Look up word meanings while reading and save new vocabulary
+        </h4>
+        <p id="lingoshelfScreens2">
           Users can look up the meaning of words directly while reading without
           the need to rely on an external dictionary. They also can save words
           for later reference and add them to different flashcard sets.
@@ -774,22 +832,35 @@
           class="lingo__screen-mockups"
           src="img/lingoshelf/lingo__screen-mockups--2@2x.png"
           alt="lingoshelf final screens of the reading flow" />
-          <p class="txt__caption lingo__caption lingo__functionality--4">
-            Read without distraction and immerse yourself in your target
-            language.
-          </p>
-          <p class="txt__caption lingo__caption lingo__functionality--5">
-            Simply click on a word to look up its meaning.
-          </p>
-          <p class="txt__caption lingo__caption lingo__functionality--6">
-            Save words in vocabulary decks to organize new words and flashcard sets for targeted learning.
-          </p>
-          
-          <img class="lingo__caption-arrow lingo__caption-arrow--4" src="img/lingoshelf/lingo__caption-arrow--4.svg" alt="">
-          <img class="lingo__caption-arrow lingo__caption-arrow--5" src="img/lingoshelf/lingo__caption-arrow--5.svg" alt="">
-          <img class="lingo__caption-arrow lingo__caption-arrow--6" src="img/lingoshelf/lingo__caption-arrow--6.svg" alt="">
-        
-               
+        <p
+          id="lingoshelfFunctionality7"
+          class="txt__caption lingo__caption lingo__functionality--4">
+          Read without distraction and immerse yourself in your target language.
+        </p>
+        <p
+          id="lingoshelfFunctionality8"
+          class="txt__caption lingo__caption lingo__functionality--5">
+          Simply click on a word to look up its meaning.
+        </p>
+        <p
+          id="lingoshelfFunctionality9"
+          class="txt__caption lingo__caption lingo__functionality--6">
+          Save words in vocabulary decks to organize new words and flashcard
+          sets for targeted learning.
+        </p>
+
+        <img
+          class="lingo__caption-arrow lingo__caption-arrow--4"
+          src="img/lingoshelf/lingo__caption-arrow--4.svg"
+          alt="" />
+        <img
+          class="lingo__caption-arrow lingo__caption-arrow--5"
+          src="img/lingoshelf/lingo__caption-arrow--5.svg"
+          alt="" />
+        <img
+          class="lingo__caption-arrow lingo__caption-arrow--6"
+          src="img/lingoshelf/lingo__caption-arrow--6.svg"
+          alt="" />
       </div>
 
       <div class="media-scroller lingo__screen-mockup-slider">
@@ -814,7 +885,7 @@
               src="img/lingoshelf/lingo__screen--6@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality10" class="txt__caption">
             Read without distraction and immerse yourself in your target
             language.
           </p>
@@ -829,7 +900,7 @@
               src="img/lingoshelf/lingo__screen--7@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality11" class="txt__caption">
             Simply click on a word to look up its meaning.
           </p>
         </div>
@@ -843,7 +914,7 @@
               src="img/lingoshelf/lingo__screen--8@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality12" class="txt__caption">
             Save words in vocabulary decks to organize new words and flashcard
             sets for targeted learning.
           </p>
@@ -851,8 +922,10 @@
       </div>
 
       <div class="container">
-        <h4>Practice new words with SRS based Flashcards</h4>
-        <p>
+        <h4 id="lingoshelfHeadingScreens3">
+          Practice new words with SRS based Flashcards
+        </h4>
+        <p id="lingoshelfScreens3">
           Lingoshelf utilizes spaced repetition to offer an effective method for
           actively practicing saved words, in addition to the more passive and
           immersive reading approach. Flashcards display words in sentences that
@@ -866,25 +939,45 @@
           class="lingo__screen-mockups"
           src="img/lingoshelf/lingo__screen-mockups--3@2x.png"
           alt="lingoshelf final screens of the flashcard flow" />
-          <p class="txt__caption lingo__caption lingo__functionality--7">
-            Add your own vocabulary by clicking on the plus icon.
-          </p>
-          <p class="txt__caption lingo__caption lingo__functionality--8">
+        <p
+          id="lingoshelfFunctionality13"
+          class="txt__caption lingo__caption lingo__functionality--7">
+          Add your own vocabulary by clicking on the plus icon.
+        </p>
+        <p
+          id="lingoshelfFunctionality14"
+          class="txt__caption lingo__caption lingo__functionality--8">
           Easily access your saved vocabulary and look up words.
-          </p>
-          <p class="txt__caption lingo__caption lingo__functionality--9">
-            Flashcard show the words in context by using sentences you have encountered while reading different book.
-            </p>
-            <p class="txt__caption lingo__caption lingo__functionality--10">
-              By choosing the words difficulty the SRS determines when you will see the word next time to support optimal word retention.
-              </p>
-         
-          <img class="lingo__caption-arrow lingo__caption-arrow--7" src="img/lingoshelf/lingo__caption-arrow--7.svg" alt="">
-          <img class="lingo__caption-arrow lingo__caption-arrow--8" src="img/lingoshelf/lingo__caption-arrow--8.svg" alt="">
-          <img class="lingo__caption-arrow lingo__caption-arrow--9" src="img/lingoshelf/lingo__caption-arrow--9.svg" alt="">
-          <img class="lingo__caption-arrow lingo__caption-arrow--10" src="img/lingoshelf/lingo__caption-arrow--10.svg" alt="">
-        
-               
+        </p>
+        <p
+          id="lingoshelfFunctionality15"
+          class="txt__caption lingo__caption lingo__functionality--9">
+          Flashcard show the words in context by using sentences you have
+          encountered while reading different book.
+        </p>
+        <p
+          id="lingoshelfFunctionality16"
+          class="txt__caption lingo__caption lingo__functionality--10">
+          By choosing the words difficulty the SRS determines when you will see
+          the word next time to support optimal word retention.
+        </p>
+
+        <img
+          class="lingo__caption-arrow lingo__caption-arrow--7"
+          src="img/lingoshelf/lingo__caption-arrow--7.svg"
+          alt="" />
+        <img
+          class="lingo__caption-arrow lingo__caption-arrow--8"
+          src="img/lingoshelf/lingo__caption-arrow--8.svg"
+          alt="" />
+        <img
+          class="lingo__caption-arrow lingo__caption-arrow--9"
+          src="img/lingoshelf/lingo__caption-arrow--9.svg"
+          alt="" />
+        <img
+          class="lingo__caption-arrow lingo__caption-arrow--10"
+          src="img/lingoshelf/lingo__caption-arrow--10.svg"
+          alt="" />
       </div>
 
       <div class="media-scroller lingo__screen-mockup-slider">
@@ -898,10 +991,10 @@
               src="img/lingoshelf/lingo__screen--9@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality17" class="txt__caption">
             Add your own vocabulary by clicking on the plus icon.
           </p>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality18" class="txt__caption">
             Easily access your saved vocabulary and look up words.
           </p>
         </div>
@@ -926,7 +1019,7 @@
               src="img/lingoshelf/lingo__screen--11@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality19" class="txt__caption">
             Flashcard show the words in context by using sentences you have
             encountered while reading different book.
           </p>
@@ -941,7 +1034,7 @@
               src="img/lingoshelf/lingo__screen--12@2x.png"
               alt="Mockup of the lingoshelf home screen" />
           </picture>
-          <p class="txt__caption">
+          <p id="lingoshelfFunctionality20" class="txt__caption">
             By choosing the words difficulty the SRS determines when you will
             see the word next time to support optimal word retention.
           </p>
@@ -952,16 +1045,35 @@
         </div>
         <div class="learnings">
         <div class="container">
-          <h3 class="project-headline">What I've learned</h3>
-          <h4>Be aware of your own biases</h4>
-          <p>Being a part of the product's target audience yourself can provide an advantage as it allows you to empathize better with the user's perspective. However, it can also be a disadvantage as it may make you more susceptible to biases based on your own preferences. Therefore, it is crucial to remain aware of these biases and be willing to set aside personal preferences when user research and testing reveal different needs and preferences.</p>
-          <h4>Consider users who may not appear to be your target audience at first glance</h4>
-          <p>To avoid designing in isolation and excluding individuals who may have less experience with language learning, it is essential to involve people from diverse backgrounds in both the research and design phases. This approach yields valuable insights and prevents the pitfall of designing exclusively for one specific group</p>
+          <h3 id="headlineLearnings" class="project-headline">
+            What I've learned
+          </h3>
+          <h4 id="lingoshelfHeadingLearning1">Be aware of your own biases</h4>
+          <p id="lingoshelfLearning1">
+            Being a part of the product's target audience yourself can provide
+            an advantage as it allows you to empathize better with the user's
+            perspective. However, it can also be a disadvantage as it may make
+            you more susceptible to biases based on your own preferences.
+            Therefore, it is crucial to remain aware of these biases and be
+            willing to set aside personal preferences when user research and
+            testing reveal different needs and preferences.
+          </p>
+          <h4 id="lingoshelfHeadingLearning2">
+            Consider users who may not appear to be your target audience at
+            first glance
+          </h4>
+          <p id="lingoshelfLearning2">
+            To avoid designing in isolation and excluding individuals who may
+            have less experience with language learning, it is essential to
+            involve people from diverse backgrounds in both the research and
+            design phases. This approach yields valuable insights and prevents
+            the pitfall of designing exclusively for one specific group
+          </p>
         </div>
       </div>
     </main>
     <footer>
-      <p>Thank you for watching.</p>
+      <p id="footerThankYou">Thank you for watching.</p>
       <ul class="icons__sns">
         <li>
           <a href="mailto:fiedler.nadinef@gmail.com"
@@ -982,5 +1094,5 @@
       <p class="copyright">© Copyright Nadine Fiedler 2024</p>
     </footer>
   </body>
-  <script src="js/script.js"></script>
+  <script src="js/lingoshelfScript.js"></script>
 </html>

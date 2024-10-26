@@ -57,11 +57,11 @@
             <li>
               <div class="languages">
                 <img
-                  class="lang--en"
+                  class="lang--en btn__language" onclick="switchLanguage('en')"
                   src="img/other/icon__flag--en.svg"
                   alt="icon of a british flag" />
-                <img
-                  class="lang--jp"
+                <img 
+                  class="lang--jp btn__language" onclick="switchLanguage('jp')"
                   src="img/other/icon__flag--jp.svg"
                   alt="icon of a japanese flag" />
               </div>
@@ -78,9 +78,9 @@
           src="img/plantwise/plantwise__lettering.svg"
           alt="The name of the brand in its brand font" />
         <p class="project-catchphrase plantwise__catchphrase">
-          An engaging and motivating approach to
-          <span class="txt__color--orange">money saving</span> and
-          <span class="txt__color--green">environmental protection</span>.
+          <span id="plantwiseCatchphrase1">An engaging and motivating approach to</span>
+          <span id="plantwiseCatchphrase2" class="txt__color--orange">money saving</span><span id="plantwiseCatchphrase3">and</span>
+          <span id="plantwiseCatchphrase4" class="txt__color--green">environmental protection</span><span id="plantwiseCatchphrase5"></span>
         </p>
         <picture>
           <source
@@ -96,7 +96,7 @@
       <div class="plantwise__background--light-green">
         <div id="plantwise__user-research" class="container">
           <div class="project--overview">
-            <h3>Project Overview</h3>
+            <h3 id="projectOverview">Project Overview</h3>
             <div class="container__tool-icons">
               <img
                 class="icon__tool--project"
@@ -112,25 +112,27 @@
                 alt="adobe photoshop icon" />
             </div>
           </div>
-          <ul class="tags tags__project">
-            <li>User Interviews</li>
-            <li>Personas</li>
-            <li>User Flow</li>
-            <li>Low-Fidelity Wireframes</li>
-            <li>Style Guide</li>
-            <li>Mid- / High-Fidelity Wireframes</li>
-            <li>Usability Testing</li>
-            <li>Prototyping</li>
-            <li>Mockups</li>
+
+          <ul class="tags__project">
+            <li id="projecUserInterview"><a class="project-section-link" href="#plantwiseHeadline1">User Interviews</a></li>
+            <li id="projectPersona"><a class="project-section-link" href="#plantwiseHeadingPersona">Personas</a></li>
+            <li id="projectTagUserFlow"><a class="project-section-link" href="#plantwiseHeadingUserFlow">User Flow</a></li>
+            <li id="projectTagLowFi"><a class="project-section-link" href="#plantwiseHeadingLowFi">Low-Fidelity Wireframes</a></li> 
+            <li id="projectTagUsabilityTesting"><a class="project-section-link" href="#plantwiseHeadingUsabilityTesting">Usability Testing</a></li>
+            <li id="projectStyleGuide"><a class="project-section-link" href="#plantwiseHeadline3">Style Guide</a></li>
+            <li id="projectTagHighFi"><a class="project-section-link" href="#plantwsieHeadingFlow1">High-Fidelity Wireframes</a></li>
+            <li id="projectTagPrototype"><a class="project-section-link" href="#plantwisePrototype">Prototyping</a></li>
+            <li id="projectTagMockups"><a class="project-section-link" href="#plantwiseMockup">Mockups</a></li>
           </ul>
+
           <div class="btn-center">
-            <a class="btn__main btn__prototype" href="#">View Prototype</a>
+            <a id="projectButtonPrototype" class="btn__main btn__prototype" href="#plantwisePrototype">View Prototype</a>
           </div>
         </div>
         <div class="container container__flex--row">
           <div>
-            <h4>Background</h4>
-            <p>
+            <h4 id="projectHeadingBackground">Background</h4>
+            <p id="plantwiseBackground">
               For many, handling money and addressing environmental concerns can
               be intimidating, making their implementation in our lives
               challenging or bothersome. Nevertheless, both are crucial topics
@@ -143,14 +145,14 @@
             </p>
           </div>
           <div class="plantwise__challenges">
-            <h4>Challenges</h4>
+            <h4 id="projectChallenges">Challenges</h4>
             <ul>
-              <li>
+              <li id="plantwiseChallenge1">
                 Unite a challenging topic like personal financial management
                 with fun and engaging gaming elements to motivate users who may
                 not enjoy dealing with their finances.
               </li>
-              <li>
+              <li id="plantwiseChallenge2">
                 Managing money can be overwhelming, leading many people to avoid
                 dealing with it altogether. To make money management less
                 intimidating, the app must offer an easy and understandable
@@ -164,14 +166,14 @@
 
       <div class="background__dark-green--gradient">
         <div class="container">
-          <h3 class="project-headline underline__white">
+          <h3 id="plantwiseHeadline1" class="project-headline underline__white">
             Understanding User Needs
           </h3>
-          <h4>
+          <h4 id="plantwiseHeadingUserInterview">
             Why do people refrain from financial management and what would
             motivate them?
           </h4>
-          <p>
+          <p id="plantwiseUserInterview">
             To tackle the challenges mentioned above, I began by questioning why
             personal finances are often perceived as an 'evil villain' and how I
             could assist people in combating this adversary. To achieve this, I
@@ -190,21 +192,21 @@
               alt="" />
             <div class="plantwise__user-interview--results">
               <div>
-                <h5>Pain Points</h5>
+                <h5 id="projectPainPoints">Pain Points</h5>
                 <ul class="flex__list-items">
-                  <li>Impulse Purchases</li>
-                  <li>Unplanned expenses</li>
-                  <li>
+                  <li id="plantwisePainPoint1">Impulse Purchases</li>
+                  <li id="plantwisePainPoint2">Unplanned expenses</li>
+                  <li id="plantwisePainPoint3">
                     Apps for financial management are often to complicated
                   </li>
                 </ul>
               </div>
               <div>
-                <h5>Needs</h5>
+                <h5 id="projectNeeds">Needs</h5>
                 <ul class="flex__list-items">
-                  <li>A way to store savings out of reach</li>
-                  <li>Flexible saving options.</li>
-                  <li>
+                  <li id="plantwiseNeed1">A way to store savings out of reach</li>
+                  <li id="plantwiseNeed2">Flexible saving options.</li>
+                  <li id="plantwiseNeed3">
                     An app that is easy to use and can be simply accessed from
                     everywhere.
                   </li>
@@ -225,11 +227,11 @@
               alt="" />
           </div>
 
-          <h4>
+          <h4 id="plantwiseHeadingPersona">
             From Interview Findings to User Personas: Unwinding User Pain Points
             and Goals
           </h4>
-          <p>
+          <p id="plantwisePersona">
             With the insights gained from my interviews, I created two personas,
             Ally and Matthew, to represent the pain points and goals of my
             target audience. These personas helped me give my audience a more
@@ -258,40 +260,40 @@
                     alt="Picture of the first user persona ally" />
                 </picture>
               </div>
-              <p class="plantwise__persona--quote">
+              <p id="plantwisePersonaQuote1" class="plantwise__persona--quote">
                 “It is challenging for me to save the same amount every month.”
               </p>
               <ul class="persona__item-list">
-                <li class="persona__item-heading">Age:</li>
-                <li>24 years</li>
-                <li class="persona__item-heading">Occupation:</li>
-                <li>Freelance Copywriter</li>
-                <li class="persona__item-heading">Monthly Income</li>
-                <li>Instable (1,000 $ - 3.000 $)</li>
-                <li class="persona__item-heading">Family</li>
-                <li>Single</li>
-                <li class="persona__item-heading">Interests</li>
-                <li>Traveling, Writing, Camping</li>
-                <li class="persona__item-heading">Goals</li>
+                <li id="plantwisePersonaItemHeading1" class="persona__item-heading">Age:</li>
+                <li id="plantwisePersonaItem1">24 years</li>
+                <li id="plantwisePersonaItemHeading2" class="persona__item-heading">Occupation:</li>
+                <li id="plantwisePersonaItem2">Freelance Copywriter</li>
+                <li id="plantwisePersonaItemHeading3" class="persona__item-heading">Monthly Income</li>
+                <li id="plantwisePersonaItem3">Instable (1,000 $ - 3.000 $)</li>
+                <li id="plantwisePersonaItemHeading4" class="persona__item-heading">Family</li>
+                <li id="plantwisePersonaItem4">Single</li>
+                <li id="plantwisePersonaItemHeading5" class="persona__item-heading">Interests</li>
+                <li id="plantwisePersonaItem5">Traveling, Writing, Camping</li>
+                <li id="plantwisePersonaItemHeading6" class="persona__item-heading">Goals</li>
                 <li>
                   <ul>
-                    <li>Building a travel fund.</li>
-                    <li>Track her income and expenses.</li>
+                    <li id="plantwisePersonaItem6">Building a travel fund.</li>
+                    <li id="plantwisePersonaItem7">Track her income and expenses.</li>
                   </ul>
                 </li>
-                <li class="persona__item-heading">Pain Points</li>
+                <li id="plantwisePersonaItemHeading7" class="persona__item-heading">Pain Points</li>
                 <li>
                   <ul>
-                    <li>Difficulty in setting aside a fixed amount.</li>
-                    <li>Lack of visibility into her spending habits.</li>
-                    <li>Forgetting to track expenses.</li>
+                    <li id="plantwisePersonaItem8">Difficulty in setting aside a fixed amount.</li>
+                    <li id="plantwisePersonaItem9">Lack of visibility into her spending habits.</li>
+                    <li id="plantwisePersonaItem10">Forgetting to track expenses.</li>
                   </ul>
                 </li>
-                <li class="persona__item-heading">Needs</li>
+                <li id="plantwisePersonaItemHeading8" class="persona__item-heading">Needs</li>
                 <li>
                   <ul>
-                    <li>Flexible budgeting options.</li>
-                    <li>Integration with her bank accounts.</li>
+                    <li id="plantwisePersonaItem11">Flexible budgeting options.</li>
+                    <li id="plantwisePersonaItem12">Integration with her bank accounts.</li>
                   </ul>
                 </li>
               </ul>
@@ -317,42 +319,42 @@
                     alt="Picture of the first user persona ally" />
                 </picture>
               </div>
-              <p class="plantwise__persona--quote">
+              <p id="plantwisePersonaQuote2" class="plantwise__persona--quote">
                 “As long as the money is available for me I will spend it.”
               </p>
               <ul class="persona__item-list">
-                <li class="persona__item-heading">Age:</li>
-                <li>36 years</li>
-                <li class="persona__item-heading">Occupation:</li>
-                <li>Electrician</li>
-                <li class="persona__item-heading">Monthly Income</li>
-                <li>Stable: $3,500</li>
-                <li class="persona__item-heading">Family</li>
-                <li>Wife, 2 kids</li>
-                <li class="persona__item-heading">Interests</li>
-                <li>Movies, Soccer, Cars</li>
-                <li class="persona__item-heading">Goals</li>
+                <li id="plantwisePersonaItemHeading9" class="persona__item-heading">Age:</li>
+                <li id="plantwisePersonaItem13">36 years</li>
+                <li id="plantwisePersonaItemHeading10" class="persona__item-heading">Occupation:</li>
+                <li id="plantwisePersonaItem14">Electrician</li>
+                <li id="plantwisePersonaItemHeading11" class="persona__item-heading">Monthly Income</li>
+                <li id="plantwisePersonaItem15">Stable: $3,500</li>
+                <li id="plantwisePersonaItemHeading12" class="persona__item-heading">Family</li>
+                <li id="plantwisePersonaItem16">Wife, 2 kids</li>
+                <li id="plantwisePersonaItemHeading13" class="persona__item-heading">Interests</li>
+                <li id="plantwisePersonaItem17">Movies, Soccer, Cars</li>
+                <li id="plantwisePersonaItemHeading14" class="persona__item-heading">Goals</li>
                 <li>
                   <ul>
-                    <li>Save money for specific products or occasions.</li>
-                    <li>Pay off debts.</li>
+                    <li id="plantwisePersonaItem18">Save money for specific products or occasions.</li>
+                    <li id="plantwisePersonaItem19">Pay off debts.</li>
                   </ul>
                 </li>
-                <li class="persona__item-heading">Pain Points</li>
+                <li id="plantwisePersonaItemHeading15" class="persona__item-heading">Pain Points</li>
                 <li>
                   <ul>
-                    <li>Feeling overwhelmed by financial responsibilities.</li>
-                    <li>Not being able to save enough money.</li>
-                    <li>Often spends money on impulse.</li>
-                    <li>Dealing with unexpected expenses.</li>
+                    <li id="plantwisePersonaItem20">Feeling overwhelmed by financial responsibilities.</li>
+                    <li id="plantwisePersonaItem21">Not being able to save enough money.</li>
+                    <li id="plantwisePersonaItem22">Often spends money on impulse.</li>
+                    <li id="plantwisePersonaItem23">Dealing with unexpected expenses.</li>
                   </ul>
                 </li>
-                <li class="persona__item-heading">Needs</li>
+                <li id="plantwisePersonaItemHeading16" class="persona__item-heading">Needs</li>
                 <li>
                   <ul>
-                    <li>Budgeting and financial planning.</li>
-                    <li>Transfer money to a separate saving account.</li>
-                    <li>Security of financial information.</li>
+                    <li id="plantwisePersonaItem24">Budgeting and financial planning.</li>
+                    <li id="plantwisePersonaItem25">Transfer money to a separate saving account.</li>
+                    <li id="plantwisePersonaItem26">Security of financial information.</li>
                   </ul>
                 </li>
               </ul>
@@ -378,7 +380,7 @@
       </div>
 
       <div class="container container__relative">
-        <h3 class="project-headline">
+        <h3 id="plantwiseHeadline2" class="project-headline">
           From Research to Ideation: Building the app
         </h3>
         <img
@@ -389,8 +391,8 @@
           class="plantwise__tree-card--2"
           src="img/plantwise/plantwise__tree-card--2.svg"
           alt="" />
-        <h4>Developing the structure of the app</h4>
-        <p>
+        <h4 id="plantwiseHeadingUserFlow">Developing the structure of the app</h4>
+        <p id="plantwiseUserFlow">
           With an idea of the features to implement, I began iterating on a user
           flow to explore how I could integrate these features meaningfully
           while maintaining an easy and intuitive structure. The onboarding
@@ -404,15 +406,15 @@
         <div class="user-flow__chart">
           <div class="user-flow__chart-item">
             <img src="img/plantwise/plantwise__user-flow--circle.svg" />
-            <p>Start/End</p>
+            <p id="projectUserFlowStart">Start/End</p>
           </div>
           <div class="user-flow__chart-item">
             <img src="img/plantwise/plantwise__user-flow--square.svg" />
-            <p>Screen</p>
+            <p id="projectUserFlowScreen">Screen</p>
           </div>
           <div class="user-flow__chart-item">
             <img src="img/plantwise/plantwise__user-flow--diamond.svg" />
-            <p>Decision</p>
+            <p id="projectUserFlowDecision">Decision</p>
           </div>
         </div>
         <img
@@ -432,8 +434,8 @@
           alt="" />
         <div class="container plantwise__background--leaves">
           <div>
-            <h4>Iterating and idea creation: The development of the screens</h4>
-            <p>
+            <h4 id="plantwiseHeadingLowFi">Iterating and idea creation: The development of the screens</h4>
+            <p id="plantwiseLowFi">
               At this point, I already had a decent understanding of the app's
               requirements and the necessary screens for a good user experience.
               However, figuring out how to layout the features on the screens
@@ -455,8 +457,8 @@
           </div>
 
           <div class="container__usability-testing">
-            <h4>Prototyping and testing the usability of the design</h4>
-            <p>
+            <h4 id="plantwiseHeadingUsabilityTesting">Prototyping and testing the usability of the design</h4>
+            <p id="plantwiseUsabilityTesting1">
               I believe we've all reached a point where ideas that seem
               intuitive to us can be confusing to others. Therefore, testing the
               design with real users is crucial. To do this, I created a
@@ -464,7 +466,7 @@
               and to identify potential pain points in my design that could lead
               to an unpleasant user experience.
             </p>
-            <p>
+            <p id="plantwiseUsabilityTesting2">
               I recruited four participants and assigned them three distinctive
               tasks to complete. While the testers navigated the app and
               fulfilled the tasks without any problems, the testing revealed two
@@ -473,8 +475,8 @@
             </p>
 
             <div class="plantwise__usability plantwise__problem--1">
-              <h5>Problem 1:</h5>
-              <p>Buttons are too small and difficult to reach.</p>
+              <h5 id="plantwiseHeadingProblem1">Problem 1:</h5>
+              <p id="plantwiseProblem1">Buttons are too small and difficult to reach.</p>
               <div class="plantwise__container-usability-image">
                 <picture>
                   <source
@@ -525,7 +527,7 @@
                   alt="" />
               </div>
               <div class="container__relative plantwise__usability-explanation">
-                <p>
+                <p id="plantwiseProblem2">
                   Buttons were right-aligned what made it difficult to reach
                   when holding the phone with the left hand.
                 </p>
@@ -545,7 +547,7 @@
             </div>
 
             <div class="plantwise__usability plantwise__problem--1">
-              <h5>Solution:</h5>
+              <h5 id="plantwiseHeadingSolution1">Solution:</h5>
               <div class="plantwise__container-usability-image">
                 <picture>
                   <source
@@ -601,7 +603,7 @@
                   alt="" />
               </div>
               <div class="plantwise__usability-explanation">
-                <p>
+                <p id="plantwiseSolution1">
                   To provide a better user experience and make the button easier
                   to reach from different positions I decided to center the
                   button and increase its size. This adjustment not only
@@ -613,8 +615,8 @@
 
             <div class="plantwise__container-usability-problem-2">
               <div class="plantwise__usability">
-                <h5>Problem 2:</h5>
-                <p class="plantwise__usability-problem-2--txt">
+                <h5 id="plantwiseHeadingProblem2">Problem 2:</h5>
+                <p id="plantwiseProblem3" class="plantwise__usability-problem-2--txt">
                   The Home Screen lacks the feature to directly add transactions
                   or saving goals.
                 </p>
@@ -649,7 +651,7 @@
 
               <div>
                 <div class="plantwise__usability">
-                  <h5>Solution:</h5>
+                  <h5 id="plantwiseHeadingSolution2">Solution:</h5>
                   <div class="plantwise__solution--2">
                     <div>
                       <picture>
@@ -682,7 +684,7 @@
 
                 <div
                   class="plantwise__usability-explanation plantwise__usability-explanation-solution--2">
-                  <p>
+                  <p id="plantwiseSolution2">
                     To provide an easy and fast way for users to add new
                     transactions and goals I decided to implement the plus
                     button also on the home screen.
@@ -704,8 +706,8 @@
           alt="Plantwise mockup with tree cards" />
       </picture>
 
-      <div class="container">
-        <h3 class="project-headline">
+      <div class="container plantwise__container-style-guide">
+        <h3 id="plantwiseHeadline3" class="project-headline">
           The Visual Design: From Style Guide to Screen Implementation
         </h3>
         <div class="plantwsie__style-guide-explanation">
@@ -714,7 +716,8 @@
           src="img/plantwise/plantwise__style.svg"
           alt="Plantwise style" />
           <div class="plantwsie__style-guide--text">
-        <p>
+            <h4 id="plantwiseHeadingStyleGuide"></h4>
+        <p id="plantwiseStyleGuide1">
           Following the user tests and the implementation of improvements in my
           grayscale wireframes, I progressed by further developing the app's
           identity. This involved deciding on a color palette, typography, and
@@ -725,7 +728,7 @@
           atmosphere, conveying the essence of nature and the environment to the
           user.
         </p>
-        <p>
+        <p id="plantwiseStyleGuide2">
           To achieve this, I opted for greenish hues as primary and secondary
           colors, with an earthy orange as the accent color. Additionally, I
           chose a round and friendly typography to emphasize the playful nature
@@ -733,11 +736,11 @@
         </p>
       </div>
       </div>
-        <h5 class="plantwise__style-heading">Colors:</h5>
+        <h5 id="projectColors" class="plantwise__style-heading">Colors:</h5>
 
         <div class="media-scroller plantwsie__media-scroller--color">
           <div class="media-element plantwise__color-element">
-            <h5 class="carousel__heading">Primary</h5>
+            <h5 id="projectPrimary" class="carousel__heading">Primary</h5>
             <img
               class="carousel__image"
               src="img/plantwise/plantwise__primary.svg"
@@ -759,7 +762,7 @@
           </div>
 
           <div class="media-element plantwise__color-element">
-            <h5 class="carousel__heading">Secondary</h5>
+            <h5 id="projectSecondary" class="carousel__heading">Secondary</h5>
             <img
               class="carousel__image"
               src="img/plantwise/plantwise__secondary.svg"
@@ -781,7 +784,7 @@
           </div>
 
           <div class="media-element plantwise__color-element">
-            <h5 class="carousel__heading">Accent</h5>
+            <h5 id="projectAccent" class="carousel__heading">Accent</h5>
             <img
               class="carousel__image"
               src="img/plantwise/plantwise__accent.svg"
@@ -803,7 +806,7 @@
           </div>
 
           <div class="media-element plantwise__color-element">
-            <h5 class="carousel__heading">Black</h5>
+            <h5 id="projectBlack" class="carousel__heading">Black</h5>
             <img
               class="carousel__image"
               src="img/plantwise/plantwise__black.svg"
@@ -825,7 +828,7 @@
           </div>
 
           <div class="media-element plantwise__color-element">
-            <h5 class="carousel__heading">White</h5>
+            <h5 id="projectWhite" class="carousel__heading">White</h5>
             <img
               class="carousel__image"
               src="img/plantwise/plantwise__white.svg"
@@ -849,7 +852,7 @@
 
         <div class="plantwise__container-style-flex">
           <div>
-            <h5 class="plantwise__style-heading">Typography:</h5>
+            <h5 id="projectTypography" class="plantwise__style-heading">Typography:</h5>
         <div class="media-scroller plantwsie__media-scroller--typography">
           <div class="media-element">
             <img
@@ -869,9 +872,9 @@
       </div>
 
       <div>
-        <h5 class="plantwise__style-heading">Buttons:</h5>
+        <h5 id="projectHeadingButtons" class="plantwise__style-heading">Buttons:</h5>
         <div class="plantwsie__container-buttons">
-          <h5>Primary</h5>
+          <h5 id="projectPrimaryButton">Primary</h5>
           <img
             src="img/plantwise/plantwise__primary-button--normal.svg"
             alt="" />
@@ -881,7 +884,7 @@
           <img
             src="img/plantwise/plantwise__primary-button--disabled.svg"
             alt="" />
-          <h5>Secondary</h5>
+          <h5 id="projectSecondaryButton">Secondary</h5>
           <div class="plantwsie__container-secondary-buttons">
             <img
               src="img/plantwise/plantwise__secondary-button--normal--S.svg"
@@ -898,7 +901,7 @@
     </div>
   </div>
 
-      <div class="plantwsie__container-mockups">
+      <div id="plantwiseMockup" class="plantwsie__container-mockups">
       <picture>
         <source
           srcset="img/plantwise/plantwise__mockup--3@1x.jpg"
@@ -923,8 +926,8 @@
 
 
       <div class="container plantwise__screen-mockup-container--1">
-        <h4>Dealing with sensitive data: Building up trust during the onboarding process</h4>
-        <p>To ensure the protection of user data, I implemented a verification process and the setting of a passcode within the onboarding process. As an app dealing with sensitive user data, it's important to establish trust from the beginning, allowing users to engage with the app carefree.</p>
+        <h4 id="plantwsieHeadingFlow1">Dealing with sensitive data: Building up trust during the onboarding process</h4>
+        <p id="plantwiseFlow1">To ensure the protection of user data, I implemented a verification process and the setting of a passcode within the onboarding process. As an app dealing with sensitive user data, it's important to establish trust from the beginning, allowing users to engage with the app carefree.</p>
        
         <div class="container__relative">
         <div class="media-scroller plantwsie__container--screen-mockups plantwise__screen-mockup--1">
@@ -968,7 +971,7 @@
         <div class="plantwise__screen-explanation--1">
         <div class="plantwise__cloud-container">
         <img class="plantwise__deco-cloud--1" src="img/plantwise/plantwise__deco-cloud--1.svg">
-        <p class="plantwsie__screen-mockup--text">To safeguard user data, Plantwise employs a secure sign-up process, guiding users in setting optimal protection measures, such as ensuring password security.</p>
+        <p id="plantwiseFunctionality1" class="plantwsie__screen-mockup--text">To safeguard user data, Plantwise employs a secure sign-up process, guiding users in setting optimal protection measures, such as ensuring password security.</p>
         </div>
       </div>
     </div>
@@ -1004,7 +1007,7 @@
         <div class="plantwise__screen-explanation--2">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--2" src="img/plantwise/plantwise__deco-cloud--2.svg">
-        <p class="plantwsie__screen-mockup--text plantwise__mockup-text--2">The verification of the user's phone number helps confirm their identity and ensures the safety of the account.</p>
+        <p id="plantwiseFunctionality2" class="plantwsie__screen-mockup--text plantwise__mockup-text--2">The verification of the user's phone number helps confirm their identity and ensures the safety of the account.</p>
       </div>
     </div>
   </div>
@@ -1023,7 +1026,7 @@
         <div class="plantwise__screen-explanation--3">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--3" src="img/plantwise/plantwise__deco-cloud--3.svg" alt="">
-        <p class="plantwsie__screen-mockup--text">Setting a passcode ensures that transactions can only be initiated by the user, protecting them from unauthorized transactions by third parties.</p>
+        <p id="plantwiseFunctionality3" class="plantwsie__screen-mockup--text">Setting a passcode ensures that transactions can only be initiated by the user, protecting them from unauthorized transactions by third parties.</p>
       </div>
     </div>
   </div>
@@ -1069,15 +1072,15 @@
         <div class="plantwise__screen-explanation--4">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--4" src="img/plantwise/plantwise__deco-cloud--4.svg">
-        <p class="plantwsie__screen-mockup--text">Users can link their bank account for seamless and easy money transfers.</p>
+        <p id="plantwiseFunctionality4" class="plantwsie__screen-mockup--text">Users can link their bank account for seamless and easy money transfers.</p>
       </div>
     </div>
   </div>
 </div>
 
     <div class="container">
-        <h4>Uncomplicated process for tracking everyday spendings</h4>
-        <p>Given that users will utilize the app daily, it is crucial to simplify the tracking process, allowing them to easily monitor their everyday expenses. To achieve this, I implemented a straightforward transaction tracking process that can be easily accessed from various app screens.</p>
+        <h4 id="plantwsieHeadingFlow2">Uncomplicated process for tracking everyday spendings</h4>
+        <p id="plantwiseFlow2">Given that users will utilize the app daily, it is crucial to simplify the tracking process, allowing them to easily monitor their everyday expenses. To achieve this, I implemented a straightforward transaction tracking process that can be easily accessed from various app screens.</p>
 
         <div class="container__relative">
         <div class="media-scroller plantwsie__container--screen-mockups plantwise__screen-mockup--5">
@@ -1109,7 +1112,7 @@
         <div class="plantwise__screen-explanation--5">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--5" src="img/plantwise/plantwise__deco-cloud--5.svg">
-        <p class="plantwsie__screen-mockup--text">User can simply add new transactions directly from the home screen.</p>
+        <p id="plantwiseFunctionality5" class="plantwsie__screen-mockup--text">User can simply add new transactions directly from the home screen.</p>
       </div>
     </div>
   </div>
@@ -1155,7 +1158,7 @@
         <div class="plantwise__screen-explanation--6">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--6" src="img/plantwise/plantwise__deco-cloud--6.svg">
-        <p class="plantwsie__screen-mockup--text">Or add transactions via the transaction screen with just a few simple steps. </p>
+        <p id="plantwiseFunctionality6" class="plantwsie__screen-mockup--text">Or add transactions via the transaction screen with just a few simple steps. </p>
       </div>
     </div>
   </div>
@@ -1174,7 +1177,7 @@
         <div class="plantwise__screen-explanation--7">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--7" src="img/plantwise/plantwise__deco-cloud--7.svg">
-        <p class="plantwsie__screen-mockup--text">Categorize transactions, keep track of spending habits, and gain insights into monthly expenditures.</p>
+        <p id="plantwiseFunctionality7" class="plantwsie__screen-mockup--text">Categorize transactions, keep track of spending habits, and gain insights into monthly expenditures.</p>
       </div>
     </div>
     </div>
@@ -1182,8 +1185,8 @@
 
 
       <div class="container">
-        <h4>Making money saving fun and engaging: Plant a tree for every goal and see how your forest grows</h4>
-        <p>As money-saving can be a dull and unpleasant topic, making the saving process engaging and motivating is a crucial aspect of Plantwise. Users can collect tree illustrations and even plant real trees for every certain amount saved.</p>
+        <h4 id="plantwsieHeadingFlow3">Making money saving fun and engaging: Plant a tree for every goal and see how your forest grows</h4>
+        <p id="plantwiseFlow3">As money-saving can be a dull and unpleasant topic, making the saving process engaging and motivating is a crucial aspect of Plantwise. Users can collect tree illustrations and even plant real trees for every certain amount saved.</p>
 
         <div class="container__relative">
         <picture>
@@ -1199,7 +1202,7 @@
         <div class="plantwise__screen-explanation--8">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--8" src="img/plantwise/plantwise__deco-cloud--8.svg">
-        <p class="plantwsie__screen-mockup--text">Save money and watch your tree and savings grow as you achieve your saving goals.</p>
+        <p id="plantwiseFunctionality8" class="plantwsie__screen-mockup--text">Save money and watch your tree and savings grow as you achieve your saving goals.</p>
       </div>
     </div>
   </div>
@@ -1218,7 +1221,7 @@
         <div class="plantwise__screen-explanation--9">
         <div class="plantwise__cloud-container">
           <imG class="plantwise__deco-cloud--9" src="img/plantwise/plantwise__deco-cloud--9.svg">
-        <p class="plantwsie__screen-mockup--text">Collect trees and watch your forest grow with every saving goal you achieve. Keep track of your total savings and the real trees planted, or share your forest with friends.</p>
+        <p id="plantwiseFunctionality9" class="plantwsie__screen-mockup--text">Collect trees and watch your forest grow with every saving goal you achieve. Keep track of your total savings and the real trees planted, or share your forest with friends.</p>
       </div>
     </div>
   </div>
@@ -1253,7 +1256,7 @@
         <div class="plantwise__screen-explanation--10">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--10" src="img/plantwise/plantwise__deco-cloud--10.svg">
-        <p class="plantwsie__screen-mockup--text">Choose a tree you want to grow from a variety of tree illustrations.</p>
+        <p id="plantwiseFunctionality10" class="plantwsie__screen-mockup--text">Choose a tree you want to grow from a variety of tree illustrations.</p>
       </div>
     </div>
   </div>
@@ -1300,7 +1303,7 @@
         <div class="plantwise__screen-explanation--11">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--11" src="img/plantwise/plantwise__deco-cloud--11.svg">
-        <p class="plantwsie__screen-mockup--text">Transfer money manually every month or set uo a direct debit for an automatic and easy money transfer every month.</p>
+        <p id="plantwiseFunctionality11" class="plantwsie__screen-mockup--text">Transfer money manually every month or set uo a direct debit for an automatic and easy money transfer every month.</p>
       </div>
     </div>
   </div>
@@ -1321,7 +1324,7 @@
           <div class="plantwise__screen-explanation--12">
           <div class="plantwise__cloud-container">
             <img class="plantwise__deco-cloud--12" src="img/plantwise/plantwise__deco-cloud--12.svg">
-          <p class="plantwsie__screen-mockup--text">Transfer money manually every month or set uo a direct debit for an automatic and easy money transfer every month.</p>
+          <p id="plantwiseFunctionality12" class="plantwsie__screen-mockup--text">Transfer money manually every month or set uo a direct debit for an automatic and easy money transfer every month.</p>
         </div>
       </div>
     </div>
@@ -1340,7 +1343,7 @@
 <div class="plantwise__screen-explanation--13">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--13" src="img/plantwise/plantwise__deco-cloud--13.svg">
-        <p class="plantwsie__screen-mockup--text">Start saving for your goals and contribute to making the planet greener.</p>
+        <p id="plantwiseFunctionality13" class="plantwsie__screen-mockup--text">Start saving for your goals and contribute to making the planet greener.</p>
       </div>
     </div>
   </div>
@@ -1383,5 +1386,5 @@
       
     </main>
   </body>
-  <script src="js/script.js"></script>
+  <script src="js/plantwiseScript.js"></script>
 </html>

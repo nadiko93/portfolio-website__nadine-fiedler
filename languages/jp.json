@@ -1,0 +1,550 @@
+{
+    "hpAbout1": "こんにちは、私はフィードラー・ナディーンと申します。ドイツ出身で、現在は",
+
+    "hpAbout2": "日本",
+
+    "hpAbout3": "で働いているく",
+
+    "hpAbout4": "UI/UXデザイナー",
+
+    "hpAbout5": "です。日常の問題に対する解決策を見つけ、ユーザー体験の向上に注力しながら、視覚的に魅力的なデザインの創造に力を入れています。",
+
+    "hpAbout8": "日本研究という学位を取得した後、 2020年11月に日本の会社に就職するために日本に来ました。 その間にUI/UXデザインへの",
+
+    "hpAbout9": "情熱",
+
+    "hpAbout10": "を発見し、 2024年2月にCareerfoundryでUIデザインの資格を取得しました。",
+
+    "hpAbout11": "いくつかの国での生活経験を活かし、西洋と日本の市場の両方に対する",
+
+    "hpAbout12": "ユニークな視点",
+
+    "hpAbout13": "と理解を持ち、様々な地域のユーザーニーズに基づいた",
+
+    "hpAbout14": "多様な解決策",
+
+    "hpAbout15": "を見つけることができます。",
+
+    "hpAbout16": "デザインをしていないときは、様々な言語で",
+
+    "hpAbout17": "本を読んだり",
+
+    "hpAbout18": "、新しい場所やカフェを",
+
+    "hpAbout19": "探索したり",
+
+    "hpAbout20": "、",
+
+    "hpAbout21": "ビデオゲーム",
+
+    "hpAbout22": "でリラックスしています。 また、",
+
+    "hpAbout23": "自己学習",
+
+    "hpAbout24": "に情熱を持っており、常にスキルセットを向上させたり、まったく新しいスキルを習得したいという衝動に駆られます。",
+
+    "hpProjectNamePlantwise": "Plantwise (プラントワイズ)",
+
+    "hpPlantwiseDescription": "ユーザーの目標に向けて貯金することで木を植え、 地球をより緑豊かにする環境志向の貯金アプリです。",
+
+    "tagNameUI1": "UIデザイン",
+
+    "tagNameUX1": "UX Design",
+
+    "tagNameMobileApp1": "Native Mobile App",
+
+    "tagNameFintech1": "Fintech",
+
+    "tagNameGamification1": "Gamification",
+
+    "hpProjectNameLingoshelf": "Lingoshelf",
+
+    "hpLingoshelfDescription": "上級言語学習者向けの言語学習アプリです。お気に入りの本を読みながら、楽しみながら目標言語を流暢に話せるようになります。",
+
+    "tagNameUI2": "UI Design",
+
+    "tagNameUX2": "UX Design",
+
+    "tagNameMobileApp2": "Native Mobile App",
+
+    "tagNameLanguageLearning2": "Language Learning",
+
+    "tagNamereading2": "Reading",
+
+    "footerThankYou": "Thank you for watching.",
+
+
+    "lingoshelfCatchphrase": "お気に入りの本を読みながら言語を学ぶ",
+
+  "projectOverview": "プロジェクトの概要",
+
+  "projectTagUserFlow": "ユーザーフロー",
+
+  "projectTagLowFi": "低忠実度ワイヤーフレーム",
+
+  "projectTagUsabilityTesting": "ユーザビリティテスト",
+
+  "projectTagHighFi": "高忠実度ワイヤーフレーム",
+
+  "projectTagPrototype": "プロトタイプ",
+
+  "projectTagMockups": "Mockups",
+
+  "projectButtonPrototype": "View Prototype",
+
+  "projectHeadingBackground": "背景",
+
+  "lingoshelfBackground": "私自身が情熱的な言語学習者であり、言語学習の旅で数多くの挑戦と挫折に直面してきました。そして、ネイティブ向けの資料へ移行する際の大変さも身をもって理解しています。多くの学習者が教科書などを長く使い続け、そして、言語の新しい単語と文法を学び、だんだん自分の言語能力に自信を持ち始めます。しかし、ネイティブ向けの小説などに取り組んでみると、学ぶべきことがまだいかに多いことを実感します。これはしばしば威圧感や不安などのネガティブな感情につながり、ネイティブ向けのコンテンツを完全に避けるおそれがあります。それらのネガティブな感情を防ぐためには、言語学習と読書の楽しみをシームレスに融合させ、学習者がネイティブ向けの読み物にスムーズに慣れるように支援することが必要です。",
+
+  "projectHeadingProblems": "課題",
+
+  "lingoshelfProblem1": "本を読みながら外部の辞書を使うことで、読書の流れが途切れがちになります。",
+
+  "lingoshelfProblem2": "本の難易度を表紙やあらすじだけで判断すると、そのレベルが学習者の現在の言語スキルと合わない場合があり、フラストレーションの原因となる可能性があります。",
+
+  "lingoshelfProblem3": "読書は受動的に語彙を増やすために効果的な方法ですが、それをさらに能動的な学習体験に変換することは困難で疲れることがあり、しばしば読書の楽しさを損ないます。",
+
+  "projectHeadingSolutions": "解決策",
+
+  "lingoshelfSolution1": "読みながら直接単語を調べるために、組み込み辞書を実装する。",
+
+  "lingoshelfSolution2": "各本の難易度を表示することで、学習者は興味のある本が自分のスキルレベルに合っているかどうかをより良く評価できる。",
+
+  "lingoshelfSolution3": "ユーザーが本の中で読んだ文章をもとに学習機能を提供し、文脈で学べるようにする。",
+
+  "lingoshelfHeadline1": "方向性の定義",
+
+  "lingoshelfHeading5WH": "適切な質問をする",
+
+  "lingoshelf5WHExplanation1": "デザイン要件のより良い理解を得るために、私はまず5WHの質問に回答しました。これらの質問は、当初の対象者を特定し、アプリに実装すべき主要な機能を明らかにするのに役立ちました。",
+
+  "lingoshelf5WHQuestion1": "ユーザーは誰ですか？",
+
+  "lingoshelf5WHAnswer1": "中級および上級の言語学習者",
+
+  "lingoshelf5WHQuestion2": "ユーザーが達成するタスクと目標はどのようなものですか？",
+
+  "lingoshelf5WHAnswer2": "ユーザーは、小説などを読むことでネイティブのコンテンツに没入し、言語スキルを向上させます。",
+
+  "lingoshelf5WHAnswer3": "ユーザーは、新しく習得した単語を積極的に練習します。",
+
+  "lingoshelf5WHQuestion3": "ユーザーはどのようにして彼らの目標を達成しますか？",
+
+  "lingoshelf5WHAnswer4": "ユーザーは、自分の言語能力と興味に合う本にアクセスできます。",
+
+  "lingoshelf5WHAnswer5": "ユーザーは、読みながら単語の意味を調べて保存できます。",
+
+  "lingoshelf5WHAnswer6": "ユーザーは、練習問題やフラッシュカードを使って新しい語彙を練習できます。",
+
+  "lingoshelfHeadline2": "ユーザーフローの理解",
+
+  "lingoshelfUserFlowExplanation1": "5WHの質問で定義した機能を活用して、ユーザーが目標を達成するための必要なステップを代表する4つの異なるユーザーフローを作成しました。オンボーディングプロセスに加えて、本の検索、読書中の単語の保存、また語彙フラッシュカードのユーザーフローを作成しました。",
+
+  "lingoshelfUserFlowExplanation2": "その後、これらのユーザーフローをもとに低忠実度のワイヤーフレームを設計し、アプリ全体にスムーズでユーザーフレンドリーな体験を保証するための重要な要素を強調しました。",
+
+  "projectUserFlowStart": "Start/End",
+
+  "projectUserFlowScreen": "Screen",
+
+  "projectUserFlowDecision": "Decision",
+
+  "lingoshelfUserFlow1": "オンボーディングフロー",
+
+  "lingoshelfLowFi1": "ウェルカムスクリーン",
+
+  "lingoshelfLowFi2": "Sign Up",
+
+  "lingoshelfLowFi3": "Login",
+
+  "lingoshelfLowFi4": "Create Profile",
+
+  "lingoshelfLowFi5": "Home Screen",
+
+  "lingoshelfKeyPointHeading1": "Key Point",
+
+  "lingoshelfUserFlowKeyPoint1": "迅速かつ簡単なオンボーディングのために、ユーザーは自分のSNSアカウントを使って登録でき、学びたい言語を選択した後で、すぐに最初の本を読み始めることができます。",
+
+  "本の検索フロー": "Book Search Flow",
+
+  "lingoshelfLowFi6": "Explore Screen",
+
+  "lingoshelfLowFi7": "Book Details",
+
+  "lingoshelfKeyPointHeading2": "Key Point",
+
+  "lingoshelfUserFlowKeyPoint2": "本を探すことは簡単で直感的であるべきです。本は探索ページを通じて検索でき、簡単に本の詳細にアクセスできます。",
+
+  "lingoshelfUserFlow3": "単語保存フロー",
+
+  "lingoshelfLowFi8": "Reading View",
+
+  "lingoshelfLowFi9": "Word View",
+
+  "lingoshelfKeyPointHeading3": "Key Point",
+
+  "lingoshelfUserFlowKeyPoint3": "読書中に単語を調べるのは簡単で直感的であるべきです。ユーザーは新しい単語を簡単にフラッシュカードとして保存できるために、翻訳が小さなポップアップ画面で表示されます。",
+
+  "lingoshelfUserFlow4": "フラッシュカードフロー",
+
+  "lingoshelfLowFi10": "Vocabulary",
+
+  "lingoshelfLowFi11": "Flashcard Front",
+
+  "lingoshelfLowFi12": "Flashcard Back",
+
+  "lingoshelfKeyPointHeading4": "Key Point",
+
+  "lingoshelfUserFlowKeyPoint4": "ユーザーは、自分の語彙リストからスムーズにフラッシュカードにアクセスできるべきです。",
+
+  "lingoshelfHeadline3": "計画からビジュアルデザインへ",
+
+  "lingoshelfHeadingWireframes": "ワイヤーフレームの洗練 - 低忠実度から高忠実度へ",
+
+  "lingoshelfWireframesExplanation": "ユーザーフローを基づいて最初に作成したワイヤーフレームは最小限で、重要なフローと機能にのみ焦点を当てていました。さらなるブレインストーミングを通じて、画面レイアウトを洗練し、アプリのビジュアルスタイルを創造しました。このアプリは、言語学習者がスキル向上に集中できる没入型の環境を作り出すことを目指しているため、ビジュアルデザインは意図的に最小限で目立たないようにデザインしました。",
+
+  "lingoshelfHeadingUsability": "使い勝手の問題を明らかにする",
+
+  "lingoshelfUsabilityExplanation": "高忠実度のワイヤーフレームを用いて、ユーザーとのテストのためのプロトタイプを作成し、さらなる改善のためのフィードバックを収集しました。ユーザーテストにより、ユーザーがフラッシュカードの使い方を正しく理解するのに困難を抱えていることが明らかになりました。彼らは、入力方法、フィードバックの受け取り方、またはカラーボタンの意味が不明瞭でした。これは重要な使い勝手の問題を示しており、不快なユーザー体験につながる可能性があるため、ユーザーに何が起こっているのかをよりよく理解させるためのアイデアについて考え始めました。",
+
+  "lingoshelfHeadingUsabilityProblem1": "課題１",
+
+  "lingoshelfUsabilityProblem1": "ユーザーは、入力方法や自分の回答に対するフィードバックの受け取り方について不安を感じました。",
+
+  "lingoshelfHeadingUsabilitySolution1": "解決策１",
+
+  "lingoshelfUsabilitySolution1": "画面の下部に「答えを表示するために画面をタップしてください」というテキストを追加し、ユーザーにカードをひっくり返すように促して曖昧さを減らしました。",
+
+  "lingoshelfHeadingUsabilityProblem2": "課題２",
+
+  "lingoshelfUsabilityProblem2": "ユーザーは、画面下部のカラーボタンの目的が不明瞭でした。",
+
+  "lingoshelfHeadingUsabilitySolution2": "解決策２",
+
+  "lingoshelfUsabilitySolution2": "この問題に対処してフラッシュカードの体験を改善するために2つの解決策を導入しました。",
+
+  "lingoshelfUsabilitySolution3": "ユーザーテストにより、SRSベースのフラッシュカードに慣れていない人がいることが明らかになったため、ユーザーが初めてフラッシュカードにアクセスする際に、SRSを説明する追加の画面を導入することにしました。",
+
+  "lingoshelfUsabilitySolution4": "二つ目の解決策は、最初の問題に対するアプローチを模倣しています：ボタンの機能をユーザーに思い出させるために、画面上に直接ヒントを追加しました。",
+
+  "lingoshelfHeadline4": "没入型学習体験の創造",
+
+  "lingoshelfHeadingScreens1": "お気に入りの本を読むことで言語を学ぶ",
+
+  "lingoshelfScreens1": "Lingoshelfは、様々な言語の文学作品を豊富に取り揃えています。ユーザーは自分の言語スキルや興味に合う本を探して、楽しい学習体験を得ることができます。",
+
+  "lingoshelfFunctionality1": "難易度レベルを示すタグのおかげで、ユーザーは自分の個人的なスキルレベルに合う本を簡単に見つけることができます。",
+
+  "lingoshelfFunctionality2": "Lingoshelfの広範なコレクションを閲覧することで、新しい好みの本を発見することができます。",
+
+  "lingoshelfFunctionality3": "お気に入りの著者や本を検索し、簡単に読み始めることができます。",
+
+  "lingoshelfFunctionality4": "邪魔されずに読み、目標の言語に没頭することができます。",
+
+  "lingoshelfFunctionality5": "Lingoshelfの広範なコレクションを閲覧することで、新しい好みの本を発見することができます。",
+
+  "lingoshelfFunctionality6": "お気に入りの著者や本を検索し、簡単に読み始めることができます。",
+
+  "lingoshelfHeadingScreens2": "読書中に単語の意味を調べ、新しい語彙を保存する",
+
+  "lingoshelfScreens2": "ユーザーは外部の辞書を使わず、読書中に直接単語の意味を調べることができます。また、後で参照するために単語を保存したり、異なるフラッシュカードセットに追加したりすることもできます。",
+
+  "lingoshelfFunctionality7": "邪魔されずに読み、目標の言語に没頭することができます。",
+
+  "lingoshelfFunctionality8": "単語の意　味を調べるために、単に単語をクリックします。",
+
+  "lingoshelfFunctionality9": "新しい単語を整理して語彙デッキに保存し、ターゲットにした学習のためのフラッシュカードセットを作ることができます。",
+
+  "lingoshelfFunctionality10": "邪魔されずに読み、目標の言語に没頭することができます。",
+
+  "lingoshelfFunctionality11": "単語の意味を調べるために、単に単語をクリックします。",
+
+  "lingoshelfFunctionality12": "新しい単語を整理して語彙デッキに保存し、ターゲットにした学習のためのフラッシュカードセットを作ることができます。",
+
+  "lingoshelfHeadingScreens3": "SRSベースのフラッシュカードで新しい単語を練習する",
+
+  "lingoshelfScreens3": "Lingoshelfは、より受動的で没入型の読書アプローチに加えて、保存した単語を能動的に練習できる機能も提供します。単語を効果的に復習できるために間隔反復を活用しているフラッシュカードを利用しています。フラッシュカードは、ユーザーが読書中に遭遇した文章を基に単語を文章の中に表示し、文脈を提供することで記憶を強化します。",
+
+  "lingoshelfFunctionality13": "プラスアイコンをクリックして、自分の語彙を追加することができます。",
+
+  "lingoshelfFunctionality14": "保存した語彙に簡単にアクセスし、単語を調べることができます。",
+
+  "lingoshelfFunctionality15": "フラッシュカードは、さまざまな本を読んでいる間に遭遇した文章を使用して、単語を文脈に沿って表示します。",
+
+  "lingoshelfFunctionality16": "単語の難易度を選択することで、SRSは最適な単語記憶をサポートするために次にその単語をいつ見るかを決定します。",
+
+  "lingoshelfFunctionality17": "プラスアイコンをクリックして、自分の語彙を追加することができます。",
+
+  "lingoshelfFunctionality18": "保存した語彙に簡単にアクセスし、単語を調べることができます。",
+
+  "lingoshelfFunctionality19": "フラッシュカードは、さまざまな本を読んでいる間に遭遇した文章を使用して、単語を文脈に沿って表示します。",
+
+  "lingoshelfFunctionality20": "単語の難易度を選択することで、SRSは最適な単語記憶をサポートするために次にその単語をいつ見るかを決定します。",
+
+  "headlineLearnings": "学んだこと",
+
+  "lingoshelfHeadingLearning1": "自分自身の偏見を意識する",
+
+  "lingoshelfLearning1": "自分が言語学習者として製品の対象者の一部だということは、ユーザーの視点により共感しやすくなるという利点があります。しかし、一方で自身の好みに基づく偏見により影響を受けやすくなるという欠点もあります。そのため、これらの偏見を意識し続け、ユーザーリサーチやテストが異なるニーズや好みを明らかにした場合、個人の好みを脇に置いて研究に基づくデザインを作ることは重量です。",
+
+  "lingoshelfHeadingLearning2": "一見対象者でないと思われるユーザーも考慮する",
+
+  "lingoshelfLearning2": "言語学習の経験が少ない人など、一見対象者に見えない人々を排除することを避けるためには、研究とデザインの両段階で多様な背景を持つ人々を巻き込むことが不可欠です。このアプローチは貴重な洞察をもたらし、特定のグループだけに排他的に設計する落とし穴を防ぎます。",
+  
+
+  "plantwiseCatchphrase2": "節約",
+  
+  "plantwiseCatchphrase3": "と",
+
+  "plantwiseCatchphrase4": "環境保護",
+
+  "plantwiseCatchphrase5": "を促進するための魅力的でモチベーションを高めるアプローチ",
+
+  "projectUserInterview": "User Interviews",
+
+  "projectPersona": "Personas",
+
+  "projectStyleGuide": "Style Guide",
+
+  "plantwiseBackground": "多くの人にとって、お金の管理や環境問題への対処は難しいと感じられることがあり、日常生活での実行が困難または面倒になることがあります。しかし、どちらも重要なテーマであり、見過ごされると長期的にマイナスの結果を招く可能性があります。これらの一見難しい問題にすべての人を巻き込むために、Plantwiseはゲーミフィケーションのアプローチを採用し、専門知識に関係なく、個人の財務管理と環境への貢献をモチベーションが高く魅力的なものにします。",
+
+  "projectChallenges": "課題",
+
+  "plantwiseChallenge1": "個人の財務管理のような難しいトピックを、楽しいゲーム要素と組み合わせて、財務処理が好きでないユーザーをモチベートする。",
+
+  "plantwiseChallenge2": "お金の管理は圧倒的になりがちなので、多くの人がそれを避けることになる。お金の管理をより手軽にし、理解しやすいインターフェースと機能を提供することで、ユーザーが財務にかける時間を減らしながらも、肯定的な結果を達成できるようにする必要があります。",
+
+  "plantwiseHeadline1": "ユーザーニーズの理解",
+
+  "plantwiseHeadingUserInterview": "財務管理を敬遠する理由と、モチベーションを高めるためには何が必要ですか？",
+
+  "plantwiseUserInterview": "上記の課題に取り組むために、私はなぜ個人の財務管理がしばしば「悪役」として捉えられるのか、そしてどのようにして人々がこの敵と戦う手助けができるのかという疑問からスタートしました。それで、対象となるユーザーの苦労をより深く理解するために、ユーザーインタビューを開始しました。これらのインタビューは、参加者の節約慣習などに関する痛点とニーズを明らかにしました。",
+
+  "projectPainPoints": "痛点",
+
+  "plantwisePainPoint1": "衝動買い",
+
+  "plantwisePainPoint2": "予定外の支出",
+
+  "plantwisePainPoint3": "財務管理のアプリがしばしば複雑すぎる",
+
+  "projectNeeds": "ニーズ",
+
+  "plantwiseNeed1": "手の届かない場所に貯金を保存する方法",
+
+  "plantwiseNeed2": "柔軟な貯金オプション",
+
+  "plantwiseNeed3": "どこからでも簡単にアクセスでき、使いやすいアプリ",
+
+  "plantwiseHeadingPersona": "インタビューの知見からユーザーペルソナへ：ユーザーの痛点と目標の解析",
+
+  "plantwisePersona": "インタビューから得た洞察をもとに、私は二つのペルソナ、AllyとMatthewを作成しました。これらは、対象者の痛点と目標を代表するものです。ペルソナは、対象となるユーザーにより具体的なアイデンティティを与え、ユーザーに合わせた機能の開発を導くのに役立ちました。",
+
+  "plantwisePersonaQuote1": "“It is challenging for me to save the same amount every month.”",
+
+  "plantwisePersonaItemHeading1": "Age:",
+
+  "plantwisePersonaItem1": "24 years",
+
+  "plantwisePersonaItemHeading2": "Occupation:",
+
+  "plantwisePersonaItem2": "Freelance Copywriter",
+
+  "plantwisePersonaItemHeading3": "Monthly Income",
+
+  "plantwisePersonaItem3": "Instable (1,000 $ - 3.000 $)",
+
+  "plantwisePersonaItemHeading4": "Family",
+
+  "plantwisePersonaItem4": "Single",
+
+  "plantwisePersonaItemHeading5": "Interests",
+
+  "plantwisePersonaItem5": "Traveling, Writing, Camping",
+
+  "plantwisePersonaItemHeading6": "Goals",
+
+  "plantwisePersonaItem6": "Building a travel fund.",
+
+  "plantwisePersonaItem7": "Track her income and expenses.",
+
+  "plantwisePersonaItemHeading7": "Pain Points",
+
+  "plantwisePersonaItem8": "Difficulty in setting aside a fixed amount.",
+
+  "plantwisePersonaItem9": "Lack of visibility into her spending habits.",
+
+  "plantwisePersonaItem10": "Forgetting to track expenses.",
+
+  "plantwisePersonaItemHeading8": "Needs",
+
+  "plantwisePersonaItem11": "Flexible budgeting options.",
+
+  "plantwisePersonaItem12": "Integration with her bank accounts.",
+
+  "plantwisePersonaQuote2": "“As long as the money is available for me I will spend it.”",
+
+  "plantwisePersonaItemHeading9": "Age:",
+
+  "plantwisePersonaItem13": "36 years",
+
+  "plantwisePersonaItemHeading10": "Occupation:",
+
+  "plantwisePersonaItem14": "Electrician",
+
+  "plantwisePersonaItemHeading11": "Monthly Income",
+
+  "plantwisePersonaItem15": "Stable: $3,500",
+
+  "plantwisePersonaItemHeading12": "Family",
+
+  "plantwisePersonaItem16": "Wife, 2 kids",
+
+  "plantwisePersonaItemHeading13": "Interests",
+
+  "plantwisePersonaItem17": "Movies, Soccer, Cars",
+
+  "plantwisePersonaItemHeading14": "Goals",
+
+  "plantwisePersonaItem18": "Save money for specific products or occasions.",
+
+  "plantwisePersonaItem19": "Pay off debts.",
+
+  "plantwisePersonaItemHeading15": "Pain Points",
+
+  "plantwisePersonaItem20": "Feeling overwhelmed by financial responsibilities.",
+
+  "plantwisePersonaItem21": "Not being able to save enough money.",
+
+  "plantwisePersonaItem22": "Often spends money on impulse.",
+
+  "plantwisePersonaItem23": "Dealing with unexpected expenses.",
+
+  "plantwisePersonaItemHeading16": "Needs",
+
+  "plantwisePersonaItem24": "Budgeting and financial planning.",
+
+  "plantwisePersonaItem25": "Transfer money to a separate saving account.",
+
+  "plantwisePersonaItem26": "Security of financial information.",
+
+  "plantwiseHeadline2": "研究から発想へ：アプリの構築",
+
+  "plantwiseHeadingUserFlow": "アプリの構造を開発する",
+
+  "plantwiseUserFlow": "実装する機能のアイデアを持って、私はユーザーフローの創造に取り組み始めました。それは、様々な思い付いた機能を統合しながら、簡単で直感的な構造を維持する方法を探るというものです。例えば、オンボーディングプロセスの場合はアプリが機密データを扱うことを考慮するため、直感的かつ信頼できるものにする必要があります。取引追跡のフローは迅速でわかりやすいものである必要があり、ユーザーが毎日この機能を使用する可能性が高いため、不必要な複雑さは避けるべきです。最後に、貯金目標のフローは魅力的でモチベーションを高めるものであり、ユーザーがお金を貯金する旅を続け、最終的に目標を達成することを奨励するものであるべきです。",
+
+  "plantwiseHeadingLowFi": "画面開発のためのアイデア創出",
+
+  "plantwiseLowFi": "この時点で、アプリの要件と良いユーザー体験のための必要な画面について適切に理解を持っていました。しかし、画面上で機能をどのようなレイアウトで導入し、どのように視覚的で魅力的なアプリを制作するかは別の課題でした。この障害を克服するには、多くの紙と外への散歩が必要でしたが、最終的には解決策を思いつき、アプリの最初の粗い構造を定義しました。",
+
+  "plantwiseHeadingUsabilityTesting": "デザインのユーザビリティテストとプロトタイピング",
+
+  "plantwiseUsabilityTesting1": "私たちが直感的だと思うアイデアが他人には混乱を招くことがあると思います。そのため、デザインを実際のユーザーとテストすることが不可欠であるものです。テストを行うために、プロトタイプを作成し、ユーザーがシームレスに目標を達成できるかを評価して不快なユーザー体験につながる可能性のあるデザインの潜在的な痛点を特定しました。",
+
+  "plantwiseUsabilityTesting2": "4人の参加者を募り、それぞれに3つの異なるタスクを完了してもらいました。テスターがアプリを操作し、問題なくタスクを達成することができましたが、テストの結果、アプリのナビゲーションと全体的なユーザー体験を改善するために対処する必要のある2つのポイントが明らかになりました。",
+
+  "plantwiseHeadingProblem1": "Problem 1:",
+
+  "plantwiseProblem1": "Buttons are too small and difficult to reach.",
+
+  "plantwiseProblem2": "ボタンが右揃えであるため、左手で電話を持っているときに届きにくい。",
+
+  "plantwiseHeadingSolution1": "Solution:",
+
+  "plantwiseSolution1": "より良いユーザー体験を提供し、異なる位置からボタンにアクセスしやすくするために、ボタンを中央に配置し、そのサイズを大きくすることにしました。この調整は使いやすさを向上させるだけでなく、よりバランスの取れたレイアウトにも寄与します。",
+
+  "plantwiseHeadingProblem2": "Problem 2:",
+
+  "plantwiseProblem3": "The Home Screen lacks the feature to directly add transactions or saving goals.",
+
+  "plantwiseHeadingSolution2": "Solution:",
+
+  "plantwiseSolution2": "ユーザーが新しい取引や目標を簡単かつ迅速に追加できるようにするために、ホームスクリーンにもプラスボタンを実装することにしました。",
+
+  "plantwiseHeadline3": "ビジュアルデザイン：スタイルガイドから画面実装へ",
+
+  "plantwiseHeadingStyleGuide": "デザインに個性を与える",
+
+  "plantwiseStyleGuide1": "グレースケールのワイヤーフレームに改善を加えた後、アプリのアイデンティティをさらに発展させました。これには、カラーパレット、タイポグラフィ、さまざまな要素のスタイルを決定する作業が含まれています。Plantwiseは、環境に焦点を当てたお金の貯金と管理にゲーミフィケーションのアプローチを取り入れています。ブランドの主要な原則をアプリにシームレスに統合するために、楽しい雰囲気を作り出し、自然と環境の本質をユーザーに伝える色とフォントを選択することを目指しました。",
+
+  "plantwiseStyleGuide2": "これを実現するために、主要色と副色に緑色の色合い、アクセントカラーには土っぽいオレンジ色を選びました。さらに、アプリの遊び心のある性質を強調するために、丸みを帯びたフレンドリーなタイポグラフィを選択しました。",
+
+  "projectColors": "色彩：",
+
+  "projectPrimary": "基本色",
+
+  "projectSecondary": "二次色",
+
+  "projectAccent": "強調色",
+
+  "projectBlack": "黒",
+
+  "projectWhite": "白",
+
+  "projectTypography": "タイポグラフィ：",
+
+  "projectHeadingButtons": "ボタン：",
+
+  "projectPrimaryButton": "プライマリー",
+
+  "projectSecondaryButton": "セカンダリー",
+
+  "plantwsieHeadingFlow1": "機密性の高いデータを扱う場面：オンボーディングプロセス中の信頼構築",
+
+  "plantwiseFlow1": "ユーザーデータの保護を確保するため、オンボーディングプロセス内で認証プロセスとパスコードの設定を実装しました。機密性の高いユーザーデータを扱うアプリとして、最初から信頼を築くことが重要です。これにより、ユーザーは安心してアプリを利用することができます。",
+
+  "plantwiseFunctionality1": "ユーザーデータを保護するため、Plantwiseは安全な登録プロセスを採用し、パスワードセキュリティの確保など、最適な保護対策の設定をユーザーに案内しています。",
+
+  "plantwiseFunctionality2": "ユーザーの電話番号の確認は、その身元を確認し、アカウントの安全を保証するのに役立ちます。",
+
+  "plantwiseFunctionality3": "パスコードを設定することで、ユーザーのみが取引を開始することができ、第三者による不正な取引からユーザーを保護します。",
+
+  "plantwiseFunctionality4": "ユーザーは銀行口座をリンクして、スムーズで簡単な送金ができます。",
+
+  "plantwsieHeadingFlow2": "日常の支出を追跡するための簡単なプロセス",
+
+  "plantwiseFlow2": "ユーザーがアプリを毎日利用することを考慮すると、トラッキングプロセスは日常の支出を簡単に監視できるように簡素化することが重要です。このため、さまざまなアプリ画面から簡単にアクセスできるシンプルな取引追跡プロセスを実装しました。",
+
+  "plantwiseFunctionality5": "ユーザーはホームスクリーンから直接新しい取引を簡単に追加できます。",
+
+  "plantwiseFunctionality6": "または、取引スクリーンから数ステップで簡単に取引を追加できます。",
+
+  "plantwiseFunctionality7": "取引を分類し、支出習慣を追跡し、月々の支出に関する洞察を得ることができます。",
+
+  "plantwsieHeadingFlow3": "貯金を楽しく魅力的にする：目標ごとに木を植えて森を育てる",
+
+  "plantwiseFlow3": "貯金は退屈で不快なトピックになりがちですが、貯金プロセスを魅力的でやる気が出るものにすることは、Plantwiseの重要な側面です。ユーザーは木のイラストを集め、ある金額を貯金するごとに実際の木を植えることができます。これにより、貯金を楽しく、参加を奨励する要素が取り入れられています。",
+
+  "plantwiseFunctionality8": "お金を貯めて、貯金目標を達成するにつれて、あなたの木と貯金が成長するのを見守るごとができます。",
+
+  "plantwiseFunctionality9": "木を集めて、達成する貯金目標ごとに森を成長させます。総貯金額や植えられた本物の木を追跡したり、友達と森を共有したりできます。",
+
+  "plantwiseFunctionality10": "様々な木のイラストから、育てたい木を選ぶごとができます。",
+
+  "plantwiseFunctionality11": "期限に基づいて貯金する金額を計算するか、固定額または収入の割合を設定してお金を貯めるかを決めることができます。",
+
+  "plantwiseFunctionality12": "毎月手動でお金を振り込むか、自動的で簡単な毎月の送金のために直接引き落としを設定することができます。",
+
+  "plantwiseFunctionality13": "目標のために貯金を始めて、地球をより緑豊かにすることに貢献しましょう。",
+
+  "plantwiseHeadingLearning1": "ユーザーのためにできるだけシンプルで、異なるオプションを提供すること",
+
+  "plantwiseLearning1": "初期の画面コンセプトでは、ユーザーがホーム画面から直接取引や目標を追加する機能は含まれていませんでした。しかし、新しい取引や目標を取引画面と貯金画面からのみ追加できるようにすると、ユーザーには常に余分な手順が生じます。特に日常的な使用において、この小さな余分なステップは迅速に積み重なり、ユーザーの不満を引き起こす可能性があります。したがって、ユーザーにとって最も速くて簡単な方法を提供することは、満足するユーザー体験を確保するために重要です。",
+
+  "fontSizeBody": "14px",
+
+  "fontFamilyBody": "'Noto Sans Japanese', sans-serif",
+
+  "lineHeightBody": "2",
+
+   "fontFamilyH3": "'Klee One', 'Noto Sans Japanese', sans-serif",
+
+   "fontSizeP": "0.875em",
+
+    "textHero": "1.125em",
+
+    "fontFamilyCatchphrase":  "'Klee One', 'Noto Sans Japanese', sans-serif",
+
+      "styleSheet": "css/stylesJP.css"
+
+}

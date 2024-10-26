@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="237" height="123" viewBox="0 0 237 123">
+  <g id="グループ_486" data-name="グループ 486" transform="translate(-696 -463)">
+    <g id="長方形_129" data-name="長方形 129" transform="translate(702 463)" fill="#fff" stroke="#292522" stroke-width="1">
+      <rect width="231" height="123" rx="61.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="230" height="122" rx="61" fill="none"/>
+    </g>
+    <g id="楕円形_98" data-name="楕円形 98" transform="translate(696 463)" fill="#319bde" stroke="#292522" stroke-width="1">
+      <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+      <circle cx="61.5" cy="61.5" r="61" fill="none"/>
+    </g>
+    <text id="_3498DB" data-name="#3498DB" transform="translate(876 532)" fill="#292522" font-size="20" font-family="Helvetica"><tspan x="-41.699" y="0">#3498DB</tspan></text>
+  </g>
+</svg>

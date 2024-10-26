@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="222" height="45" viewBox="0 0 222 45">
+  <g id="button_save" transform="translate(0 0.487)">
+    <rect id="button" width="222" height="45" rx="15" transform="translate(0 -0.487)" fill="#c8692b"/>
+    <text id="Active" transform="translate(111 29.513)" fill="#f7ebe2" font-size="20" font-family="CoconPro-Bold, CoconPro" font-weight="700"><tspan x="-31.78" y="0">Active</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48.335" viewBox="0 0 48 48.335">
+  <g id="グループ_243" data-name="グループ 243" transform="translate(0 -0.5)">
+    <rect id="touch" width="48" height="48" transform="translate(0 0.5)" fill="none"/>
+    <g id="Low_Cal" data-name="Low Cal" transform="translate(6.91 2.746)">
+      <path id="パス_110" data-name="パス 110" d="M63.892,21.286a11.494,11.494,0,0,0-8.417,3.788A11.373,11.373,0,0,0,52.768,33.1l.228-.06-.042.228a11.352,11.352,0,0,0,7.793-3.3,11.476,11.476,0,0,0,3.146-8.681Z" transform="translate(-35.085 -17.324)" fill="#1e7a4c" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_111" data-name="パス 111" d="M70.517,30.785a11.479,11.479,0,0,0-9.216.492,11.355,11.355,0,0,0-5.421,6.5l.234.024-.126.2a11.065,11.065,0,0,0,14.529-7.21Z" transform="translate(-36.337 -20.825)" fill="#27ad70" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_112" data-name="パス 112" d="M50.988,14.69a11.494,11.494,0,0,0-3.878,8.375A11.363,11.363,0,0,0,50.322,30.9l.132-.192.12.2a11.37,11.37,0,0,0,3.728-7.6A11.475,11.475,0,0,0,50.994,14.7Z" transform="translate(-32.832 -14.69)" fill="#27ad70" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_113" data-name="パス 113" d="M23.5,62.917,32.34,35.174a3.442,3.442,0,0,1,5.1-1.873l12.241,7.661a3.442,3.442,0,0,1,.546,5.409L29.152,66.453A3.44,3.44,0,0,1,23.5,62.917Z" transform="translate(-23.327 -21.918)" fill="#f37725" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_38" data-name="線 38" x2="6.604" y2="3.602" transform="translate(7.608 19.398)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_39" data-name="線 39" x2="4.803" y2="2.401" transform="translate(5.807 24.201)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_40" data-name="線 40" x2="3.002" y2="1.801" transform="translate(4.606 29.003)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

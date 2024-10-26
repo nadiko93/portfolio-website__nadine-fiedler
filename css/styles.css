@@ -1515,6 +1515,76 @@ footer p {
   margin-right: auto;
 }
 
+/* MEAL COMPASS STYLE GUIDE */
+
+.mealcompas__typography {
+  grid-auto-columns: 65%;
+}
+
+.mealcompas__typography h5,
+.mealcompas__typography p {
+  text-align: center;
+}
+
+.mealcompass__tertiary-button {
+  height: 27px;
+}
+
+.mealcompas__container-buttons {
+  grid-auto-flow: initial;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 2rem;
+}
+
+.mealcompass__icons {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  justify-items: center;
+  justify-content: center;
+}
+
+.mealcompass__categories {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  margin-top: 4rem;
+  column-gap: 3rem;
+  row-gap: 1rem;
+  justify-items: center;
+  justify-content: center;
+}
+
+.mealcompass__category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mealcompass__category-text {
+  font-size: 14px;
+}
+
+.mealcompass__style-guide--logo img {
+  width: 80%;
+  display: block;
+  margin: 2rem auto;
+}
+
+.mealcompass__style {
+  margin-top: 4rem;
+}
+
+.mealcompass__mockup--4 {
+  margin-top: 6rem;
+  display: block;
+  width: 100%;
+  max-height: 1000px;
+  object-fit: cover;
+}
+
   .tags {
     justify-content: center;
     gap: 16px;
@@ -1643,6 +1713,22 @@ footer p {
   }
 
 
+  /* MEAL COMPASS STYLE GUIDE */
+
+  .mealcompas__typography {
+    grid-auto-columns: 40%;
+    justify-content: center;
+  }
+
+  .mealcompass__icons {
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+  }
+
+  .mealcompass__categories {
+    grid-template-columns: 80px 80px 80px 80px;
+  }
+
+}
 
 /* ------------------------------------------------------------
   7.2 MEDIUM DEVICES (744px and larger) 
@@ -2251,23 +2337,49 @@ footer p {
     right: -128%;
   }
 
+  /* MEAL COMPASS STYLE GUIDE */
+
+  .mealcompas__colors {
+    grid-auto-flow: initial;
+    grid-template-columns: 190px 190px 190px;
     justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-
-    padding: 0 48px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .lingo__screen-mockup-slider p {
-    max-width: 200px;
+  .mealcompass__color--6 {
+    grid-column: 1;
+    grid-row: 3;
   }
 
-  .lingo__screen-mockup {
-    max-width: 208px;
+  .mealcompass__color--7 {
+    grid-column: 2;
+    grid-row: 3;
   }
+
+  .mealcompas__typography {
+    grid-template-columns: 250px 250px;
+    gap: 2rem;
+  }
+
+  .mealcompas__container-buttons {
+    grid-auto-flow: initial;
+    grid-template-columns: 170px 170px 170px;
+    column-gap: 2rem;
+    justify-content: center;
+  }
+
+  .mealcompass__icons {
+    margin-top: 4rem;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+  }
+
+  .mealcompass__categories {
+    margin-top: 6rem;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+  }
+
+  
+
+
 }
 
 /* ----------------------------------------------------------
@@ -3219,6 +3331,71 @@ footer p {
   .mealcompass__yellow-background-box {
     height: 500px;
   }
+
+  /* MEAL COMPASS STYLE GUIDE */
+
+  .mealcompass__style-guide-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8rem;
+    row-gap: 2rem;
+    margin-top: 4rem;
+  }
+
+  .mealcompass__style {
+    margin-top: 0;
+  }
+
+  .mealcompas__colors {
+    grid-template-columns: 150px 150px 150px;
+    justify-content: start;
+    padding-left: 0;
+  }
+
+  .mealcompas__typography {
+    grid-template-columns: 170px 170px;
+    justify-content: start;
+    row-gap: 0;
+    padding-left: 0;
+  }
+
+  .mealcompas__typography p {
+    margin-bottom: 0;
+  }
+
+  .mealcompas__container-buttons {
+    grid-template-columns: 140px 140px 140px;
+    padding-left: 0;
+    justify-content: start;
+  }
+
+  .mealcompass__icons {
+    grid-template-columns: 50px 50px 50px 50px;
+    justify-content: start;
+  }
+
+  .mealcompass__categories {
+    grid-template-columns: 80px 80px 80px 80px;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin-top: 4rem;
+    justify-content: start;
+  }
+
+  .mealcompass__buttons-container {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .mealcompass__style-guide--logo {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    margin-top: 10rem;
+  }
+
+  
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -3322,6 +3499,27 @@ footer p {
   }
 
 
+  /* MEAL COMPASS STYLE GUIDE */
+
+  .mealcompas__typography {
+    grid-template-columns: 200px 200px;
+    justify-content: start;
+    row-gap: 0;
+    padding-left: 0;
+  }
+
+  .mealcompass__icons {
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    justify-content: start;
+  }
+
+  .mealcompass__categories {
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin-top: 4rem;
+    justify-content: start;
+  }
 }
 
 /* ----------------------------------------------------------

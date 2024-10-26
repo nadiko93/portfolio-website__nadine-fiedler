@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="グループ_245" data-name="グループ 245" transform="translate(0 -0.5)">
+    <rect id="touch" width="48" height="48" transform="translate(0 0.5)" fill="none"/>
+    <g id="Snack" transform="translate(0.745 7.973)">
+      <rect id="長方形_78" data-name="長方形 78" width="21.962" height="15.059" rx="3.93" transform="translate(7.529) rotate(30)" fill="#a86b42" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_46" data-name="パス 46" d="M48.278,35.39,63.13,43.43h6.1l-2.343,1.882.618,1.859L65.64,48.411v2.482l-1.859,1.241v1.859l-1.859,1.241v2.482l-1.241,1.241-.618,2.482L56.348,57.1q-7.749-4.026-15.5-8.058,3.723-6.822,7.44-13.639Z" transform="translate(-23.949 -26.202)" fill="#f37725" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_47" data-name="パス 47" d="M40.079,42.876,39.45,47.9l2.009,3.134,1.131-6.274,3.792-1.882-1.287-3.14,1.887-2.372.623-5.154-2.511-.629-1.253,6.274Z" transform="translate(-23.357 -24.591)" fill="#f37725" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_29" data-name="線 29" y1="10.037" x2="5.016" transform="translate(33.663 18.913)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_30" data-name="線 30" x1="3.175" y2="6.349" transform="translate(32.705 19.502)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

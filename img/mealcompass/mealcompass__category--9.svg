@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="グループ_243" data-name="グループ 243" transform="translate(0 -0.5)">
+    <rect id="touch" width="48" height="48" transform="translate(0 0.5)" fill="none"/>
+    <g id="Soup" transform="translate(3.095 5.271)">
+      <path id="パス_101" data-name="パス 101" d="M1.64,0H17.875V3.28H1.64A1.638,1.638,0,0,1,0,1.64H0A1.638,1.638,0,0,1,1.64,0Z" transform="translate(2.496 5) rotate(49.55)" fill="#73cad8" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_102" data-name="パス 102" d="M36.405,65.405A19.4,19.4,0,0,0,55.811,46H17A19.4,19.4,0,0,0,36.405,65.405Z" transform="translate(-14.002 -27.415)" fill="#f37725" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_103" data-name="パス 103" d="M36,78H53.492v2.629a1.745,1.745,0,0,1-1.744,1.744h-14A1.751,1.751,0,0,1,36,80.624V78h0Z" transform="translate(-22.616 -41.922)" fill="#f37725" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="グループ_280" data-name="グループ 280" transform="translate(15.024)">
+        <path id="パス_104" data-name="パス 104" d="M39,12a4.779,4.779,0,0,1,1.705,6.013c-1.711,3.826-1.875,5.466-.224,7.653" transform="translate(-39 -12)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="パス_105" data-name="パス 105" d="M50,12a4.779,4.779,0,0,1,1.705,6.013c-1.711,3.826-1.875,5.466-.224,7.653" transform="translate(-43.987 -12)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="パス_106" data-name="パス 106" d="M62,12a4.779,4.779,0,0,1,1.705,6.013c-1.711,3.826-1.875,5.466-.224,7.653" transform="translate(-49.427 -12)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

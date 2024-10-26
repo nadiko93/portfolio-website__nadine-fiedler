@@ -44,6 +44,10 @@ body {
   height: 1.5rem;
 }
 
+.margin--auto {
+  margin: 0 auto;
+}
+
 .margin-top--4 {
   margin-top: 4rem;
 }
@@ -54,6 +58,11 @@ body {
 
 .txt__color--green {
   color: #186049;
+}
+
+.container__flex-right {
+  display: flex;
+  justify-content: end;
 }
 
 /* --------------------------------------------------------
@@ -73,7 +82,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -92,6 +101,11 @@ h5 {
   font-size: 1.125em;
   margin-bottom: 0.5rem;
   font-weight: 600;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: 700;
 }
 
 p {
@@ -588,6 +602,7 @@ nav ul {
   flex-wrap: wrap;
   gap: 8px;
   list-style: none;
+  margin: 0;
 }
 
 .tags li {
@@ -659,7 +674,8 @@ footer p {
   font-size: 1.25em;
   margin: 1rem auto 0 auto;
   max-width: none;
-  margin-bottom: 0;
+  line-height: 1.1;
+  max-width: 400px;
 }
 
 .project--overview {
@@ -1683,6 +1699,70 @@ footer p {
   object-fit: cover;
 }
 
+/* -----------------------------------------------------------
+  7. RESPONSIVE DESIGN
+-------------------------------------------------------------*/
+
+/*-----------------------------------------------------------
+  7.1 SMALL DEVICES (530px and larger)
+-------------------------------------------------------------*/
+@media only screen and (min-width: 530px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .hero-img {
+    background-image: url(../img/homepage/homepage__hero-background--S.svg);
+  }
+
+  .hero-intro {
+    background-image: url(../img/homepage/homepage__hero-circle--S.svg);
+    height: 398px;
+    width: 398px;
+    padding-top: 105px;
+  }
+
+  .typewriter-text {
+    min-height: 84px;
+  }
+
+  .text__hero {
+    font-size: 20px;
+  }
+
+  .hero--el1--XS {
+    display: none;
+  }
+
+  .hero--el1--S {
+    display: block;
+  }
+
+  .hero--el2 {
+    transform: scale(1.2);
+  }
+
+  .hero--el4 {
+    transform: scale(1.2);
+  }
+
+  #about {
+    padding: 48px 32px;
+  }
+
+  .img__homepage-about--x1 {
+    width: 70%;
+    box-shadow: -50px 50px #0b7285;
+    margin-right: 48px;
+    margin-top: 64px;
+  }
+
+  .container__hp-project-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+  }
+
   .tags {
     justify-content: center;
     gap: 16px;
@@ -1841,7 +1921,7 @@ footer p {
   }
 
   p {
-    font-size: 1.125em;
+    font-size: 1em;
   }
 
   .txt__caption {
@@ -1849,7 +1929,7 @@ footer p {
   }
 
   li {
-    font-size: 1.125em;
+    font-size: 1em;
   }
 
   .container__flex--row {
@@ -1905,7 +1985,7 @@ footer p {
   }
 
   .hero--el2 {
-    transform: scale(1.4);
+    transform: scale(1.2);
     top: 64vh;
     left: 3vh;
   }
@@ -1961,7 +2041,7 @@ footer p {
   }
 
   .filter__design-type {
-    font-size: 1.2em;
+    font-size: 1em;
     gap: 24px;
   }
 
@@ -1991,7 +2071,7 @@ footer p {
   }
 
   .tags li {
-    font-size: 1em;
+    font-size: 0.875em;
   }
 
   .project-section h4 {
@@ -2497,22 +2577,22 @@ footer p {
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 64px;
   }
 
   p {
-    max-width: 43.75rem;
+    max-width: 37.5rem;
   }
 
   li {
-    max-width: 43.75rem;
+    max-width: 37.5rem;
   }
 
   /* NAVBAR */
 
   .nav-item:link,
   .nav-item:visited {
-    font-size: 2em;
+    font-size: 28px;
   }
 
   .hero-img {
@@ -2551,22 +2631,22 @@ footer p {
   }
 
   .hero--el4 {
-    transform: scale(1.7);
+    transform: scale(1.5);
     top: 50vh;
     right: 10vh;
   }
 
   #about::before {
     height: 100%;
-    width: 95%;
+    width: 94%;
   }
 
   .container__hp-about {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-left: 2em;
-    gap: 64px;
+    gap: 100px;
   }
 
   .decoration__about-img--right {
@@ -2581,11 +2661,14 @@ footer p {
     padding: 0 64;
   }
 
+  .about__image-container {
+    margin-top: -10%;
+  }
+
   .img__homepage-about--x1 {
-    display: block;
-    width: 100%;
+    width: 290px;
     max-width: 350px;
-    box-shadow: -50px 50px #e3fafc;
+    box-shadow: -40px 40px #e3fafc;
     margin-top: 0;
     margin-right: 0;
   }
@@ -2593,8 +2676,8 @@ footer p {
   .deco__about-img--left {
     display: block;
     position: absolute;
-    left: -85px;
-    top: 330px;
+    left: -65px;
+    top: 230px;
   }
 
   .filter__design-type {
@@ -3634,17 +3717,17 @@ footer p {
   }
 
   .hero--el2 {
-    top: 60vh;
+    top: 48vh;
     left: 2vh;
   }
 
   .hero--el3 {
-    top: 3vh;
+    top: -10vh;
     right: -15vh;
   }
 
   .hero--el4 {
-    top: 50vh;
+    top: 40vh;
     right: 5vh;
   }
 
@@ -4034,6 +4117,23 @@ footer p {
   7.4 XX-LARGE DEVICES (1920px and larger)
 --------------------------------------------------------------*/
 @media only screen and (min-width: 1920px) {
+  .hero--el2 {
+    transform: scale(1.4);
+    top: 60vh;
+    left: 2vh;
+  }
+
+  .hero--el3 {
+    top: 3vh;
+    right: -15vh;
+  }
+
+  .hero--el4 {
+    transform: scale(1.7);
+    top: 50vh;
+    right: 5vh;
+  }
+
   #about::before {
     width: 83%;
   }

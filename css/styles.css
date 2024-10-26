@@ -1471,6 +1471,50 @@ footer p {
   top: 30%;
 }
 
+/* MEAL COMPASS USABILITY TESTING */
+
+.mealcompass__usability-problem-arrow--1 {
+  display: none;
+}
+
+.mealcompass__usability-problem-arrow--2 {
+  display: none;
+}
+
+.mealcompass__usability-problem-arrow--3 {
+  display: none;
+}
+
+.mealcompass__usability-solution-arrow--1 {
+  display: none;
+}
+
+.mealcompass__usability-solution-arrow--2 {
+  display: none;
+}
+
+.mealcompass__usability-solution-arrow--3 {
+  display: none;
+}
+
+.mealcompass__usability-img {
+  display: block;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.mealcompass__usability-testing-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+
+.mealcompass__usability-text {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
   .tags {
     justify-content: center;
     gap: 16px;
@@ -1592,7 +1636,13 @@ footer p {
   }
   
 
-}
+  /* MEAL COMPASS USABILITY TESTING */
+
+  .mealcompass__usability-img {
+    width: 40%;
+  }
+
+
 
 /* ------------------------------------------------------------
   7.2 MEDIUM DEVICES (744px and larger) 
@@ -2113,60 +2163,94 @@ footer p {
     height: 400px;
   }
 
-  .lingo__user-flow-diagram {
+  /* MEAL COMPASS USABILITY TESTING */
+
+  .mealcompass__usability-testing-container {
+    grid-template-columns: 275px;
+  }
+
+  .mealcompass__usability-img {
+    margin-left: 0;
+    width: 275px;
+  }
+
+  .mealcompass__usability-text {
+    position: absolute;
+    max-width: 300px;
+  }
+
+  .mealcompass__usability-problem-arrow--1 {
     display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 4%;
+    right: -15%;
   }
 
-  .lingo__user-flow--key-points {
-    margin: 0 3rem;
-  /* --------------------------------------------------------
-    MEAL COMPASS
-  --------------------------------------------------------- */
-
-  .mealcompass__background--light-orange::before {
-    height: 132%;
-    top: -32%;
+  .mealcompass__usability-text--1 {
+    top: 5%;
+    right: -130%;
   }
 
-  /* MEAL COMPASS USER RESEARCH */
-
-  .mealcompass__5WH {
-    grid-template-columns: 500px;
-    justify-content: center;
+  .mealcompass__usability-solution-arrow--1 {
+    display: block;
+    position: absolute;
+    top: 36%;
+    right: -14%;
   }
 
-
-  /* MEAL COMPASS PERSONAS */
-
-  .mealcompass__persona-slider {
-    grid-auto-columns: 83%;
-    /* margin-left: -48px;
-    margin-right: -48px; */
-    gap: 3rem;
-  }
+  .mealcompass__usability-text--2 {
+    top: 38%;
+    right: -127%;
   }
 
-  .img__usability--lingo {
-    width: 35%;
+  .mealcompass__usability-problem-arrow--2 {
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: -15%;
   }
 
-  .lingo__solution {
-    margin-top: 3rem;
+  .mealcompass__usability-text--3 {
+    top: 11%;
+    right: -130%;
   }
 
-  .lingo__problem {
-    margin-top: 6rem;
+  .mealcompass__usability-solution-arrow--2 {
+    display: block;
+    position: absolute;
+    top: 24%;
+    right: -15%;
   }
 
-  .lingo__solution--3 {
-    margin-top: 2rem;
+  .mealcompass__usability-text--4 {
+    top: 22%;
+    right: -130%;
   }
 
-  .media-scroller.lingo__screen-mockup-slider {
-    display: flex;
+  .mealcompass__usability-problem-arrow--3 {
+    display: block;
+    position: absolute;
+    top: 27%;
+    right: -15%;
+  }
+
+  .mealcompass__usability-text--5 {
+    top: 18%;
+    right: -130%;
+  }
+
+  .mealcompass__usability-solution-arrow--3 {
+    display: block;
+    position: absolute;
+    bottom: 7%;
+    right: -28%;
+  }
+
+  .mealcompass__usability-text--6 {
+    top: 35%;
+    right: -128%;
+  }
+
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
@@ -3137,7 +3221,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 1180px) {
+@media only screen and (min-width: 1200px) {
   .lingo__solution2--1 {
     grid-column: 3;
     margin: 0;
@@ -3155,6 +3239,89 @@ footer p {
   .plantwise__usability-arrow--M--2 {
     left: 68%;
   }
+
+  /* MEAL COMPASS */
+
+  .mealcompass__usability-testing-container {
+    grid-template-columns: 200px 200PX;
+    column-gap: 25rem;
+  }
+
+  .mealcompass__usability-problem-arrow--1 {
+    transform: scale(0.7);
+    top: -4%;
+    right: -24%;
+  }
+
+  .mealcompass__usability-text--1 {
+    right: -145%;
+  }
+
+  .mealcompass__usability-solution-arrow--1 {
+    transform: scale(0.7);
+    top: 33%;
+    right: -20%;
+  }
+
+  .mealcompass__usability-text--2 {
+    right: -140%;
+  }
+
+  .mealcompass__usability-problem-arrow--2 {
+    transform: scale(0.7);
+    top: 5%;
+    right: -24%;
+  }
+
+  .mealcompass__usability-text--3 {
+    top: 8%;
+    right: -143%;
+  }
+
+  .mealcompass__usability-solution-arrow--2 {
+    transform: scale(0.7);
+    top: 20%;
+    right: -20%;
+  }
+
+  .mealcompass__usability-text--4 {
+    top: 20%;
+    right: -145%;
+  }
+
+  .mealcompass__usability-problem-arrow--3 {
+    transform: scale(0.7);
+    top: 25%;
+    right: -20%;
+  }
+  
+  .mealcompass__usability-text--5 {
+    top: 15%;
+    right: -145%;
+  }
+
+  .mealcompass__usability-solution-arrow--3 {
+    transform: scale(0.7);
+    bottom: 0%;
+    right: -35%;
+  }
+
+  .mealcompass__usability-text--6 {
+    top: 32%;
+    right: -143%;
+  }
+  
+
+  .mealcompass__usability-img {
+    width: 200px;
+  }
+
+  .mealcompass__usability-text {
+    font-size: 14px;
+    max-width: 250px;
+  }
+
+
 }
 
 /* ----------------------------------------------------------
@@ -3550,6 +3717,18 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  /* MEAL COMPASS USABILITY TESTING */
+
+  .mealcompass__mockup--2 {
+    top: 50%;
+  }
+
+  .mealcompass__yellow-background-box {
+    height: 550px;
+    top: 20%;
+  }
+
 }
 
 /* ----------------------------------------------------------

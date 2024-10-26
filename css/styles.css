@@ -2411,6 +2411,55 @@ footer p {
 
   .container__tool-icons {
     height: 2rem;
+  }
+
+  .lingo__user-flow-diagram {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lingo__user-flow--key-points {
+    margin: 0 3rem;
+  }
+
+  .img__usability--lingo {
+    width: 35%;
+  }
+
+  .lingo__solution {
+    margin-top: 3rem;
+  }
+
+  .lingo__problem {
+    margin-top: 6rem;
+  }
+
+  .lingo__solution--3 {
+    margin-top: 2rem;
+  }
+
+  .media-scroller.lingo__screen-mockup-slider {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+
+    padding: 0 48px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lingo__screen-mockup-slider p {
+    max-width: 200px;
+  }
+
+  .lingo__screen-mockup {
+    max-width: 208px;
+  }
+
   /* --------------------------------------------------------
     MEAL COMPASS
   --------------------------------------------------------- */

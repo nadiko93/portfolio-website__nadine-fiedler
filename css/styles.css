@@ -2526,6 +2526,10 @@ footer p {
     transform: scale(1.1);
   }
 
+  .plantwise__prototype {
+    margin-top: 10rem;
+  }
+
   /* ------------------------------------------------------
     7.2.2 LINGOSHELF
   -------------------------------------------------------- */
@@ -3090,6 +3094,10 @@ footer p {
   .plantwise__screen-explanation--13 {
     top: 80%;
     right: -5%;
+  }
+
+  .plantwise__prototype {
+    margin-top: 0;
   }
 
   /* --------------------------------------------------

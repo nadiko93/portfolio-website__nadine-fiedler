@@ -1341,57 +1341,61 @@ footer p {
   width: 50%;
 }
 
-  .hero-img {
-    background-image: url(../img/homepage/homepage__hero-background--S.svg);
-  }
+.mealcompass__background--light-orange {
+  position: relative;
+  padding-bottom: 5rem;
+}
 
-  .hero-intro {
-    background-image: url(../img/homepage/homepage__hero-circle--S.svg);
-    height: 398px;
-    width: 398px;
-    padding-top: 105px;
-  }
+.mealcompass__background--light-orange::before {
+  position: absolute;
+  content: "";
+  height: 118%;
+  width: 100%;
+  top: -18%;
+  z-index: -1;
+  background-color: #FEEED9;
+}
 
-  .typewriter-text {
-    min-height: 84px;
-  }
+/* MEAL COMPASS USER RESEARCH */
 
-  .text__hero {
-    font-size: 20px;
-  }
+.mealcompass__background--orange {
+  background-color: #FFEBB7;
+  padding-top: 20px;
+  padding-bottom: 48px;
+}
 
-  .hero--el1--XS {
-    display: none;
-  }
+.mealcompass__5WH {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  background-color: #F37725;
+  border-radius: 50px;
+  padding: 48px 32px;
+  box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.25);
+}
 
-  .hero--el1--S {
-    display: block;
-  }
+.mealcompass__research-findings {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 3rem;
+}
 
-  .hero--el2 {
-    transform: scale(1.2);
-  }
+.mealcompass__user-research-arrow {
+  display: none;
+}
 
-  .hero--el4 {
-    transform: scale(1.2);
-  }
+/* MEAL COMPASS PERSONAS */
 
-  #about {
-    padding: 48px 32px;
-  }
+.mealcompass__persona-slider {
+  grid-auto-columns: 90%;
 
-  .img__homepage-about--x1 {
-    width: 70%;
-    box-shadow: -50px 50px #0b7285;
-    margin-right: 48px;
-    margin-top: 64px;
-  }
+}
 
-  .container__hp-project-content {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
-  }
+.mealcompass__persona {
+  width: 100%;
+  max-width: 1020px;
+}
 
   .tags {
     justify-content: center;
@@ -1483,6 +1487,23 @@ footer p {
   .lingo__screen-mockup-slider {
     grid-auto-columns: 40%;
   }
+
+
+  /* ----------------------------------------------------------
+   MEAL COMPASS
+  ---------------------------------------------------------- */
+
+  .mealcompass__background--light-orange::before {
+    height: 125%;
+    top: -25%;
+  }
+
+  /* MEAL COMPASS PERSONAS */
+
+  .mealcompass__persona-slider {
+    grid-auto-columns: 90%;
+  }
+
 }
 
 /* ------------------------------------------------------------
@@ -1967,6 +1988,31 @@ footer p {
 
   .lingo__user-flow--key-points {
     margin: 0 3rem;
+  /* --------------------------------------------------------
+    MEAL COMPASS
+  --------------------------------------------------------- */
+
+  .mealcompass__background--light-orange::before {
+    height: 132%;
+    top: -32%;
+  }
+
+  /* MEAL COMPASS USER RESEARCH */
+
+  .mealcompass__5WH {
+    grid-template-columns: 500px;
+    justify-content: center;
+  }
+
+
+  /* MEAL COMPASS PERSONAS */
+
+  .mealcompass__persona-slider {
+    grid-auto-columns: 83%;
+    /* margin-left: -48px;
+    margin-right: -48px; */
+    gap: 3rem;
+  }
   }
 
   .img__usability--lingo {
@@ -2873,6 +2919,50 @@ footer p {
     width: 70%;
   }
 
+  .mealcompass__background--light-orange::before {
+    height: 144%;
+    top: -44%;
+  }
+
+  /* MEAL COMPASS USER RESEARCH */
+
+  .mealcompass__5WH {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 3rem;
+    padding: 64px 64px;
+  }
+
+  .mealcompass__research-findings {
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .mealcompass__research-findings div {
+    width: 100%;
+  }
+
+  .mealcompass__user-research-arrow {
+    display: block;
+    position: absolute;
+    transform: scale(0.8);
+    top: -10%;
+    right: 10%;
+  }
+
+
+  /* MEAL COMPASS PERSONAS */
+
+  .mealcompass__persona-slider {
+    grid-template-columns: 1020px 1020px 1020px;
+    /* grid-auto-columns: 83%; */
+    gap: 3rem;
+  }
+
 }
 
 @media only screen and (min-width: 1180px) {
@@ -3265,6 +3355,17 @@ footer p {
     bottom: 15%;
     right: -7%;
   }
+
+
+  /* -------------------------------------------------------
+   MEAL COMPASS
+  ------------------------------------------------------- */
+
+  .mealcompass__background--light-orange::before {
+    height: 150%;
+    top: -50%;
+  }
+
 }
 
 /* ----------------------------------------------------------

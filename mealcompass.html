@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="img/other/icon__logo.svg" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <title>Meal Compass Case Study</title>
+  </head>
+  <body>
+    <header id="back-to-top">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"
+          ><img
+            src="img/other/icon__logo.svg"
+            alt="The logo which contains a blue circle with the letter N inside"
+        /></a>
+        <nav>
+          <button
+            class="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false"></button>
+          <ul
+            id="primary-navigation"
+            data-visible="false"
+            class="primary-navigation">
+            <li class="active">
+              <a class="nav-item" href="index.html">
+                <span aria-hidden="true">00</span>Home</a
+              >
+            </li>
+            <li>
+              <a class="nav-item" href="index.html#work"
+                ><span aria-hidden="true">01</span>Work</a
+              >
+            </li>
+            <li>
+              <a class="nav-item" href="about.html"
+                ><span aria-hidden="true">02</span>About</a
+              >
+            </li>
+            <li>
+              <div class="languages">
+                <img
+                  class="lang--en btn__language" 
+                  onclick="switchLanguage('en')"
+                  src="img/other/icon__flag--en.svg"
+                  alt="icon of a british flag" />
+                <img
+                  class="lang--jp btn__language"
+                  onclick="switchLanguage('en')"
+                  src="img/other/icon__flag--jp.svg"
+                  alt="icon of a japanese flag" />
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>

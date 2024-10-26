@@ -33,13 +33,13 @@ body {
 }
 
 .container {
-  padding: 0 1em;
-  margin-top: 5em;
+  padding: 0 1rem;
+  margin-top: 5rem;
 }
 
 .container__tool-icons {
   display: flex;
-  gap: 0.5em;
+  gap: 0.5rem;
   align-items: center;
   height: 1.5rem;
 }
@@ -83,19 +83,20 @@ h3 {
 
 h4 {
   font-size: 1.25em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
   font-weight: 700;
+  max-width: 500px;
 }
 
 h5 {
   font-size: 1.125em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
   font-weight: 600;
 }
 
 p {
   font-size: 1em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
   max-width: 31.25rem;
 }
 
@@ -354,7 +355,7 @@ nav ul {
 .text__hero {
   font-family: "Amatic SC", "Outfit", sans-serif;
   font-size: 1.125em;
-  margin-top: 1em;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -430,6 +431,7 @@ nav ul {
   gap: 8px;
   font-size: 20px;
 }
+
 
 .img__homepage-about--x1 {
   display: block;
@@ -538,7 +540,7 @@ nav ul {
 footer {
   background-color: #1098ad;
   color: #d8edf5;
-  padding: 2em 0;
+  padding: 2rem 0;
   text-align: center;
   font-size: 1.5em;
 }
@@ -551,9 +553,9 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1em;
-  margin-top: 1em;
-  margin-bottom: 2em;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   list-style: none;
 }
 .copyright {
@@ -569,13 +571,13 @@ footer p {
 ---------------------------------------------------------------*/
 
 .container__project {
-  margin-top: 5em;
+  margin-top: 5rem;
 }
 
 .project--hero {
-  padding: 0 1em;
+  padding: 0 1rem;
   max-width: 1200px;
-  margin: 2rem auto 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 .img__project--hero {
@@ -585,8 +587,8 @@ footer p {
 .project-catchphrase {
   font-family: "Amatic SC", "Outfit", sans-serif;
   text-align: center;
-  font-size: 1.5em;
-  margin-top: 1em;
+  font-size: 1.25em;
+  margin: 1rem auto 0 auto;
   max-width: none;
   margin-bottom: 0;
 }
@@ -601,8 +603,8 @@ footer p {
 }
 
 .icon__tool--project {
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .tags__project {
@@ -612,27 +614,27 @@ footer p {
 
 .btn__prototype:link,
 .btn__prototype:visited {
-  margin-top: 4em;
-  padding: 0.5em 2em;
+  margin-top: 4rem;
+  padding: 0.5rem 2rem;
 }
 
 .container__problems-solutions {
   display: flex;
   flex-direction: column;
-  gap: 4em;
+  gap: 4rem;
   background-color: #1098ad;
   color: #e3fafc;
   font-size: 1em;
-  padding: 4em 3em;
-  border-radius: 1.875em 0;
-  margin-top: 5em;
+  padding: 4rem 3rem;
+  border-radius: 1.875rem 0;
+  margin-top: 5rem;
 }
 
 .container__problems-solutions ul {
   list-style-type: disc;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 1rem;
 }
 
 .project-headline {
@@ -643,7 +645,7 @@ footer p {
 .container__list {
   background-color: #1098ad;
   color: #e3fafc;
-  padding: 2em 3em;
+  padding: 2rem 3rem;
   border-radius: 15px;
 }
 
@@ -651,8 +653,8 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2em;
-  padding: 1em 3em;
+  gap: 2rem;
+  padding: 1rem 3rem;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
   width: 313px;
   border-radius: 20px;
@@ -676,12 +678,12 @@ footer p {
 }
 
 .container__user-flow {
-  margin-top: 4em;
+  margin-top: 4rem;
 }
 
 .lingo__user-flow-diagram {
   width: 100%;
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 .learnings {
@@ -722,7 +724,7 @@ footer p {
 
 .carousel__heading {
   text-align: center;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.2rem;
   font-size: 1em;
 }
 
@@ -757,7 +759,7 @@ footer p {
 
 .plantwise__lettering {
   display: block;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
 }
 
@@ -769,7 +771,7 @@ footer p {
 
 .plantwise__background--light-green {
   position: relative;
-  padding-bottom: 5em;
+  padding-bottom: 5rem;
 }
 
 .plantwise__background--light-green::before {
@@ -1047,7 +1049,7 @@ footer p {
 }
 
 .container__usability-testing {
-  margin-top: 5em;
+  margin-top: 5rem;
 }
 
 .plantwise__solution--2 {
@@ -1231,7 +1233,7 @@ footer p {
 
 .container__lingo--background--1 {
   position: relative;
-  padding-bottom: 5em;
+  padding-bottom: 5rem;
 }
 
 .container__lingo--background--1::before {
@@ -1247,8 +1249,8 @@ footer p {
 .lingo__5WH {
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  margin-top: 4em;
+  gap: 2rem;
+  margin-top: 4rem;
 }
 
 .background__lingo--books {
@@ -1257,7 +1259,7 @@ footer p {
 }
 
 .background__lingo--books-content {
-  padding: 3em;
+  padding: 3rem;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -1268,7 +1270,7 @@ footer p {
 }
 
 .lingo__mass-mockup--2 {
-  margin-top: 5em;
+  margin-top: 5rem;
 }
 
 .lingo__mass-mockup--2 img {
@@ -1283,13 +1285,13 @@ footer p {
 
 .background__light-blue .container {
   margin-top: 0;
-  padding-top: 6em;
-  padding-bottom: 2em;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
 }
 
 .img__usability--lingo {
   display: block;
-  margin: 2em auto 1em auto;
+  margin: 2rem auto 1rem auto;
   width: 50%;
 }
 
@@ -1304,7 +1306,7 @@ footer p {
 .lingo__solution--3 {
   display: flex;
   align-items: flex-start;
-  gap: 1em;
+  gap: 1rem;
 }
 
 .lingo__solution--3 img {
@@ -1821,7 +1823,7 @@ footer p {
   .container {
     padding: 0 48px;
     max-width: 1200px;
-    margin-top: 5em;
+    margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2542,7 +2544,8 @@ footer p {
   }
 
   .project-catchphrase {
-    font-size: 3em;
+    font-size: 2em;
+    max-width: 700px;
   }
 
   .project-img-lingoshelf {
@@ -3704,6 +3707,7 @@ footer p {
 
   .plantwise__screen-mockup--11 {
     justify-content: end;
+    margin-bottom: 5rem;
   }
 
   .plantwise__screen-mockup--12 {
@@ -3712,6 +3716,7 @@ footer p {
 
   .plantwise__screen-mockup--13 {
     margin-left: 55%;
+    margin-bottom: 10rem;
   }
 
   .plantwise__screen-explanation--1 {

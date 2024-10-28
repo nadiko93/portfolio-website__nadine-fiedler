@@ -380,48 +380,56 @@
             </div>
           </div>
 
-            <div class="container">
-              <h5 id="mealcompassHeadingPersonas">Giving the user an identity: Persona creation</h5>
-              <p id="mealcompassPersonas">Drawing from the insights I acquired during user interviews, I crafted three distinct User Personas. These personas helped me to gain a more defined understanding of the target audience. Continuously keeping these personas in mind enabled me to make conscientious design decisions and develop a product that resonates with user needs, rather than relying solely on my broad assumptions of the user's preferences or personal biases.</p>
-          
 
-              <div class="media-scroller mealcompass__persona-slider">
-                <div class="media-element">
-                  <picture>
-                    <source
-                      srcset="img/mealcompass/mealcompass__persona--1@1x.png"
-                      media="(max-width:744px)" />
-                    <img
-                      class="mealcompass__persona"
-                      src="img/mealcompass/mealcompass__persona--1@2x.png"
-                      alt="First Persona of the mealcompass web app" />
-                  </picture>
-                </div>
+          <div class="carousel mealcompass__carousel--personas">
+            <button class="carousel__button carousel__button--left is-hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>
+            </button>
+            <div class="carousel__track-container">
+              <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                 <img class="carousel__persona-image" src="img/mealcompass/mealcompass__persona--1@2x.png" alt="">
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__persona-image" src="img/mealcompass/mealcompass__persona--2@2x.png" alt="">
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__persona-image" src="img/mealcompass/mealcompass__persona--3@2x.png" alt="">
+                </li>
+                
+              </ul>
+            </div>
+            <button class="carousel__button carousel__button--right">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+            </button>
     
-                <div class="media-element">
-                  <picture>
-                    <source
-                      srcset="img/mealcompass/mealcompass__persona--2@1x.png"
-                      media="(max-width: 744px)" />
-                    <img
-                      class="mealcompass__persona"
-                      src="img/mealcompass/mealcompass__persona--2@2x.png"
-                      alt="Second Persona of the mealcompass web app" />
-                  </picture>
-                </div>
-
-                <div class="media-element">
-                  <picture>
-                    <source
-                      srcset="img/mealcompass/mealcompass__persona--3@1x.png"
-                      media="(max-width: 744px)" />
-                    <img
-                      class="mealcompass__persona"
-                      src="img/mealcompass/mealcompass__persona--3@2x.png"
-                      alt="Third Persona of the mealcompass web app" />
-                  </picture>
-                </div>
-              </div>
+            <div class="carousel__nav">
+              <button class="carousel__indicator current-slide"></button
+              ><button class="carousel__indicator"></button
+              ><button class="carousel__indicator"></button
+              >
             </div>
           </div>
 

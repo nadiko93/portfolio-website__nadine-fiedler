@@ -41,12 +41,28 @@ const translations = {
           data.plantwiseCatchphrase4;
           document.getElementById("plantwiseCatchphrase5").textContent =
           data.plantwiseCatchphrase5;
-          document.getElementById("projectUserInterview").textContent =
-          data.projectUserInterview;
+          document.getElementById("projecUserInterview").textContent =
+          data.projecUserInterview;
           document.getElementById("projectPersona").textContent =
           data.projectPersona;
+          document.getElementById("projectTagUserFlow").textContent =
+          data.projectTagUserFlow;
+        document.getElementById("projectTagLowFi").textContent =
+          data.projectTagLowFi;
+        document.getElementById("projectTagUsabilityTesting").textContent =
+          data.projectTagUsabilityTesting;
           document.getElementById("projectStyleGuide").textContent =
           data.projectStyleGuide;
+          document.getElementById("projectTagHighFi").textContent =
+          data.projectTagHighFi;
+        document.getElementById("projectTagPrototype").textContent =
+          data.projectTagPrototype;
+        document.getElementById("projectTagMockups").textContent =
+          data.projectTagMockups;
+          document.getElementById("projectButtonPrototype").textContent =
+          data.projectButtonPrototype;
+        document.getElementById("projectHeadingBackground").textContent =
+          data.projectHeadingBackground;
           document.getElementById("plantwiseBackground").textContent =
           data.plantwiseBackground;
           document.getElementById("projectChallenges").textContent =
@@ -175,8 +191,16 @@ const translations = {
           data.plantwiseHeadline2;
           document.getElementById("plantwiseHeadingUserFlow").textContent =
           data.plantwiseHeadingUserFlow;
-          document.getElementById("plantwiseUserFlow").textContent =
-          data.plantwiseUserFlow;
+          document.getElementById("plantwiseUserFlow1").textContent =
+          data.plantwiseUserFlow1;
+          document.getElementById("plantwiseUserFlow2").textContent =
+          data.plantwiseUserFlow2;
+          document.getElementById("projectUserFlowStart").textContent =
+          data.projectUserFlowStart;
+        document.getElementById("projectUserFlowScreen").textContent =
+          data.projectUserFlowScreen;
+        document.getElementById("projectUserFlowDecision").textContent =
+          data.projectUserFlowDecision;
           document.getElementById("plantwiseHeadingLowFi").textContent =
           data.plantwiseHeadingLowFi;
           document.getElementById("plantwiseLowFi").textContent =
@@ -273,19 +297,21 @@ const translations = {
           data.plantwiseHeadingLearning1;
           document.getElementById("plantwiseLearning1").textContent =
           data.plantwiseLearning1;
+          document.getElementById("projectOverview").textContent =
+          data.projectOverview;
         
-          document.querySelector('body').style.fontSize = data.fontSize;
+        //   document.querySelector('body').style.fontSize = data.fontSize;
 
-          document.querySelector('body').style.fontSize = data.fontSizeBody;
-          document.querySelector('body').style.fontFamily = data.fontFamilyBody;
+        //   document.querySelector('body').style.fontSize = data.fontSizeBody;
+        //   document.querySelector('body').style.fontFamily = data.fontFamilyBody;
           
-          document.querySelectorAll('p').forEach(p =>
-            p.style.lineHeight = data.lineHeightBody);
+        //   document.querySelectorAll('p').forEach(p =>
+        //     p.style.lineHeight = data.lineHeightBody);
 
-         document.querySelectorAll('h3').forEach(h3 =>
-          h3.style.fontFamily = data.fontFamilyH3);
+        //  document.querySelectorAll('h3').forEach(h3 =>
+        //   h3.style.fontFamily = data.fontFamilyH3);
 
-          document.querySelector('.project-catchphrase').style.fontFamily = data.fontFamilyCatchphrase;
+        //   document.querySelector('.project-catchphrase').style.fontFamily = data.fontFamilyCatchphrase;
       })
       .catch((error) => console.error("Error loading language file:", error));
   }

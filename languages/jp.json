@@ -49,29 +49,29 @@
 
     "tagNameUI1": "UIデザイン",
 
-    "tagNameUX1": "UX Design",
+    "tagNameUX1": "UXデザイン",
 
-    "tagNameMobileApp1": "Native Mobile App",
+    "tagNameMobileApp1": "ネイティブモバイルアプリ",
 
-    "tagNameFintech1": "Fintech",
+    "tagNameFintech1": "フィンテック",
 
-    "tagNameGamification1": "Gamification",
+    "tagNameGamification1": "ゲーミフィケーション",
 
-    "hpProjectNameLingoshelf": "Lingoshelf",
+    "hpProjectNameLingoshelf": "Lingoshelf (リンゴシェルフ)",
 
     "hpLingoshelfDescription": "上級言語学習者向けの言語学習アプリです。お気に入りの本を読みながら、楽しみながら目標言語を流暢に話せるようになります。",
 
-    "tagNameUI2": "UI Design",
+    "tagNameUI2": "UIデザイン",
 
-    "tagNameUX2": "UX Design",
+    "tagNameUX2": "UXデザイン",
 
-    "tagNameMobileApp2": "Native Mobile App",
+    "tagNameMobileApp2": "ネイティブモバイルアプリ",
 
-    "tagNameLanguageLearning2": "Language Learning",
+    "tagNameLanguageLearning2": "語学学習",
 
-    "tagNamereading2": "Reading",
+    "tagNamereading2": "読書",
 
-    "footerThankYou": "Thank you for watching.",
+    "footerThankYou": "ご視聴いただきありがとうございます。",
 
 
     "lingoshelfCatchphrase": "お気に入りの本を読みながら言語を学ぶ",
@@ -88,9 +88,9 @@
 
   "projectTagPrototype": "プロトタイプ",
 
-  "projectTagMockups": "Mockups",
+  "projectTagMockups": "モックアップ",
 
-  "projectButtonPrototype": "View Prototype",
+  "projectButtonPrototype": "プロトタイプを表示",
 
   "projectHeadingBackground": "背景",
 
@@ -142,57 +142,57 @@
 
   "lingoshelfUserFlowExplanation2": "その後、これらのユーザーフローをもとに低忠実度のワイヤーフレームを設計し、アプリ全体にスムーズでユーザーフレンドリーな体験を保証するための重要な要素を強調しました。",
 
-  "projectUserFlowStart": "Start/End",
+  "projectUserFlowStart": "開始/終了",
 
-  "projectUserFlowScreen": "Screen",
+  "projectUserFlowScreen": "画面",
 
-  "projectUserFlowDecision": "Decision",
+  "projectUserFlowDecision": "決定",
 
   "lingoshelfUserFlow1": "オンボーディングフロー",
 
   "lingoshelfLowFi1": "ウェルカムスクリーン",
 
-  "lingoshelfLowFi2": "Sign Up",
+  "lingoshelfLowFi2": "登録",
 
-  "lingoshelfLowFi3": "Login",
+  "lingoshelfLowFi3": "ログイン",
 
-  "lingoshelfLowFi4": "Create Profile",
+  "lingoshelfLowFi4": "プロフィール作成",
 
-  "lingoshelfLowFi5": "Home Screen",
+  "lingoshelfLowFi5": "ホーム画面",
 
-  "lingoshelfKeyPointHeading1": "Key Point",
+  "lingoshelfKeyPointHeading1": "キーポイント",
 
   "lingoshelfUserFlowKeyPoint1": "迅速かつ簡単なオンボーディングのために、ユーザーは自分のSNSアカウントを使って登録でき、学びたい言語を選択した後で、すぐに最初の本を読み始めることができます。",
 
-  "本の検索フロー": "Book Search Flow",
+  "本の検索フロー": "書籍検索フロー",
 
-  "lingoshelfLowFi6": "Explore Screen",
+  "lingoshelfLowFi6": "検索画面",
 
-  "lingoshelfLowFi7": "Book Details",
+  "lingoshelfLowFi7": "書籍詳細",
 
-  "lingoshelfKeyPointHeading2": "Key Point",
+  "lingoshelfKeyPointHeading2": "キーポイント",
 
   "lingoshelfUserFlowKeyPoint2": "本を探すことは簡単で直感的であるべきです。本は探索ページを通じて検索でき、簡単に本の詳細にアクセスできます。",
 
   "lingoshelfUserFlow3": "単語保存フロー",
 
-  "lingoshelfLowFi8": "Reading View",
+  "lingoshelfLowFi8": "読書ビュー",
 
-  "lingoshelfLowFi9": "Word View",
+  "lingoshelfLowFi9": "単語ビュー",
 
-  "lingoshelfKeyPointHeading3": "Key Point",
+  "lingoshelfKeyPointHeading3": "キーポイント",
 
   "lingoshelfUserFlowKeyPoint3": "読書中に単語を調べるのは簡単で直感的であるべきです。ユーザーは新しい単語を簡単にフラッシュカードとして保存できるために、翻訳が小さなポップアップ画面で表示されます。",
 
   "lingoshelfUserFlow4": "フラッシュカードフロー",
 
-  "lingoshelfLowFi10": "Vocabulary",
+  "lingoshelfLowFi10": "単語リスト",
 
-  "lingoshelfLowFi11": "Flashcard Front",
+  "lingoshelfLowFi11": "フラッシュカードの表面",
 
-  "lingoshelfLowFi12": "Flashcard Back",
+  "lingoshelfLowFi12": "フラッシュカードの裏面",
 
-  "lingoshelfKeyPointHeading4": "Key Point",
+  "lingoshelfKeyPointHeading4": "キーポイント",
 
   "lingoshelfUserFlowKeyPoint4": "ユーザーは、自分の語彙リストからスムーズにフラッシュカードにアクセスできるべきです。",
 
@@ -299,11 +299,11 @@
 
   "plantwiseCatchphrase5": "を促進するための魅力的でモチベーションを高めるアプローチ",
 
-  "projectUserInterview": "User Interviews",
+  "projectUserInterview": "ユーザーインタビュー",
 
-  "projectPersona": "Personas",
+  "projectPersona": "ペルソナ",
 
-  "projectStyleGuide": "Style Guide",
+  "projectStyleGuide": "スタイルガイド",
 
   "plantwiseBackground": "多くの人にとって、お金の管理や環境問題への対処は難しいと感じられることがあり、日常生活での実行が困難または面倒になることがあります。しかし、どちらも重要なテーマであり、見過ごされると長期的にマイナスの結果を招く可能性があります。これらの一見難しい問題にすべての人を巻き込むために、Plantwiseはゲーミフィケーションのアプローチを採用し、専門知識に関係なく、個人の財務管理と環境への貢献をモチベーションが高く魅力的なものにします。",
 
@@ -339,99 +339,101 @@
 
   "plantwisePersona": "インタビューから得た洞察をもとに、私は二つのペルソナ、AllyとMatthewを作成しました。これらは、対象者の痛点と目標を代表するものです。ペルソナは、対象となるユーザーにより具体的なアイデンティティを与え、ユーザーに合わせた機能の開発を導くのに役立ちました。",
 
-  "plantwisePersonaQuote1": "“It is challenging for me to save the same amount every month.”",
+  "plantwisePersonaQuote1": "“毎月同じ金額を貯金するのは私にとって難しいです。”",
 
-  "plantwisePersonaItemHeading1": "Age:",
+  "plantwisePersonaItemHeading1": "年齢：",
 
-  "plantwisePersonaItem1": "24 years",
+  "plantwisePersonaItem1": "24歳",
 
-  "plantwisePersonaItemHeading2": "Occupation:",
+  "plantwisePersonaItemHeading2": "職業：",
 
-  "plantwisePersonaItem2": "Freelance Copywriter",
+  "plantwisePersonaItem2": "フリーランスのコピーライター",
 
-  "plantwisePersonaItemHeading3": "Monthly Income",
+  "plantwisePersonaItemHeading3": "月給：",
 
-  "plantwisePersonaItem3": "Instable (1,000 $ - 3.000 $)",
+  "plantwisePersonaItem3": "不安定（$1,000 - $3.000）",
 
-  "plantwisePersonaItemHeading4": "Family",
+  "plantwisePersonaItemHeading4": "家族：",
 
-  "plantwisePersonaItem4": "Single",
+  "plantwisePersonaItem4": "独身",
 
-  "plantwisePersonaItemHeading5": "Interests",
+  "plantwisePersonaItemHeading5": "興味：",
 
-  "plantwisePersonaItem5": "Traveling, Writing, Camping",
+  "plantwisePersonaItem5": "旅行、執筆、キャンプ",
 
-  "plantwisePersonaItemHeading6": "Goals",
+  "plantwisePersonaItemHeading6": "目標：",
 
-  "plantwisePersonaItem6": "Building a travel fund.",
+  "plantwisePersonaItem6": "旅行資金を作る。",
 
-  "plantwisePersonaItem7": "Track her income and expenses.",
+  "plantwisePersonaItem7": "収入と支出を追跡する。",
 
-  "plantwisePersonaItemHeading7": "Pain Points",
+  "plantwisePersonaItemHeading7": "痛点：",
 
-  "plantwisePersonaItem8": "Difficulty in setting aside a fixed amount.",
+  "plantwisePersonaItem8": "固定額を取り置くことが難しい。",
 
-  "plantwisePersonaItem9": "Lack of visibility into her spending habits.",
+  "plantwisePersonaItem9": "支出習慣の可視性が不足している。",
 
-  "plantwisePersonaItem10": "Forgetting to track expenses.",
+  "plantwisePersonaItem10": "支出を追跡するのを忘れる。",
 
-  "plantwisePersonaItemHeading8": "Needs",
+  "plantwisePersonaItemHeading8": "ニーズ：",
 
-  "plantwisePersonaItem11": "Flexible budgeting options.",
+  "plantwisePersonaItem11": "柔軟な予算設定オプション。",
 
-  "plantwisePersonaItem12": "Integration with her bank accounts.",
+  "plantwisePersonaItem12": "銀行口座との統合。",
 
-  "plantwisePersonaQuote2": "“As long as the money is available for me I will spend it.”",
+  "plantwisePersonaQuote2": "“お金が利用可能である限り、私はそれを使います。”",
 
-  "plantwisePersonaItemHeading9": "Age:",
+  "plantwisePersonaItemHeading9": "年齢：",
 
-  "plantwisePersonaItem13": "36 years",
+  "plantwisePersonaItem13": "36歳",
 
-  "plantwisePersonaItemHeading10": "Occupation:",
+  "plantwisePersonaItemHeading10": "職業：",
 
-  "plantwisePersonaItem14": "Electrician",
+  "plantwisePersonaItem14": "電気技師",
 
-  "plantwisePersonaItemHeading11": "Monthly Income",
+  "plantwisePersonaItemHeading11": "月給：",
 
-  "plantwisePersonaItem15": "Stable: $3,500",
+  "plantwisePersonaItem15": "安定：$3,500",
 
-  "plantwisePersonaItemHeading12": "Family",
+  "plantwisePersonaItemHeading12": "家族：",
 
-  "plantwisePersonaItem16": "Wife, 2 kids",
+  "plantwisePersonaItem16": "妻、2人の子供",
 
-  "plantwisePersonaItemHeading13": "Interests",
+  "plantwisePersonaItemHeading13": "興味：",
 
-  "plantwisePersonaItem17": "Movies, Soccer, Cars",
+  "plantwisePersonaItem17": "映画、サッカー、自動車",
 
-  "plantwisePersonaItemHeading14": "Goals",
+  "plantwisePersonaItemHeading14": "目標：",
 
-  "plantwisePersonaItem18": "Save money for specific products or occasions.",
+  "plantwisePersonaItem18": "特定の製品や機会のためにお金を貯める。",
 
-  "plantwisePersonaItem19": "Pay off debts.",
+  "plantwisePersonaItem19": "借金を返済する。",
 
-  "plantwisePersonaItemHeading15": "Pain Points",
+  "plantwisePersonaItemHeading15": "痛点：",
 
-  "plantwisePersonaItem20": "Feeling overwhelmed by financial responsibilities.",
+  "plantwisePersonaItem20": "財務上の責任に圧倒されることを感じる。",
 
-  "plantwisePersonaItem21": "Not being able to save enough money.",
+  "plantwisePersonaItem21": "十分なお金を貯めることができない。",
 
-  "plantwisePersonaItem22": "Often spends money on impulse.",
+  "plantwisePersonaItem22": "衝動的にお金を使うことがよくある。",
 
-  "plantwisePersonaItem23": "Dealing with unexpected expenses.",
+  "plantwisePersonaItem23": "予期せぬ出費に対処する。",
 
-  "plantwisePersonaItemHeading16": "Needs",
+  "plantwisePersonaItemHeading16": "ニーズ：",
 
-  "plantwisePersonaItem24": "Budgeting and financial planning.",
+  "plantwisePersonaItem24": "予算編成と財務計画。",
 
-  "plantwisePersonaItem25": "Transfer money to a separate saving account.",
+  "plantwisePersonaItem25": "別の貯蓄口座にお金を振り込む。",
 
-  "plantwisePersonaItem26": "Security of financial information.",
+  "plantwisePersonaItem26": "財務情報のセキュリティ。",
 
   "plantwiseHeadline2": "研究から発想へ：アプリの構築",
 
   "plantwiseHeadingUserFlow": "アプリの構造を開発する",
 
-  "plantwiseUserFlow": "実装する機能のアイデアを持って、私はユーザーフローの創造に取り組み始めました。それは、様々な思い付いた機能を統合しながら、簡単で直感的な構造を維持する方法を探るというものです。例えば、オンボーディングプロセスの場合はアプリが機密データを扱うことを考慮するため、直感的かつ信頼できるものにする必要があります。取引追跡のフローは迅速でわかりやすいものである必要があり、ユーザーが毎日この機能を使用する可能性が高いため、不必要な複雑さは避けるべきです。最後に、貯金目標のフローは魅力的でモチベーションを高めるものであり、ユーザーがお金を貯金する旅を続け、最終的に目標を達成することを奨励するものであるべきです。",
+  "plantwiseUserFlow1": "ターゲットグループのニーズや課題を明確に理解した上で、これらのニーズに対応しつつ、使いやすく直感的な構造を維持するための機能を検討し、ユーザーフローを作成しました。",
+
+  "plantwiseUserFlow2": "アプリが機密データを扱うため、オンボーディングプロセスは直感的で信頼できるものでなければなりません。取引の流れは迅速でシンプルにする必要があり、ユーザーが日常的に利用する可能性が高いため、不要な複雑さを避けるべきです。最後に、貯蓄目標の流れは、ユーザーが貯蓄の旅を楽しみ、最終的に財務目標を達成できるよう、魅力的でモチベーションを高めるものにすることが重要です。",
 
   "plantwiseHeadingLowFi": "画面開発のためのアイデア創出",
 
@@ -443,21 +445,21 @@
 
   "plantwiseUsabilityTesting2": "4人の参加者を募り、それぞれに3つの異なるタスクを完了してもらいました。テスターがアプリを操作し、問題なくタスクを達成することができましたが、テストの結果、アプリのナビゲーションと全体的なユーザー体験を改善するために対処する必要のある2つのポイントが明らかになりました。",
 
-  "plantwiseHeadingProblem1": "Problem 1:",
+  "plantwiseHeadingProblem1": "問題 1：",
 
-  "plantwiseProblem1": "Buttons are too small and difficult to reach.",
+  "plantwiseProblem1": "ボタンが小さすぎて、届きにくい。",
 
   "plantwiseProblem2": "ボタンが右揃えであるため、左手で電話を持っているときに届きにくい。",
 
-  "plantwiseHeadingSolution1": "Solution:",
+  "plantwiseHeadingSolution1": "解決策：",
 
   "plantwiseSolution1": "より良いユーザー体験を提供し、異なる位置からボタンにアクセスしやすくするために、ボタンを中央に配置し、そのサイズを大きくすることにしました。この調整は使いやすさを向上させるだけでなく、よりバランスの取れたレイアウトにも寄与します。",
 
-  "plantwiseHeadingProblem2": "Problem 2:",
+  "plantwiseHeadingProblem2": "問題 1：",
 
-  "plantwiseProblem3": "The Home Screen lacks the feature to directly add transactions or saving goals.",
+  "plantwiseProblem3": "ホーム画面には、直接取引や貯蓄目標を追加する機能が欠けている。",
 
-  "plantwiseHeadingSolution2": "Solution:",
+  "plantwiseHeadingSolution2": "解決策：",
 
   "plantwiseSolution2": "ユーザーが新しい取引や目標を簡単かつ迅速に追加できるようにするために、ホームスクリーンにもプラスボタンを実装することにしました。",
 
@@ -545,6 +547,229 @@
 
     "fontFamilyCatchphrase":  "'Klee One', 'Noto Sans Japanese', sans-serif",
 
-      "styleSheet": "css/stylesJP.css"
+      "styleSheet": "css/stylesJP.css",
+
+
+      "mealcompassCatchphrase1": "次の食事を計画し、料理を",
+
+      "mealcompassCatchphrase2": "ストレスフリー",
+    
+      "mealcompassCatchphrase3": "で",
+    
+      "mealcompassCatchphrase4": "楽しい",
+    
+      "mealcompassCatchphrase5": "体験にする",
+    
+      "projectMVP": "最も価値のある製品（MVP）",
+    
+      "mealcompassBackground": "忙しいスケジュールを管理しながら健康的な食事を維持することはしばしば困難で、ストレスの原因になることがあります。特にやるべきことが多い時には、さまざまなレシピを調べて何を料理するかを決めるのはかなり大変で度々圧倒的に感じます。そのため、忙しい日常生活の中で、栄養バランスの取れた食事は最初におろそかにされることが多いです。",
+    
+      "projectSolution": "解決策",
+    
+      "mealcompassSolution": "ユーザーの手数を最小限に抑えて貴重な時間を節約するために、ユーザーは多くの時間を費やして様々なレシピを調べることより、迅速に食事計画を決定することが重要です。そのため、アプリがユーザーに好みに合わせたレシピを提案することで、ユーザーの手間を減らすことができます。さらに、食事プランナーから直接買い物リストに材料を追加できるオプションを提供することで、潜在的なストレスの原因を軽減し、料理を楽しくて報われる体験に変えることができます。",
+    
+      "mealcompassHeadline1": "ユーザーを定義する：リサーチからペルソナへ",
+    
+      "mealcompassHeading5WH": "誰のためにデザインしているのか？初期ユーザーベースの定義",
+    
+      "mealcompass5WH": "アプリのデザインに取り掛かる前に、基本的にどのようなユーザーにデザインするかを理解することを目指しました。ユーザーの目標は何ですか？彼らはどのような困難や不満を経験していますか？ユーザーはどのタイミングで製品を利用するでしょうか？アプリの対象者をより明確に定義できるためにまずは５WH質問に回答することから始めました。",
+    
+      "mealcompassWho": "誰？",
+    
+      "mealcompassWhoAnswer": "スケジュールが忙しくて、時間を節約したいが、栄養豊富で健康的な食事にも気にする人。",
+    
+      "mealcompassWhat": "何？",
+    
+      "mealcompassWhatAnswer": "事前に食事と食料品の買い物を計画し、栄養分を管理し、自分のニーズに合わせてフィルターオプションを調整し、レシピに従って食事を調理する。",
+    
+      "mealcompassWhere": "どこ？",
+    
+      "mealcompassWhereAnswer": "主に家やキッチンで使用する。デスクトップだけでなく、モバイルデバイスでも使用する。",
+    
+      "mealcompassWhen": "いつ？",
+    
+      "mealcompassWhenAnswer": "食事の計画を立てるときや料理をしているとき。",
+    
+      "mealcompassWhy": "なぜ？",
+    
+      "mealcompassWhyAnswer": "食事計画と買い物リストの作成にかかる時間を節約するために。",
+    
+      "mealcompassHow": "どうやって？",
+    
+      "mealcompassHowAnswer": "ユーザーは、個人のニーズに応じてフィルタを設定し、レシピを検索する。レシピを「カレンダー」に入れて事前に食事計画を決定し、これらのレシピに基づいて購入する必要がある材料を整理し、買い物リストに追加する。",
+    
+      "mealcompassHeadingUserInterviews": "ユーザーインタビューの実施：ユーザーのニーズと痛点を明らかにする",
+    
+      "mealcompassUserInterviews": "プロジェクトについてより深い洞察を得るために、次にユーザーインタビューを行うことにしました。前に回答した５WH質問により、対象者をより明確に把握できたため、ユーザーインタビューに適した参加者を特定することができました。インタビューは、ユーザーの不満や目標を明らかにし、プロジェクトのアイデアと方向性をさらに形作るのに役立ちました。",
+    
+      "mealcompassFrustrations": "痛点",
+    
+      "mealcompassFrustration1": "新しくて革新的なレシピを見つけるのが困難",
+    
+      "mealcompassFrustration2": "家族全員の食事ニーズや好みに合うものを満たすことが困難",
+    
+      "mealcompassGoals": "目標",
+    
+      "mealcompassGoal1": "よりバランスの取れた食事",
+    
+      "mealcompassGoal2": "家族全員の食事ニーズを満たす",
+    
+      "mealcompassGoal3": "忙しいライフスタイルと食事のより良い両立",
+    
+      "mealcompassGoal4": "1週間前に食事を計画する",
+    
+      "mealcompassHeadingPersonas": "ユーザーにアイデンティティを与える：ペルソナの作成",
+    
+      "mealcompassPersonas": "ユーザーインタビュー中に得た情報をもとに、次に3つの異なるユーザーペルソナを作成しました。これらのペルソナは、対象者をより明確に定義し、ユーザーのニーズや痛点を理解するのに役立ちました。作成したペルソナを常に念頭に置くことで、私は意識的なデザイン決定を行い、ユーザーのニーズに共鳴する製品を開発することができました。",
+    
+      "mealcompassHeadline2": "要件を明確にする：製品を成功させるために",
+    
+      "mealcompassHeadingMVP": "最小限の実用的製品（MVP）の定義",
+    
+      "mealcompassMVP1": "ペルソナを作成した後、ユーザーが誰であるかは理解しましたが、どの機能が効果的にユーザーの問題を解決し、彼らのニーズや目標と一致するのでしょうか？その課題に対処するためには、私がペルソナに基づいてユーザーストーリーを形成し始めました。これにより、対象者のニーズとレシピのWebアプリに求めるものをより深く理解しようとしました。",
+    
+      "mealcompassMVP2": "機能やその範囲を繰り返し考え、機能のアイデアを思い付いた後、私はそれぞれを「持っていても良い機能」と「重要な機能」に分類し始めました。その後、これらの情報をすべてMVPドキュメントにまとめ、製品デザインの初期の方向性を明確にしました。",
+    
+      "mealcompassObjective": "MVPの目的：",
+    
+      "mealcompassObjective1": "健康的な食事を実現するために、忙しい人々の手数を減らし、栄養情報の概要を提供する。",
+    
+      "mealcompassObjective2": "忙しい人々が労力をかけず、自分のニーズや好みに合わせた食事を計画できる方法を提供する。",
+    
+      "mealcompassHeadingHypothesis": "仮説：",
+    
+      "mealcompassHypothesis": "健康的で栄養価の高い食事と忙しいスケジュールの両立は常に簡単ではありません。健康的な食事を準備する際には、レシピの決定、事前に食事の予定を決めること、食料品の買い物の計画など様々な困難があります。そのため、多くの人は迅速だが不健康な選択肢を選びがちです。したがって、このWebアプリは忙しい人々の食事計画と健康的な食生活に対応することを目指しています。",
+    
+      "mealcompassSucecessMetrics": "成功指標：", 
+    
+      "mealcompassSuccessMetric1": "ユーザープロファイルの数",
+    
+      "mealcompassSuccessMetric2": "新たに作成されたユーザープロファイルの数",
+    
+      "mealcompassSuccessMetric3": "作成された食事プランの数", 
+    
+      "mealcompassSuccessMetric4": "SEOランキン",
+    
+      "mealcompassSuccessMetric5": "ユーザーからのレビュー",
+    
+      "mealcompassUserStories": "ユーザーストーリー",
+    
+      "mealcompassUserStory1": "忙しいときは、食事の計画にかける時間を減らし、簡単で迅速な食事のアイデアを得たいので、時間を節約し、他のことにもっとエネルギーを使えるようにしたいです。",
+    
+      "mealcompassHeadingRequirements1": "要件：",
+    
+      "mealcompassRequirement1": "統合型食事プランナー",
+    
+      "mealcompassRequirement2": "好みに基づいたレシピ提案",
+    
+      "mealcompassUserStory2": "週の食事を計画する際に、すべての栄養情報を把握したいので、どうやって食事のバランスを改善できるかを確認したいです。",
+    
+      "mealcompassHeadingRequirements2": "要件：",
+    
+      "mealcompassRequirement3": "各レシピの栄養情報",
+    
+      "mealcompassRequirement4": "食事を計画する際の、1日ごとの栄養情報の概要",
+    
+      "mealcompassUserStory3": "レシピを検索する際に、分のニーズに合わないレシピをたくさん見て回ることを避けるために、自分のニーズや好みに応じて検索をカスタマイズしたいです。",
+    
+      "mealcompassHeadingRequirements3": "要件：",
+    
+      "mealcompassRequirement5": "好みに応じて設定できる多くのフィルターオプション",
+    
+      "mealcompassRequirement6": "プロフィールに直接、好みや制限を設定するオプション",
+    
+      "mealcompassUserStory4": "レシピを作ることに決めたとき、簡単に食材の買い物を計画できるために、材料を直接にショッピングリストに追加したいです。",
+    
+      "mealcompassHeadingRequirements4": "要件：",
+    
+      "mealcompassRequirement7": "必要な材料をショッピングリストや外部のショッピングリストアプリに追加するオプション",
+    
+      "mealcompassHeadline3": "ウェブアプリの構造を定義すること",
+    
+      "mealcompassHeadingUserFlow": "ユーザーフロー：ウェブアプリのナビゲーションを設計すること",
+    
+      "mealcompassUserFlow": "MVPに続いて、ユーザーストーリーに基づいてユーザーフローの概要を描き始めました。このユーザーフローは、ユーザーがそれぞれの画面をナビゲートするためにたどるパスを示し、アプリ内での進行に影響を与える決定点を強調し、ユーザーが遭遇する特定の画面を描写します。",
+    
+      "mealcompassHeadingLowFi": "画面の初期のイテレーション：低忠実度ワイヤーフレームを設計する", 
+    
+      "mealcompassLowFi": "ユーザーフローの作成で、デザインする必要がある画面と機能を明確に理解したので、次はアプリの実際の画面と画面の間のナビゲーションの具体的な設計を検討し始めました。複数回のブレインストーミングとクレイジー8を経て、最終的に低忠実度ワイヤーフレームを作成しました。これは画面レイアウトの基本的な基盤となりました。",
+    
+      "mealcompassHeadline4": "画面の洗練：ユーザビリティテストから高忠実度ワイヤーフレームへ",
+    
+      "mealcompassHeadingUsability": "デザインのテストとユーザビリティの問題を解決する",
+    
+      "mealcompassUsability": "アプリのナビゲーションと全体的なデザインのユーザビリティを評価するために、低忠実度ワイヤーフレームに基づいたシンプルなプロトタイプを作りました。私は3人の参加者を募り、ナビゲーションに影響を与える可能性のある重大な問題点や困難を特定することを目的として、5つのタスクを完了してもらいました。テスターがアプリのナビゲーションやタスクの完了に大きな問題を経験することはありませんでしたが、全体的なユーザー体験を向上させるために、中忠実度ワイヤーフレームの作成において対処する予定のいくつかの点を特定しました。",
+    
+      "mealcompassHeadingProlem1": "問題１",
+    
+      "mealcompassProblem1": "最初のワイヤーフレームでは、プロファイルアイコンをクリックするだけでレシピウェブサイトに登録することができました。しかし、テスト中にある参加者がハンバーガーメニュー内に登録オプションを見つけることできなく、混乱を表明しました。",
+    
+      "mealcompassProblem2": "彼女は最終的にアイコンを介して登録オプションを見つけましたが、登録オプションを見つけるのに遅れが生じると、当初からユーザーが登録することを思いとどまらせる可能性があります。その結果、このユーザビリティの問題を重要な問題として特定し、対処すべきであると判断しました。", 
+    
+      "mealcompassHeadingSolution1": "解決策１",
+    
+      "mealcompassSolution1": "この問題を解決するために、私はハンバーガーメニューに登録とログインのボタンを追加しました。",
+    
+      "mealcompassHeadingProlem2": "問題２",
+    
+      "mealcompassProblem3": "レシピ提案画面があまりにも最小限であり、その目的やこのページでどのようなアクションを取るべきかについてユーザーに説明が不足していました。",
+    
+      "mealcompassHeadingSolution2": "解決策２",
+    
+      "mealcompassSolution2": "この問題に対処するため、ページの上部に説明を追加し、各アイテムにレシピの詳細を追加して、ページの目的をユーザーにより明確に理解してもらえるようにしました。",
+    
+      "mealcompassHeadingProblem3": "問題３",
+    
+      "mealcompassProblem4": "食事プランナーから買い物リストに材料を追加するボタンに「材料を表示」と書かれていましたが、これは一部のテスターにその目的を伝えるものではありませんでした。これはアプリの重要な機能であるため、ユーザーが買い物リストに材料を追加するのが難しいと感じた場合、重大なユーザビリティの問題となりました。",
+    
+      "mealcompassHeadingSolution3": "解決策３",
+    
+      "mealcompassSolution3": "このユーザビリティ問題に対処するため、ボタンの位置を調整し、サイズを大きくして、ユーザーが見つけやすくしました。さらに、「買い物リストに追加」にテキストを改訂し、ボタンの説明をより明確にしました。",
+    
+      "mealcompassHeadingStyleGuide": "スタイルガイド：デザインに個性を加える",
+    
+      "mealcompassStyleGuide": "ワイヤーフレームはレシピアプリの基本的な構造を提供しましたが、誰かがグレースケールだけのアプリを使いたくなるのは考えにくいです。そのため、焦点をアプリの外観とスタイルを洗練することに移しました。アプリのポジティブで明るい雰囲気に調和するために、主要色をオレンジにして丸みを帯びたタイポグラフィを選び、ユーザーがアプリを起動するたびに歓迎されていると感じるようにしました。さらに、視覚的魅力を高めるためにアイコンとロゴも作成しました。",
+    
+      "mealcompassTypographyType1": "見出しとボタン",
+    
+      "mealcompassTypographyType2": "サブ見出しと段落",
+    
+      "projectTertiary": "三次",
+    
+      "projectIcons": "アイコン：",
+    
+      "projectLogo": "ロゴ：",
+    
+      "mealcompassHeadingHighFi": "最終デザインと機能性",
+    
+      "mealcompassHighFi": "スタイルガイドでビジュアルスタイルを定義した後、そのスタイルをワイヤーフレームに取り入れて、高忠実度のワイヤーフレームを作成しました。しかし、ビジュアルスタイルは成功した製品を作るための一面に過ぎないので、以前に定義した機能をどのように実装したか、UXとUIデザインをどのように調和させたかを以下に説明します。",
+    
+      "mealcompassFlow1": "好みの設定を行う",
+    
+      "mealcompassFunctionality1": "ダイエットの好みやアレルギーをプロフィールに保存して、好みに合わせた事前に選択したフィルターオプションのもとでレシピの提案を受け取ることができます。",
+    
+      "mealcompassFlow2": "レシピを検索する",
+    
+      "mealcompassFunctionality2": "さまざまなフィルタリングオプションから選択して、要件に合うレシピを発見することができます。",
+    
+      "mealcompassFunctionality3": "多様な料理アイデアの中からレシピを選択することで、新しい料理のインスピレーションを発見することができます。",
+    
+      "mealcompassFunctionality4": "上下に連続してスクロールする必要なく、材料と調理手順の間を簡単に切り替えることができます。",
+    
+      "mealcompassFlow3": "食事を計画する",
+    
+      "mealcompassFunctionality5": "週間の食事を計画し、時間とストレスを節約するためにパーソナライズされたレシピの提案を受け取ることができます。",
+    
+      "mealcompassFunctionality6": "食事プランから材料を買い物リストに簡単に追加し、わずか数ステップで食料品の買い物を整理することができます。", 
+    
+      "mealcompassfHeadingLearning1": "最初からすべてのアイデアや可能な機能を実装しない", 
+    
+      "mealcompassLearning1": "ブレインストーミング中に多くのアイデアや解決策を思い付くことは素晴らしいことですが、最初からすべてのアイデアなどを実装することは貴重なリソースと時間を消費します。完成品を目指すのではなく、まずは製品の機能的なバージョン（MVP）を作成し、初期のローンチ後に追加機能に取り組むことがより有益です。このアプローチは、早期の利益を生み出し、それをさらなる開発に再投資するのに役立つだけでなく、ユーザーからの貴重なフィードバックや洞察を収集することもできます。",
+    
+      "mealcompassHeadingLearning2": "一人でデザインはしない",
+    
+      "mealcompassLearning2": "デザインプロセスにユーザーを巻き込むことが重要である一方で、同僚、デザイナー仲間、開発者、業界の専門家など、他のステークホルダーとの協力も同様に重要です。これらの個々の人々は、自分の作業を強化するための貴重な洞察と提案を提供することができます。別のデザイナーは新鮮な視点とデザイン改善のための貴重なアドバイスを提供するかもしれませんし、開発者だと自身のアイデアの技術的な実現可能性を評価することができます。批評を受け入れることは、よく設計された最終製品を達成するために不可欠であり、決して見過ごされるべきではありません。",
+
+      "projecUserInterview": "ユーザーインタビュー"
 
 }

@@ -1,4 +1,7 @@
 {
+
+    "styleSheet": "css/stylesEN.css",
+
   "hpAbout1": "Hello, my name is Nadine Fiedler, a ",
 
   "hpAbout4": "UI/UX Designer ",
@@ -435,7 +438,9 @@
 
   "plantwiseHeadingUserFlow": "Developing the structure of the app",
 
-  "plantwiseUserFlow": "With an idea of the features to implement, I began iterating on a user flow to explore how I could integrate these features meaningfully while maintaining an easy and intuitive structure. The onboarding process should be both intuitive and trustworthy, considering the app deals with sensitive data. The transaction flow needs to be swift and straightforward, avoiding unnecessary complexity, as users are likely to use this feature daily. Lastly, the saving goal flow should be engaging and motivating, encouraging users to persist in their money-saving journey and ultimately achieve their goals.",
+  "plantwiseUserFlow1": "With a clear understanding of the target group’s needs and pain points, I began iterating on a user flow to explore ways to integrate meaningful features that address these needs while maintaining an easy and intuitive structure.",
+
+  "plantwiseUserFlow2": "The onboarding process should feel both intuitive and trustworthy, given that the app handles sensitive data. The transaction flow needs to be swift and straightforward to avoid unnecessary complexity, as users are likely to rely on this feature daily. Lastly, the saving goal flow should be engaging and motivating, encouraging users to stay committed to their savings journey and ultimately achieve their financial goals.",
 
   "plantwiseHeadingLowFi": "Iterating and idea creation: The development of the screens",
 
@@ -535,20 +540,227 @@
 
   "plantwiseLearning1": "In my initial concept of the screens, I didn't include the functionality to directly add transactions or goals from the home screen. However, by only allowing the addition of new transactions and goals from the transaction and savings screens, there would always be an extra step for the user. Especially for everyday use, this small extra step can quickly add up, leading to user frustration. Therefore, providing the fastest and easiest way for the user is crucial to ensure a pleasurable user experience.",
 
-  "fontSizeBody": "16px",
+  "mealcompassCatchphrase1": "Plan your meals for the week ahead and make cooking a ",
 
-  "fontFamilyBody": "'Outfit', sans-serif",
+  "mealcompassCatchphrase2": "stress-free ",
 
-  "lineHeightBody": "1.75",
+  "mealcompassCatchphrase3": "and ",
 
-  "fontFamilyH3": "'Amatic SC', 'Outfit', sans-serif",
+  "mealcompassCatchphrase4": "fun ",
 
-  "fontSizeP": "1em",
+  "mealcompassCatchphrase5": "experience",
 
-  "textHero": "1.125em",
+  "projectMVP": "MVP",
 
-  "fontFamilyCatchphrase":  "'Amatic SC', 'Outfit', sans-serif",
+  "mealcompassBackground": "Managing a busy schedule and maintaining a healthy diet can be stressful and challenging. It can be quite daunting and overwhelming to scroll through a variety of recipes and decide what to cook, especially when there are numerous other tasks on our to-do list. All too often, a nutritious diet is one of the first things we neglect in our busy everyday lives.",
 
-  "styleSheet": "css/stylesEN.css"
+  "projectSolution": "Solution",
+
+  "mealcompassSolution": "To minimize friction and save valuable time, users require a method to swiftly decide on their meal plan without spending excessive time browsing through numerous recipes. Consequently, it would be advantageous if the app could offer recipe suggestions aligned with the user's preferences. Furthermore, the option to directly transfer ingredients from the meal planner to a shopping list can alleviate potential stressors and transform cooking into a enjoyable and rewarding experience.",
+
+  "mealcompassHeadline1": "Defining the User: From Research to Persona",
+
+  "mealcompassHeading5WH": "Who am I designing for? Defining the initial user base",
+
+  "mealcompass5WH": "Before diving directly into the app design, I aimed to understand  WHO the user was I am designing for in the first place. What are the users' goals? Do they experience any pain points or frustrations that I could address? When would users utilize the product? To gain a clearer perspective of the target audience, I first began to define objectives.",
+
+  "mealcompassWho": "Who?",
+
+  "mealcompassWhoAnswer": "People with a busy schedule that want to save time but are also aware of a nutritious and healthy diet.",
+
+  "mealcompassWhat": "What?",
+
+  "mealcompassWhatAnswer": "Plan meals and grocery shopping ahead, keep an eye on their nutrition, adjust filter options to their personal needs and follow recipes to cook meals.",
+
+  "mealcompassWhere": "Where?",
+
+  "mealcompassWhereAnswer": "Mostly at home / in the kitchen. They might use it on their desktop as well as on their mobile device.",
+
+  "mealcompassWhen": "When?",
+
+  "mealcompassWhenAnswer": "When planning meals and while cooking.",
+
+  "mealcompassWhy": "Why?",
+
+  "mealcompassWhyAnswer": "To save time on their meal planning and grocery shopping list creation.",
+
+  "mealcompassHow": "How?",
+
+  "mealcompassHowAnswer": "Users will search for recipes by filtering them according to their personal needs. They will decide a meal plan beforehand by putting recipes in a “calendar” and decide about ingredients that have to be bought based on these recipes.",
+
+  "mealcompassHeadingUserInterviews": "Conducting user interviews: Uncovering user needs and pain points",
+
+  "mealcompassUserInterviews": "The objectives helped me with better defining the target audience and identifying suitable participants for user interviews, enabling me to gather more meaningful insights for the project. The interviews helped to unveil the frustrations and goals of my users, further shaping the idea and direction of the project.",
+
+  "mealcompassFrustrations": "Frustrations",
+
+  "mealcompassFrustration1": "Difficulty to find new and innovative recipes",
+
+  "mealcompassFrustration2": "Difficulty to meet dietary needs or taste of all family members",
+
+  "mealcompassGoals": "Goals",
+
+  "mealcompassGoal1": "Better balanced meals",
+
+  "mealcompassGoal2": "Meeting dietary needs of all family members",
+
+  "mealcompassGoal3": "Better compatibility of busy lifestyle and diet",
+
+  "mealcompassGoal4": "Planning meals 1 week ahead",
+
+  "mealcompassHeadingPersonas": "Giving the user an identity: Persona creation",
+
+  "mealcompassPersonas": "Drawing from the insights I acquired during user interviews, I crafted three distinct User Personas. These personas helped me to gain a more defined understanding of the target audience. Continuously keeping these personas in mind enabled me to make conscientious design decisions and develop a product that resonates with user needs, rather than relying solely on my broad assumptions of the user's preferences or personal biases.",
+
+  "mealcompassHeadline2": "Working out the requirements: How to make the product successful",
+
+  "mealcompassHeadingMVP": "Defining the Most Valuable Product (MVP)",
+
+  "mealcompassMVP1": "Upon creating the Personas, I understood who the user was, but which functionalities could effectively solve the user's problems and align with their needs and goals. With my Personas at hand, I began formulating User Stories to gain a deeper understanding of their needs and what they were looking for in a recipe web app.",
+
+  "mealcompassMVP2": "After iterating and generating an array of features and functionalities (while reminding myself that not every potential feature I could integrate into the app necessarily enhances the user experience), I started to categorize each as either a 'nice-to-have' or 'crucial' functionality. Afterwards I gathered all this information into an MVP document, which would indicate the initial direction of the product design.",
+
+  "mealcompassObjective": "MVP Objective:",
+
+  "mealcompassObjective1": "To provide an overview about nutritional information to reduce frictions for a healthy diet despite a busy schedule.",
+
+  "mealcompassObjective2": "To offer busy individuals a way to plan their meals without much effort and according to their needs and preferences.",
+
+  "mealcompassHeadingHypothesis": "Hypothesis:",
+
+  "mealcompassHypothesis": "A healthy and nutritious diet and a busy schedule are not always easy to manage. When there is to much friction to cook healthy meals, such as deciding for a recipe, organize their grocery shopping or planning in advance, people are more likely to choose an unhealthy but fast option. Therefore, the web app aims to accommodate busy people with their meal planning and a healthy diet.",
+
+  "mealcompassSucecessMetrics": "Success Metrics:", 
+
+  "mealcompassSuccessMetric1": "Number of user profiles",
+
+  "mealcompassSuccessMetric2": "Number of newly created user profiles",
+
+  "mealcompassSuccessMetric3": "Number of meal plans that have been created", 
+
+  "mealcompassSuccessMetric4": "SEO Ranking",
+
+  "mealcompassSuccessMetric5": "Reviews from users",
+
+  "mealcompassUserStories": "User Stories",
+
+  "mealcompassUserStory1": "When I am busy, I want to spend less time on meal planning and get easy and quick meal ideas, so I can save time and spend more of my energy on other things.",
+
+  "mealcompassHeadingRequirements1": "Requirements:",
+
+  "mealcompassRequirement1": "IIntegrated meal planner",
+
+  "mealcompassRequirement2": "Recipe suggestions based on your preferences",
+
+  "mealcompassUserStory2": "When I plan my meals for the week, I want to have an overview about all nutritional information, so I can see where I can balance my diet better.",
+
+  "mealcompassHeadingRequirements2": "Requirements:",
+
+  "mealcompassRequirement3": "Nutritional Information for every recipe",
+
+  "mealcompassRequirement4": "An overview about the nutritional information per day when planning meals",
+
+  "mealcompassUserStory3": "When searching for recipes, I want to customize the search according to my own needs and preferences, so I can avoid going through a bunch of recipes that doesn't serve my needs.",
+
+  "mealcompassHeadingRequirements3": "Requirements:",
+
+  "mealcompassRequirement5": "Having many filter options that can be set according to preferences",
+
+  "mealcompassRequirement6": "Have an option to set preferences and restrictions directly in your profile",
+
+  "mealcompassUserStory4": "When I decide to cook a recipe, I want to add the ingredients directly into a shopping list, so I can easily plan my grocery shopping.",
+
+  "mealcompassHeadingRequirements4": "Requirements:",
+
+  "mealcompassRequirement7": "The option to add ingredients needed into a shopping list or external shopping list app",
+
+  "mealcompassHeadline3": "Defining the structure of the web app",
+
+  "mealcompassHeadingUserFlow": "User Flow: Designing the navigation of the web app",
+
+  "mealcompassUserFlow": "Following the MVP, I began outlining the user flow based on the User Stories. The User Flow illustrated the path users would follow to navigate through different screens, highlighting decision points that would impact their progression within the app and the specific screens they would encounter.",
+
+  "mealcompassHeadingLowFi": "First iterations of the screens: Designing the low-fidelity wireframes", 
+
+  "mealcompassLowFi": "The User Flow helped me with obtaining a clear understanding of the screens and functionalities that needed to be designed and so I started iterating on how the app's actual screens and navigation would be structured. After multiple iterations, including a series of 'crazy8's', I ultimately crafted my Low-Fidelity Wireframes, which served as the fundamental basis for the screen layout.",
+
+  "mealcompassHeadline4": "Refining the screens: From Usability Testing to High-Fidelity Wirefrmaes",
+
+  "mealcompassHeadingUsability": "Testing the design and solving usability Problems",
+
+  "mealcompassUsability": "To assess the usability of the app's navigation and overall design, I developed a simple prototype based on my Low-Fidelity Wireframes. I recruited three participants and assigned them five tasks to complete, aiming to identify any significant pain points or difficulties that could affect the navigation. Although the testers encountered no major issues while navigating the app and completing the tasks, I identified some points that I intended to address in my iteration for the Mid-Fidelity Wireframes, with the goal of enhancing the overall user experience.",
+
+  "mealcompassHeadingProlem1": "Problem 1",
+
+  "mealcompassProblem1": "In my initial wireframes, the only option to sign up for the recipe website was accessible through the profile icon. During testing, one participant expressed confusion as she expected to find the sign-up option within the hamburger menu.",
+
+  "mealcompassProblem2": " Although she eventually located the sign-up option via the icon, the delay in finding the sign-up option could potentially discourage users from signing up initially. Consequently, I identified this usability issue as a significant problem that requires attention and should be addressed.", 
+
+  "mealcompassHeadingSolution1": "Solution 1",
+
+  "mealcompassSolution1": "To resolve the issue, I added sign-up and log-in buttons to the hamburger menu.",
+
+  "mealcompassHeadingProlem2": "Problem 2",
+
+  "mealcompassProblem3": "The recipe suggestions screen was too minimal and lacked an explanation for users regarding its purpose or what actions they should take on this page.",
+
+  "mealcompassHeadingSolution2": "Solution 2",
+
+  "mealcompassSolution2": "To address this issue, I included a description at the top of the page and added recipe details to each item, providing users with a clearer understanding of the page's purpose.",
+
+  "mealcompassHeadingProblem3": "Problem 3",
+
+  "mealcompassProblem4": "The button to add ingredients from the meal planner to the shopping list said 'show ingredients' which didn't convey it's purpose to some of the testers. As it is a crucial functionality of the app, it was a significant usability problem if users found it challenging to add ingredients to the shopping list.",
+
+  "mealcompassHeadingSolution3": "Solution 3",
+
+  "mealcompassSolution3": "To tackle this usability issue, I adjusted the button's position and made it bigger, making it easier for users to locate. Additionally, I revised the text to 'Add to Shopping List' for a clearer button description.",
+
+  "mealcompassHeadingStyleGuide": "The style guide: Adding personality to the design",
+
+  "mealcompassStyleGuide": "While the Wireframes offered the foundational structure of the recipe app, it's unlikely anyone would engage with an app solely in grayscale. Thus, I shifted my focus towards refining the app's appearance and style. I selected colors and typography that harmonize with the app's positive and cheerful atmosphere, ensuring users feel welcomed each time they launch the app. Additionally, I crafted icons and a logo to further enhance the visual appeal.",
+
+  "mealcompassTypographyType1": "Headings & Buttons",
+
+  "mealcompassTypographyType2": "Sub-Headings & Paragraphs",
+
+  "projectTertiary": "Tertiary",
+
+  "projectIcons": "Icons:",
+
+  "projectLogo": "Logo:",
+
+  "mealcompassHeadingHighFi": "The final design and functionalities",
+
+  "mealcompassHighFi": "Following the application of the styles I outlined in the Style Guide, I went on to incorporate them into my wireframes. However, since the visual style represents only one facet of crafting a successful product, let's also examine how I implemented the functionalities I previously defined and how I harmonized both the UX and the UI design.",
+
+  "mealcompassFlow1": "Set your Preferences",
+
+  "mealcompassFunctionality1": "Save your dietary preferences and allergies in your profile to receive personalized and pre-selected filtering options or recipe suggestions aligned with your preferences.",
+
+  "mealcompassFlow2": "Search for Recipes",
+
+  "mealcompassFunctionality2": "Select from a range of filtering options to discover recipes that match your requirements.",
+
+  "mealcompassFunctionality3": "Discover fresh cooking inspiration by selecting a recipe from our diverse range of culinary ideas.",
+
+  "mealcompassFunctionality4": "Effortlessly switch between Ingredients and Cooking Instructions without the need to continuously scroll up and down.",
+
+  "mealcompassFlow3": "Plan your Meals",
+
+  "mealcompassFunctionality5": "Plan your weekly meals and receive personalized recipe suggestions to save time and effort.",
+
+  "mealcompassFunctionality6": "Effortlessly add ingredients from the meal plan to your shopping list and organize your grocery shopping with just a few clicks.", 
+
+  "mealcompassfHeadingLearning1": "Don't implement all ideas or possible features from the beginning", 
+
+  "mealcompassLearning1": "Having a bunch of ideas and solutions during brainstorming is great, but implementing them all from the beginning consumes valuable resources and time. Instead of striving for a single finished product, it is more beneficial to create a functional version of the product first (MVP), and then iterate on additional features after the initial launch. This approach not only helps in generating early profits that can be reinvested in further development but also allows you to gather valuable feedback and insights from users for subsequent iterations.",
+
+  "mealcompassHeadingLearning2": "Don't design alone",
+
+  "mealcompassLearning2": "While involving users in the design process is essential, it's equally important to engage with other stakeholders, such as colleagues, fellow designers, developers, or industry experts. Each of these individuals can provide valuable insights and suggestions to enhance my work. Another designer might offer a fresh perspective and valuable tips for improving my design, while a developer can assess the technical feasibility of my ideas. Receiving, and more importantly, accepting critiques is crucial for achieving a well-designed end product and should never be overlooked.",
+
+  "projecUserInterview": "User Interviews"
+
 
 }

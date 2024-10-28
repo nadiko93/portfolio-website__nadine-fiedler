@@ -92,6 +92,8 @@ function loadTranslations(language) {
       // document.getElementById("hpAbout24").textContent = data.hpAbout24;
       document.getElementById("hpAbout25").textContent = data.hpAbout25;
       document.getElementById("hpAbout26").textContent = data.hpAbout26;
+      document.getElementById("hpProjectNamePlantwise").textContent =
+        data.hpProjectNamePlantwise;
       document.getElementById("hpPlantwiseDescription").textContent =
         data.hpPlantwiseDescription;
       document.getElementById("tagNameUI1").textContent = data.tagNameUI1;

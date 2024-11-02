@@ -1,6 +1,5 @@
 {
-
-    "styleSheet": "css/stylesEN.css",
+  "styleSheet": "css/stylesEN.css",
 
   "hpAbout1": "Hello, my name is Nadine Fiedler, a ",
 
@@ -79,7 +78,6 @@
   "tagNamereading2": "Reading",
 
   "footerThankYou": "Thank you for watching.",
-
 
   "lingoshelfCatchphrase": "Learn languages while reading your favorite books",
 
@@ -297,11 +295,10 @@
 
   "lingoshelfLearning2": "To avoid designing in isolation and excluding individuals who may have less experience with language learning, it is essential to involve people from diverse backgrounds in both the research and design phases. This approach yields valuable insights and prevents the pitfall of designing exclusively for one specific group",
 
-
   "plantwiseCatchphrase1": "An engaging and motivating approach to ",
 
   "plantwiseCatchphrase2": "money saving ",
-  
+
   "plantwiseCatchphrase3": "and ",
 
   "plantwiseCatchphrase4": "environmental protection",
@@ -630,13 +627,13 @@
 
   "mealcompassHypothesis": "A healthy and nutritious diet and a busy schedule are not always easy to manage. When there is to much friction to cook healthy meals, such as deciding for a recipe, organize their grocery shopping or planning in advance, people are more likely to choose an unhealthy but fast option. Therefore, the web app aims to accommodate busy people with their meal planning and a healthy diet.",
 
-  "mealcompassSucecessMetrics": "Success Metrics:", 
+  "mealcompassSucecessMetrics": "Success Metrics:",
 
   "mealcompassSuccessMetric1": "Number of user profiles",
 
   "mealcompassSuccessMetric2": "Number of newly created user profiles",
 
-  "mealcompassSuccessMetric3": "Number of meal plans that have been created", 
+  "mealcompassSuccessMetric3": "Number of meal plans that have been created",
 
   "mealcompassSuccessMetric4": "SEO Ranking",
 
@@ -680,7 +677,7 @@
 
   "mealcompassUserFlow": "Following the MVP, I began outlining the user flow based on the User Stories. The User Flow illustrated the path users would follow to navigate through different screens, highlighting decision points that would impact their progression within the app and the specific screens they would encounter.",
 
-  "mealcompassHeadingLowFi": "First iterations of the screens: Designing the low-fidelity wireframes", 
+  "mealcompassHeadingLowFi": "First iterations of the screens: Designing the low-fidelity wireframes",
 
   "mealcompassLowFi": "The User Flow helped me with obtaining a clear understanding of the screens and functionalities that needed to be designed and so I started iterating on how the app's actual screens and navigation would be structured. After multiple iterations, including a series of 'crazy8's', I ultimately crafted my Low-Fidelity Wireframes, which served as the fundamental basis for the screen layout.",
 
@@ -694,7 +691,7 @@
 
   "mealcompassProblem1": "In my initial wireframes, the only option to sign up for the recipe website was accessible through the profile icon. During testing, one participant expressed confusion as she expected to find the sign-up option within the hamburger menu.",
 
-  "mealcompassProblem2": " Although she eventually located the sign-up option via the icon, the delay in finding the sign-up option could potentially discourage users from signing up initially. Consequently, I identified this usability issue as a significant problem that requires attention and should be addressed.", 
+  "mealcompassProblem2": " Although she eventually located the sign-up option via the icon, the delay in finding the sign-up option could potentially discourage users from signing up initially. Consequently, I identified this usability issue as a significant problem that requires attention and should be addressed.",
 
   "mealcompassHeadingSolution1": "Solution 1",
 
@@ -750,9 +747,9 @@
 
   "mealcompassFunctionality5": "Plan your weekly meals and receive personalized recipe suggestions to save time and effort.",
 
-  "mealcompassFunctionality6": "Effortlessly add ingredients from the meal plan to your shopping list and organize your grocery shopping with just a few clicks.", 
+  "mealcompassFunctionality6": "Effortlessly add ingredients from the meal plan to your shopping list and organize your grocery shopping with just a few clicks.",
 
-  "mealcompassfHeadingLearning1": "Don't implement all ideas or possible features from the beginning", 
+  "mealcompassfHeadingLearning1": "Don't implement all ideas or possible features from the beginning",
 
   "mealcompassLearning1": "Having a bunch of ideas and solutions during brainstorming is great, but implementing them all from the beginning consumes valuable resources and time. Instead of striving for a single finished product, it is more beneficial to create a functional version of the product first (MVP), and then iterate on additional features after the initial launch. This approach not only helps in generating early profits that can be reinvested in further development but also allows you to gather valuable feedback and insights from users for subsequent iterations.",
 
@@ -761,6 +758,4 @@
   "mealcompassLearning2": "While involving users in the design process is essential, it's equally important to engage with other stakeholders, such as colleagues, fellow designers, developers, or industry experts. Each of these individuals can provide valuable insights and suggestions to enhance my work. Another designer might offer a fresh perspective and valuable tips for improving my design, while a developer can assess the technical feasibility of my ideas. Receiving, and more importantly, accepting critiques is crucial for achieving a well-designed end product and should never be overlooked.",
 
   "projecUserInterview": "User Interviews"
-
-
 }

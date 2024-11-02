@@ -16,9 +16,17 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet" />
 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+
     <link rel="icon" type="image/x-icon" href="img/other/icon__logo.svg" />
 
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link  id="styleSheet" rel="stylesheet" type="text/css" href="css/stylesJP.css" />
 
     <title>Case Study - Plantwise</title>
   </head>
@@ -147,7 +155,7 @@
             </p>
           </div>
           <div class="plantwise__challenges">
-            <h4 id="projectChallenges">Challenges</h4>
+            <h4 id="projectChallenges" class="no-margin-top">Challenges</h4>
             <ul>
               <li id="plantwiseChallenge1">
                 Unite a challenging topic like personal financial management
@@ -167,7 +175,7 @@
       </div>
 
       <div class="background__dark-green--gradient">
-        <div class="container">
+        <div class="container plantwise__container--user-research">
           <h3 id="plantwiseHeadline1" class="project-headline underline__white">
             Understanding User Needs
           </h3>
@@ -184,17 +192,13 @@
             needs of my participants concerning money saving.
           </p>
           <div class="container__relative">
-            <!-- <img
-              class="plantwise__user-research-deco-L--1"
-              src="img/plantwise/plantwise__user-research-deco-L--1.svg"
-              alt="" /> -->
             <img
               class="plantwise__speech-bubble--1"
               src="img/plantwise/plantwise__speech-bubble--1.svg"
               alt="" />
             <div class="plantwise__user-interview--results">
               <div>
-                <h5 id="projectPainPoints">Pain Points</h5>
+                <h5 id="projectPainPoints" class="no-margin-top">Pain Points</h5>
                 <ul class="flex__list-items">
                   <li id="plantwisePainPoint1">Impulse Purchases</li>
                   <li id="plantwisePainPoint2">Unplanned expenses</li>
@@ -204,7 +208,7 @@
                 </ul>
               </div>
               <div>
-                <h5 id="projectNeeds">Needs</h5>
+                <h5 id="projectNeeds" class="no-margin-top">Needs</h5>
                 <ul class="flex__list-items">
                   <li id="plantwiseNeed1">A way to store savings out of reach</li>
                   <li id="plantwiseNeed2">Flexible saving options.</li>
@@ -381,7 +385,7 @@
         </picture>
       </div>
 
-      <div class="container container__relative">
+      <div class="container container__relative plantwise__container--user-flow">
         <h3 id="plantwiseHeadline2" class="project-headline">
           From Research to Ideation: Building the app
         </h3>
@@ -427,7 +431,7 @@
           class="plantwise__grass--M"
           src="img/plantwise/plantwise__grass--M.svg"
           alt="" />
-        <div class="container plantwise__background--leaves">
+        <div class="container plantwise__background--leaves plantwise__container--usability">
           <div>
             <h4 id="plantwiseHeadingLowFi">Iterating and idea creation: The development of the screens</h4>
             <p id="plantwiseLowFi">
@@ -1002,7 +1006,7 @@
         <div class="plantwise__screen-explanation--2">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--2" src="img/plantwise/plantwise__deco-cloud--2.svg">
-        <p id="plantwiseFunctionality2" class="plantwsie__screen-mockup--text plantwise__mockup-text--2">The verification of the user's phone number helps confirm their identity and ensures the safety of the account.</p>
+        <p id="plantwiseFunctionality2" class="plantwsie__screen-mockup--text">The verification of the user's phone number helps confirm their identity and ensures the safety of the account.</p>
       </div>
     </div>
   </div>
@@ -1018,10 +1022,10 @@
             alt="Plantwise screen mockup of the sign up screen" />
         </picture>
 
-        <div class="plantwise__screen-explanation--3">
+        <div class="plantwise__screen-explanation--3 plantwise__single-screen--text">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--3" src="img/plantwise/plantwise__deco-cloud--3.svg" alt="">
-        <p id="plantwiseFunctionality3" class="plantwsie__screen-mockup--text">Setting a passcode ensures that transactions can only be initiated by the user, protecting them from unauthorized transactions by third parties.</p>
+        <p id="plantwiseFunctionality3" class="plantwsie__screen-mockup--text plantwise__single-mockup--text">Setting a passcode ensures that transactions can only be initiated by the user, protecting them from unauthorized transactions by third parties.</p>
       </div>
     </div>
   </div>
@@ -1169,7 +1173,7 @@
             alt="Plantwise screen mockup of the sign up screen" />
         </picture>
 
-        <div class="plantwise__screen-explanation--7">
+        <div class="plantwise__screen-explanation--7 plantwise__single-screen--text">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--7" src="img/plantwise/plantwise__deco-cloud--7.svg">
         <p id="plantwiseFunctionality7" class="plantwsie__screen-mockup--text">Categorize transactions, keep track of spending habits, and gain insights into monthly expenditures.</p>
@@ -1179,7 +1183,7 @@
     </div>
 
 
-      <div class="container">
+      <div class="container container__tryIt">
         <h4 id="plantwsieHeadingFlow3">Making money saving fun and engaging: Plant a tree for every goal and see how your forest grows</h4>
         <p id="plantwiseFlow3">As money-saving can be a dull and unpleasant topic, making the saving process engaging and motivating is a crucial aspect of Plantwise. Users can collect tree illustrations and even plant real trees for every certain amount saved.</p>
 
@@ -1194,7 +1198,7 @@
             alt="Plantwise screen mockup of the sign up screen" />
         </picture>
 
-        <div class="plantwise__screen-explanation--8">
+        <div class="plantwise__screen-explanation--8 plantwise__single-screen--text">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--8" src="img/plantwise/plantwise__deco-cloud--8.svg">
         <p id="plantwiseFunctionality8" class="plantwsie__screen-mockup--text">Save money and watch your tree and savings grow as you achieve your saving goals.</p>
@@ -1213,7 +1217,7 @@
             alt="Plantwise screen mockup of the sign up screen" />
         </picture>
 
-        <div class="plantwise__screen-explanation--9">
+        <div class="plantwise__screen-explanation--9 plantwise__single-screen--text">
         <div class="plantwise__cloud-container">
           <imG class="plantwise__deco-cloud--9" src="img/plantwise/plantwise__deco-cloud--9.svg">
         <p id="plantwiseFunctionality9" class="plantwsie__screen-mockup--text">Collect trees and watch your forest grow with every saving goal you achieve. Keep track of your total savings and the real trees planted, or share your forest with friends.</p>
@@ -1316,7 +1320,7 @@
             </picture>
           
 
-          <div class="plantwise__screen-explanation--12">
+          <div class="plantwise__screen-explanation--12 plantwise__single-screen--text">
           <div class="plantwise__cloud-container">
             <img class="plantwise__deco-cloud--12" src="img/plantwise/plantwise__deco-cloud--12.svg">
           <p id="plantwiseFunctionality12" class="plantwsie__screen-mockup--text">Transfer money manually every month or set uo a direct debit for an automatic and easy money transfer every month.</p>
@@ -1335,22 +1339,35 @@
                 alt="Plantwise screen mockup of the sign up screen" />
             </picture>
     
-<div class="plantwise__screen-explanation--13">
+<div class="plantwise__screen-explanation--13 plantwise__single-screen--text">
         <div class="plantwise__cloud-container">
           <img class="plantwise__deco-cloud--13" src="img/plantwise/plantwise__deco-cloud--13.svg">
         <p id="plantwiseFunctionality13" class="plantwsie__screen-mockup--text">Start saving for your goals and contribute to making the planet greener.</p>
       </div>
     </div>
   </div>
+  <div class="lingoshelf__tryIt plantwise__tryIt">
+    <div class="prototype__container--tryIt">
+      <p class="text__tryIt">Try it!</p>
+      <img
+        class="icon__arrow-prototype--S"
+        src="img/other/icon__arrow-prototype--S.svg"
+        alt="" />
+      <img
+        class="icon__arrow-prototype--L"
+        src="img/other/icon__arrow-prototype--L.svg"
+        alt="" />
+    </div>
+  </div>
       </div>
 
 
       <div id="plantwisePrototype" class="container figma-embed plantwise__prototype">
-        <iframe class="figma-prototype" src="https://embed.figma.com/proto/WA8ifGN3ABhm9dKBmAzYuF/Plantwise-High-Fi-Wireframes?page-id=13%3A73&node-id=13-514&node-type=canvas&viewport=1363%2C-361%2C0.65&scaling=scale-down&content-scaling=fixed&starting-point-node-id=13%3A514&embed-host=share" allowfullscreen></iframe>
+        <iframe class="figma-prototype" src="https://embed.figma.com/proto/WA8ifGN3ABhm9dKBmAzYuF/Plantwise-High-Fi-Wireframes?page-id=13%3A73&node-id=13-514&node-type=canvas&viewport=1363%2C-361%2C0.65&scaling=scale-down&content-scaling=fixed&starting-point-node-id=13%3A514&embed-host=share&hide-ui=true" allowfullscreen></iframe>
         </div>
         
         <div class="learnings">
-        <div class="container">
+        <div class="container container__learnings">
           <h3 id="headlineLearnings" class="project-headline">What I've learned</h3>
           <h4 id="plantwiseHeadingLearning1">Make it as simple as possible for the user and provide different options</h4>
           <p id="plantwiseLearning1">In my initial concept of the screens, I didn't include the functionality to directly add transactions or goals from the home screen. However, by only allowing the addition of new transactions and goals from the transaction and savings screens, there would always be an extra step for the user. Especially for everyday use, this small extra step can quickly add up, leading to user frustration. Therefore, providing the fastest and easiest way for the user is crucial to ensure a pleasurable user experience.</p>

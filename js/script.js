@@ -20,7 +20,7 @@ navToggle.addEventListener("click", function () {
 // HERO SECTION TYPEWRITER EFFECT
 
 const textElement = document.querySelector(".typewriter-text");
-const words = ["Web Designer", "UI/UX Designer", "Language Learner"];
+const words = ["UI/UX Designer", "Web Designer", "Language Learner"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -56,15 +56,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const translations = {
   jp: "../languages/jp.json",
-  en: "../languages/en.json"
+  en: "../languages/en.json",
 };
 
 function loadTranslations(language) {
   fetch(translations[language])
     .then((response) => response.json())
     .then((data) => {
-
-      // document.getElementById("styleSheet").href = data.styleSheet;
+      document.getElementById("styleSheet").href = data.styleSheet;
 
       document.getElementById("hpAbout1").textContent = data.hpAbout1;
       document.getElementById("hpAbout2").textContent = data.hpAbout2;
@@ -119,16 +118,12 @@ function loadTranslations(language) {
       document.getElementById("footerThankYou").textContent =
         data.footerThankYou;
 
+      // document.querySelector('body').style.fontSize = data.fontSizeBody;
+      // document.querySelector('body').style.fontFamily = data.fontFamilyBody;
 
-        // document.querySelector('body').style.fontSize = data.fontSizeBody;
-        // document.querySelector('body').style.fontFamily = data.fontFamilyBody;
-        
-        // document.querySelectorAll('p').forEach(p =>
-        //   p.style.lineHeight = data.lineHeightBody);
+      // document.querySelectorAll('p').forEach(p =>
+      //   p.style.lineHeight = data.lineHeightBody);
 
-
-
-        
       document.getElementById("mealcompassCatchphrase1").textContent =
         data.mealcompassCatchphrase1;
       document.getElementById("mealcompassCatchphrase2").textContent =
@@ -139,9 +134,6 @@ function loadTranslations(language) {
         data.mealcompassCatchphrase4;
       document.getElementById("mealcompassCatchphrase5").textContent =
         data.mealcompassCatchphrase5;
-
-  
-
     })
     .catch((error) => console.error("Error loading language file:", error));
 }
@@ -155,11 +147,11 @@ function switchLanguage(language) {
   lang = language;
 }
 
-console.log('lang');
+console.log("lang");
 
 if (lang === "jp") {
-  document.querySelector('body').style.fontSize = '14px';
-};
+  document.querySelector("body").style.fontSize = "14px";
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   // Get saved language or browser language

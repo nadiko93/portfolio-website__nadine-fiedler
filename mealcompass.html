@@ -16,13 +16,19 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet" />
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet" />
 
     <link rel="icon" type="image/x-icon" href="img/other/icon__logo.svg" />
 
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link
+      id="styleSheet"
+      rel="stylesheet"
+      type="text/css"
+      href="css/stylesJP.css" />
 
     <title>Meal Compass Case Study</title>
   </head>
@@ -61,13 +67,13 @@
             <li>
               <div class="languages">
                 <img
-                  class="lang--en btn__language" 
+                  class="lang--en btn__language"
                   onclick="switchLanguage('en')"
                   src="img/other/icon__flag--en.svg"
                   alt="icon of a british flag" />
                 <img
                   class="lang--jp btn__language"
-                  onclick="switchLanguage('en')"
+                  onclick="switchLanguage('jp')"
                   src="img/other/icon__flag--jp.svg"
                   alt="icon of a japanese flag" />
               </div>
@@ -87,7 +93,7 @@
           class="img--center mealcompass__logo"
           src="img/mealcompass/mealcompass__logo.svg"
           alt="Meal Compass logo" />
-        <p class="project-catchphrase lingo--catchphrase">
+        <p class="project-catchphrase mealcompass__catchphrase">
           <span id="mealcompassCatchphrase1"
             >Plan your meals for the week ahead and make cooking a </span
           ><span id="mealcompassCatchphrase2">stress-free</span
@@ -107,7 +113,7 @@
       </div>
 
       <div class="mealcompass__background--light-orange">
-        <div class="container">
+        <div class="container mealcompass__container--project-overview">
           <div class="project--overview">
             <h3 id="projectOverview">Project Overview</h3>
             <div class="container__tool-icons">
@@ -128,54 +134,78 @@
 
           <ul class="tags__project">
             <li>
-              <a id="projecUserInterview"
+              <a
+                id="projecUserInterview"
                 class="project-section-link"
                 href="#mealcompassHeadingUserInterviews"
                 >User Interviews</a
               >
             </li>
             <li>
-              <a id="projectPersona" class="project-section-link" href="#mealcompassHeadingPersona"
+              <a
+                id="projectPersona"
+                class="project-section-link"
+                href="#mealcompassHeadingPersona"
                 >Personas</a
               >
             </li>
             <li>
-              <a id="projectMVP" class="project-section-link" href="#mealcompassHeadingMVP"
+              <a
+                id="projectMVP"
+                class="project-section-link"
+                href="#mealcompassHeadingMVP"
                 >MVP</a
               >
             </li>
             <li>
-              <a id="projectTagUserFlow" class="project-section-link" href="#mealcompassHeadline3"
+              <a
+                id="projectTagUserFlow"
+                class="project-section-link"
+                href="#mealcompassHeadline3"
                 >User Flow</a
               >
             </li>
             <li>
-              <a id="projectTagLowFi" class="project-section-link" href="#mealcompassHeadingLowFi"
+              <a
+                id="projectTagLowFi"
+                class="project-section-link"
+                href="#mealcompassHeadingLowFi"
                 >Low-Fidelity Wireframes</a
               >
             </li>
             <li>
-              <a id="projectTagUsabilityTesting" class="project-section-link" href="#mealcompassHeadline4"
+              <a
+                id="projectTagUsabilityTesting"
+                class="project-section-link"
+                href="#mealcompassHeadline4"
                 >Usability Testing</a
               >
             </li>
             <li>
-              <a id="projectStyleGuide"
+              <a
+                id="projectStyleGuide"
                 class="project-section-link"
                 href="#mealcompassHeadingStyleGuide"
                 >Style Guide</a
               >
             </li>
             <li>
-              <a  id="projectTagHighFi" class="project-section-link" href="#mealcompassHeadingHighFi"
+              <a
+                id="projectTagHighFi"
+                class="project-section-link"
+                href="#mealcompassHeadingHighFi"
                 >High-Fidelity Wireframes</a
               >
             </li>
             <li>
-              <a id="projectTagPrototype" class="project-section-link" href="">Prototyping</a>
+              <a id="projectTagPrototype" class="project-section-link" href=""
+                >Prototyping</a
+              >
             </li>
             <li>
-              <a  id="projectTagMockups" class="project-section-link" href="">Mockups</a>
+              <a id="projectTagMockups" class="project-section-link" href=""
+                >Mockups</a
+              >
             </li>
           </ul>
           <div class="btn-center">
@@ -217,7 +247,7 @@
       </div>
 
       <div class="mealcompass__background--orange">
-        <div class="container">
+        <div class="container mealcompass__container--user-research">
           <h3 id="mealcompassHeadline1" class="project-headline">
             Defining the User: From Research to Persona
           </h3>
@@ -328,7 +358,7 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container mealcompass__container--personas">
           <h5 id="mealcompassHeadingPersonas">
             Giving the user an identity: Persona creation
           </h5>
@@ -602,10 +632,10 @@
       </div>
 
       <div class="mealcompass__background--orange">
-        <div class="container">
-          <h3
-            id="mealcompassHeadline3"
-            class="project-headline">Defining the structure of the web app</h3>
+        <div class="container mealcompas__container--user-flow">
+          <h3 id="mealcompassHeadline3" class="project-headline">
+            Defining the structure of the web app
+          </h3>
           <h4 id="mealcompassHeadingUserFlow">
             User Flow: Designing the navigation of the web app
           </h4>
@@ -636,7 +666,7 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container mealcompass__container--low-fi">
         <h4 id="mealcompassHeadingLowFi">
           First iterations of the screens: Designing the low-fidelity wireframes
         </h4>
@@ -781,7 +811,11 @@
             </div>
 
             <div>
-              <h5 id="mealcompassHeadingProlem2">Problem 2</h5>
+              <h5
+                id="mealcompassHeadingProlem2"
+                class="mealcompass__container--usability-problem">
+                Problem 2
+              </h5>
               <div class="container__relative">
                 <picture>
                   <source
@@ -809,7 +843,11 @@
             </div>
 
             <div>
-              <h5 id="mealcompassHeadingSolution2">Solution 2</h5>
+              <h5
+                id="mealcompassHeadingSolution2"
+                class="mealcompass__container--usability-problem">
+                Solution 2
+              </h5>
               <div class="container__relative">
                 <picture>
                   <source
@@ -837,7 +875,11 @@
             </div>
 
             <div>
-              <h5 id="mealcompassHeadingProblem3">Problem 3</h5>
+              <h5
+                id="mealcompassHeadingProblem3"
+                class="mealcompass__container--usability-problem">
+                Problem 3
+              </h5>
               <div class="container__relative">
                 <picture>
                   <source
@@ -868,7 +910,11 @@
             </div>
 
             <div>
-              <h5 id="mealcompassHeadingSolution3">Solution 3</h5>
+              <h5
+                id="mealcompassHeadingSolution3"
+                class="mealcompass__container--usability-problem">
+                Solution 3
+              </h5>
               <div class="container__relative">
                 <picture>
                   <source
@@ -899,7 +945,7 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container mealcompass__container--style-guide">
         <h4 id="mealcompassHeadingStyleGuide">
           The style guide: Adding personality to the design
         </h4>
@@ -1484,6 +1530,19 @@
       </div>
 
       <div class="mealcompass__prototype">
+        <div class="mealcompass__tryIt">
+          <div class="prototype__container--tryIt">
+            <p class="text__tryIt">Try it!</p>
+            <img
+              class="icon__arrow-prototype--S"
+              src="img/other/icon__arrow-prototype--S.svg"
+              alt="" />
+            <img
+              class="icon__arrow-prototype--L"
+              src="img/other/icon__arrow-prototype--L.svg"
+              alt="" />
+          </div>
+        </div>
         <iframe
           class="adobe-prototype"
           height="600"

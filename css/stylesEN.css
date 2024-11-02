@@ -1607,7 +1607,10 @@ footer p {
 /* MEAL COMPASS MVP */
 
 .mealcompass__mockup--1 {
-  width: 100%;
+  display: block;
+  width: 80%;
+  margin-right: 0;
+  margin-left: auto;
 }
 
 .mealcompass__orange-box {
@@ -1617,7 +1620,7 @@ footer p {
   background-color: #df823e;
   border-radius: 30px 0 0 30px;
   z-index: -100;
-  top: 25%;
+  top: 35%;
   right: -16px;
 }
 
@@ -1873,7 +1876,7 @@ footer p {
 .mealcompass__prototype {
   position: relative;
   width: 50vh;
-  margin: 300px auto;
+  margin: 300px auto 150px auto;
 }
 
 .mealcompass__tryIt {
@@ -2352,6 +2355,14 @@ footer p {
     margin-top: 0;
   }
 
+  .plantwise__speech-bubble--1 {
+    width: 231px;
+  }
+
+  .plantwise__speech-bubble--2 {
+    width: 274px;
+  }
+
   .plantwise__user-interview--results {
     flex-direction: row;
     background-image: url(../img/plantwise/plantwise__research-results--background--L.svg);
@@ -2733,6 +2744,7 @@ footer p {
 
   .mealcompass__orange-box {
     height: 200px;
+    right: -48px;
   }
 
   .mealcompass__mvp-container {
@@ -4091,14 +4103,21 @@ footer p {
   /* MEAL COMPASS MVP */
 
   .mealcompass__orange-box {
-    height: 100px;
-    width: 100%;
-    right: -48px;
+    height: 150px;
+    width: 500px;
+    top: 30%;
+  }
+
+  .mealcompass__mockup--1 {
+    width: 400px;
+    margin-right: -32px;
+    margin-top: -24px;
   }
 
   .mealcompass__mvp-description {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 3rem;
   }
 
   .mealcompass__mvp-container {
@@ -4524,6 +4543,10 @@ footer p {
   }
 
   /* MEAL COMPASS */
+
+  .mealcompass__mockup--1 {
+    margin-right: -48px;
+  }
 
   .mealcompass__cotainer-mockups {
     margin-bottom: 650px;
@@ -5055,11 +5078,11 @@ footer p {
 
   /* MEAL COMPASS MVP */
 
-  .mealcompass__orange-box {
+  /* .mealcompass__orange-box {
     height: 140px;
     width: 100%;
     right: -48px;
-  }
+  } */
 
   .mealcompass__mvp-description {
     display: grid;

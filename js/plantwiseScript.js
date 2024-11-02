@@ -296,21 +296,11 @@ function loadTranslations(language) {
         data.plantwiseLearning1;
       document.getElementById("projectOverview").textContent =
         data.projectOverview;
-        document.getElementById("headlineLearnings").textContent =
+      document.getElementById("headlineLearnings").textContent =
         data.headlineLearnings;
 
-      //   document.querySelector('body').style.fontSize = data.fontSize;
-
-      //   document.querySelector('body').style.fontSize = data.fontSizeBody;
-      //   document.querySelector('body').style.fontFamily = data.fontFamilyBody;
-
-      //   document.querySelectorAll('p').forEach(p =>
-      //     p.style.lineHeight = data.lineHeightBody);
-
-      //  document.querySelectorAll('h3').forEach(h3 =>
-      //   h3.style.fontFamily = data.fontFamilyH3);
-
-      //   document.querySelector('.project-catchphrase').style.fontFamily = data.fontFamilyCatchphrase;
+      document.getElementById("plantwiseUserFlowImage").src =
+        data.plantwiseUserFlowImage;
     })
     .catch((error) => console.error("Error loading language file:", error));
 }

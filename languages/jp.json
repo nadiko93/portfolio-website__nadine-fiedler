@@ -1,80 +1,79 @@
 {
-    "hpAbout1": "こんにちは、私はフィードラー・ナディーンと申します。ドイツ出身で、現在は",
+  "hpAbout1": "こんにちは、私はフィードラー・ナディーンと申します。ドイツ出身で、現在は",
 
-    "hpAbout2": "日本",
+  "hpAbout2": "日本",
 
-    "hpAbout3": "で働いているく",
+  "hpAbout3": "で働いているく",
 
-    "hpAbout4": "UI/UXデザイナー",
+  "hpAbout4": "UI/UXデザイナー",
 
-    "hpAbout5": "です。日常の問題に対する解決策を見つけ、ユーザー体験の向上に注力しながら、視覚的に魅力的なデザインの創造に力を入れています。",
+  "hpAbout5": "です。日常の問題に対する解決策を見つけ、ユーザー体験の向上に注力しながら、視覚的に魅力的なデザインの創造に力を入れています。",
 
-    "hpAbout8": "日本研究という学位を取得した後、 2020年11月に日本の会社に就職するために日本に来ました。 その間にUI/UXデザインへの",
+  "hpAbout8": "日本研究という学位を取得した後、 2020年11月に日本の会社に就職するために日本に来ました。 その間にUI/UXデザインへの",
 
-    "hpAbout9": "情熱",
+  "hpAbout9": "情熱",
 
-    "hpAbout10": "を発見し、 2024年2月にCareerfoundryでUIデザインの資格を取得しました。",
+  "hpAbout10": "を発見し、 2024年2月にCareerfoundryでUIデザインの資格を取得しました。",
 
-    "hpAbout11": "いくつかの国での生活経験を活かし、西洋と日本の市場の両方に対する",
+  "hpAbout11": "いくつかの国での生活経験を活かし、西洋と日本の市場の両方に対する",
 
-    "hpAbout12": "ユニークな視点",
+  "hpAbout12": "ユニークな視点",
 
-    "hpAbout13": "と理解を持ち、様々な地域のユーザーニーズに基づいた",
+  "hpAbout13": "と理解を持ち、様々な地域のユーザーニーズに基づいた",
 
-    "hpAbout14": "多様な解決策",
+  "hpAbout14": "多様な解決策",
 
-    "hpAbout15": "を見つけることができます。",
+  "hpAbout15": "を見つけることができます。",
 
-    "hpAbout16": "デザインをしていないときは、様々な言語で",
+  "hpAbout16": "デザインをしていないときは、様々な言語で",
 
-    "hpAbout17": "本を読んだり",
+  "hpAbout17": "本を読んだり",
 
-    "hpAbout18": "、新しい場所やカフェを",
+  "hpAbout18": "、新しい場所やカフェを",
 
-    "hpAbout19": "探索したり",
+  "hpAbout19": "探索したり",
 
-    "hpAbout20": "、",
+  "hpAbout20": "、",
 
-    "hpAbout21": "ビデオゲーム",
+  "hpAbout21": "ビデオゲーム",
 
-    "hpAbout22": "でリラックスしています。 また、",
+  "hpAbout22": "でリラックスしています。 また、",
 
-    "hpAbout23": "自己学習",
+  "hpAbout23": "自己学習",
 
-    "hpAbout24": "に情熱を持っており、常にスキルセットを向上させたり、まったく新しいスキルを習得したいという衝動に駆られます。",
+  "hpAbout24": "に情熱を持っており、常にスキルセットを向上させたり、まったく新しいスキルを習得したいという衝動に駆られます。",
 
-    "hpProjectNamePlantwise": "Plantwise (プラントワイズ)",
+  "hpProjectNamePlantwise": "Plantwise (プラントワイズ)",
 
-    "hpPlantwiseDescription": "ユーザーの目標に向けて貯金することで木を植え、 地球をより緑豊かにする環境志向の貯金アプリです。",
+  "hpPlantwiseDescription": "ユーザーの目標に向けて貯金することで木を植え、 地球をより緑豊かにする環境志向の貯金アプリです。",
 
-    "tagNameUI1": "UIデザイン",
+  "tagNameUI1": "UIデザイン",
 
-    "tagNameUX1": "UXデザイン",
+  "tagNameUX1": "UXデザイン",
 
-    "tagNameMobileApp1": "ネイティブモバイルアプリ",
+  "tagNameMobileApp1": "ネイティブモバイルアプリ",
 
-    "tagNameFintech1": "フィンテック",
+  "tagNameFintech1": "フィンテック",
 
-    "tagNameGamification1": "ゲーミフィケーション",
+  "tagNameGamification1": "ゲーミフィケーション",
 
-    "hpProjectNameLingoshelf": "Lingoshelf (リンゴシェルフ)",
+  "hpProjectNameLingoshelf": "Lingoshelf (リンゴシェルフ)",
 
-    "hpLingoshelfDescription": "上級言語学習者向けの言語学習アプリです。お気に入りの本を読みながら、楽しみながら目標言語を流暢に話せるようになります。",
+  "hpLingoshelfDescription": "上級言語学習者向けの言語学習アプリです。お気に入りの本を読みながら、楽しみながら目標言語を流暢に話せるようになります。",
 
-    "tagNameUI2": "UIデザイン",
+  "tagNameUI2": "UIデザイン",
 
-    "tagNameUX2": "UXデザイン",
+  "tagNameUX2": "UXデザイン",
 
-    "tagNameMobileApp2": "ネイティブモバイルアプリ",
+  "tagNameMobileApp2": "ネイティブモバイルアプリ",
 
-    "tagNameLanguageLearning2": "語学学習",
+  "tagNameLanguageLearning2": "語学学習",
 
-    "tagNamereading2": "読書",
+  "tagNamereading2": "読書",
 
-    "footerThankYou": "ご視聴いただきありがとうございます。",
+  "footerThankYou": "ご視聴いただきありがとうございます。",
 
-
-    "lingoshelfCatchphrase": "お気に入りの本を読みながら言語を学ぶ",
+  "lingoshelfCatchphrase": "お気に入りの本を読みながら言語を学ぶ",
 
   "projectOverview": "プロジェクトの概要",
 
@@ -289,10 +288,9 @@
   "lingoshelfHeadingLearning2": "一見対象者でないと思われるユーザーも考慮する",
 
   "lingoshelfLearning2": "言語学習の経験が少ない人など、一見対象者に見えない人々を排除することを避けるためには、研究とデザインの両段階で多様な背景を持つ人々を巻き込むことが不可欠です。このアプローチは貴重な洞察をもたらし、特定のグループだけに排他的に設計する落とし穴を防ぎます。",
-  
 
   "plantwiseCatchphrase2": "節約",
-  
+
   "plantwiseCatchphrase3": "と",
 
   "plantwiseCatchphrase4": "環境保護",
@@ -475,7 +473,11 @@
 
   "projectPrimary": "基本色",
 
+  "mealcompassPrimary": "一次",
+
   "projectSecondary": "二次色",
+
+  "mealcompassSecondary": "二次",
 
   "projectAccent": "強調色",
 
@@ -539,237 +541,275 @@
 
   "lineHeightBody": "2",
 
-   "fontFamilyH3": "'Klee One', 'Noto Sans Japanese', sans-serif",
+  "fontFamilyH3": "'Klee One', 'Noto Sans Japanese', sans-serif",
 
-   "fontSizeP": "0.875em",
+  "fontSizeP": "0.875em",
 
-    "textHero": "1.125em",
+  "textHero": "1.125em",
 
-    "fontFamilyCatchphrase":  "'Klee One', 'Noto Sans Japanese', sans-serif",
+  "fontFamilyCatchphrase": "'Klee One', 'Noto Sans Japanese', sans-serif",
 
-      "styleSheet": "css/stylesJP.css",
+  "styleSheet": "css/stylesJP.css",
 
+  "mealcompassCatchphrase1": "次の食事を計画し、料理を",
 
-      "mealcompassCatchphrase1": "次の食事を計画し、料理を",
+  "mealcompassCatchphrase2": "ストレスフリー",
 
-      "mealcompassCatchphrase2": "ストレスフリー",
-    
-      "mealcompassCatchphrase3": "で",
-    
-      "mealcompassCatchphrase4": "楽しい",
-    
-      "mealcompassCatchphrase5": "体験にする",
-    
-      "projectMVP": "最も価値のある製品（MVP）",
-    
-      "mealcompassBackground": "忙しいスケジュールを管理しながら健康的な食事を維持することはしばしば困難で、ストレスの原因になることがあります。特にやるべきことが多い時には、さまざまなレシピを調べて何を料理するかを決めるのはかなり大変で度々圧倒的に感じます。そのため、忙しい日常生活の中で、栄養バランスの取れた食事は最初におろそかにされることが多いです。",
-    
-      "projectSolution": "解決策",
-    
-      "mealcompassSolution": "ユーザーの手数を最小限に抑えて貴重な時間を節約するために、ユーザーは多くの時間を費やして様々なレシピを調べることより、迅速に食事計画を決定することが重要です。そのため、アプリがユーザーに好みに合わせたレシピを提案することで、ユーザーの手間を減らすことができます。さらに、食事プランナーから直接買い物リストに材料を追加できるオプションを提供することで、潜在的なストレスの原因を軽減し、料理を楽しくて報われる体験に変えることができます。",
-    
-      "mealcompassHeadline1": "ユーザーを定義する：リサーチからペルソナへ",
-    
-      "mealcompassHeading5WH": "誰のためにデザインしているのか？初期ユーザーベースの定義",
-    
-      "mealcompass5WH": "アプリのデザインに取り掛かる前に、基本的にどのようなユーザーにデザインするかを理解することを目指しました。ユーザーの目標は何ですか？彼らはどのような困難や不満を経験していますか？ユーザーはどのタイミングで製品を利用するでしょうか？アプリの対象者をより明確に定義できるためにまずは５WH質問に回答することから始めました。",
-    
-      "mealcompassWho": "誰？",
-    
-      "mealcompassWhoAnswer": "スケジュールが忙しくて、時間を節約したいが、栄養豊富で健康的な食事にも気にする人。",
-    
-      "mealcompassWhat": "何？",
-    
-      "mealcompassWhatAnswer": "事前に食事と食料品の買い物を計画し、栄養分を管理し、自分のニーズに合わせてフィルターオプションを調整し、レシピに従って食事を調理する。",
-    
-      "mealcompassWhere": "どこ？",
-    
-      "mealcompassWhereAnswer": "主に家やキッチンで使用する。デスクトップだけでなく、モバイルデバイスでも使用する。",
-    
-      "mealcompassWhen": "いつ？",
-    
-      "mealcompassWhenAnswer": "食事の計画を立てるときや料理をしているとき。",
-    
-      "mealcompassWhy": "なぜ？",
-    
-      "mealcompassWhyAnswer": "食事計画と買い物リストの作成にかかる時間を節約するために。",
-    
-      "mealcompassHow": "どうやって？",
-    
-      "mealcompassHowAnswer": "ユーザーは、個人のニーズに応じてフィルタを設定し、レシピを検索する。レシピを「カレンダー」に入れて事前に食事計画を決定し、これらのレシピに基づいて購入する必要がある材料を整理し、買い物リストに追加する。",
-    
-      "mealcompassHeadingUserInterviews": "ユーザーインタビューの実施：ユーザーのニーズと痛点を明らかにする",
-    
-      "mealcompassUserInterviews": "プロジェクトについてより深い洞察を得るために、次にユーザーインタビューを行うことにしました。前に回答した５WH質問により、対象者をより明確に把握できたため、ユーザーインタビューに適した参加者を特定することができました。インタビューは、ユーザーの不満や目標を明らかにし、プロジェクトのアイデアと方向性をさらに形作るのに役立ちました。",
-    
-      "mealcompassFrustrations": "痛点",
-    
-      "mealcompassFrustration1": "新しくて革新的なレシピを見つけるのが困難",
-    
-      "mealcompassFrustration2": "家族全員の食事ニーズや好みに合うものを満たすことが困難",
-    
-      "mealcompassGoals": "目標",
-    
-      "mealcompassGoal1": "よりバランスの取れた食事",
-    
-      "mealcompassGoal2": "家族全員の食事ニーズを満たす",
-    
-      "mealcompassGoal3": "忙しいライフスタイルと食事のより良い両立",
-    
-      "mealcompassGoal4": "1週間前に食事を計画する",
-    
-      "mealcompassHeadingPersonas": "ユーザーにアイデンティティを与える：ペルソナの作成",
-    
-      "mealcompassPersonas": "ユーザーインタビュー中に得た情報をもとに、次に3つの異なるユーザーペルソナを作成しました。これらのペルソナは、対象者をより明確に定義し、ユーザーのニーズや痛点を理解するのに役立ちました。作成したペルソナを常に念頭に置くことで、私は意識的なデザイン決定を行い、ユーザーのニーズに共鳴する製品を開発することができました。",
-    
-      "mealcompassHeadline2": "要件を明確にする：製品を成功させるために",
-    
-      "mealcompassHeadingMVP": "最小限の実用的製品（MVP）の定義",
-    
-      "mealcompassMVP1": "ペルソナを作成した後、ユーザーが誰であるかは理解しましたが、どの機能が効果的にユーザーの問題を解決し、彼らのニーズや目標と一致するのでしょうか？その課題に対処するためには、私がペルソナに基づいてユーザーストーリーを形成し始めました。これにより、対象者のニーズとレシピのWebアプリに求めるものをより深く理解しようとしました。",
-    
-      "mealcompassMVP2": "機能やその範囲を繰り返し考え、機能のアイデアを思い付いた後、私はそれぞれを「持っていても良い機能」と「重要な機能」に分類し始めました。その後、これらの情報をすべてMVPドキュメントにまとめ、製品デザインの初期の方向性を明確にしました。",
-    
-      "mealcompassObjective": "MVPの目的：",
-    
-      "mealcompassObjective1": "健康的な食事を実現するために、忙しい人々の手数を減らし、栄養情報の概要を提供する。",
-    
-      "mealcompassObjective2": "忙しい人々が労力をかけず、自分のニーズや好みに合わせた食事を計画できる方法を提供する。",
-    
-      "mealcompassHeadingHypothesis": "仮説：",
-    
-      "mealcompassHypothesis": "健康的で栄養価の高い食事と忙しいスケジュールの両立は常に簡単ではありません。健康的な食事を準備する際には、レシピの決定、事前に食事の予定を決めること、食料品の買い物の計画など様々な困難があります。そのため、多くの人は迅速だが不健康な選択肢を選びがちです。したがって、このWebアプリは忙しい人々の食事計画と健康的な食生活に対応することを目指しています。",
-    
-      "mealcompassSucecessMetrics": "成功指標：", 
-    
-      "mealcompassSuccessMetric1": "ユーザープロファイルの数",
-    
-      "mealcompassSuccessMetric2": "新たに作成されたユーザープロファイルの数",
-    
-      "mealcompassSuccessMetric3": "作成された食事プランの数", 
-    
-      "mealcompassSuccessMetric4": "SEOランキン",
-    
-      "mealcompassSuccessMetric5": "ユーザーからのレビュー",
-    
-      "mealcompassUserStories": "ユーザーストーリー",
-    
-      "mealcompassUserStory1": "忙しいときは、食事の計画にかける時間を減らし、簡単で迅速な食事のアイデアを得たいので、時間を節約し、他のことにもっとエネルギーを使えるようにしたいです。",
-    
-      "mealcompassHeadingRequirements1": "要件：",
-    
-      "mealcompassRequirement1": "統合型食事プランナー",
-    
-      "mealcompassRequirement2": "好みに基づいたレシピ提案",
-    
-      "mealcompassUserStory2": "週の食事を計画する際に、すべての栄養情報を把握したいので、どうやって食事のバランスを改善できるかを確認したいです。",
-    
-      "mealcompassHeadingRequirements2": "要件：",
-    
-      "mealcompassRequirement3": "各レシピの栄養情報",
-    
-      "mealcompassRequirement4": "食事を計画する際の、1日ごとの栄養情報の概要",
-    
-      "mealcompassUserStory3": "レシピを検索する際に、分のニーズに合わないレシピをたくさん見て回ることを避けるために、自分のニーズや好みに応じて検索をカスタマイズしたいです。",
-    
-      "mealcompassHeadingRequirements3": "要件：",
-    
-      "mealcompassRequirement5": "好みに応じて設定できる多くのフィルターオプション",
-    
-      "mealcompassRequirement6": "プロフィールに直接、好みや制限を設定するオプション",
-    
-      "mealcompassUserStory4": "レシピを作ることに決めたとき、簡単に食材の買い物を計画できるために、材料を直接にショッピングリストに追加したいです。",
-    
-      "mealcompassHeadingRequirements4": "要件：",
-    
-      "mealcompassRequirement7": "必要な材料をショッピングリストや外部のショッピングリストアプリに追加するオプション",
-    
-      "mealcompassHeadline3": "ウェブアプリの構造を定義する",
-    
-      "mealcompassHeadingUserFlow": "ユーザーフロー：ウェブアプリのナビゲーションを設計する",
-    
-      "mealcompassUserFlow": "MVPに続いて、ユーザーストーリーに基づいてユーザーフローの概要を描き始めました。このユーザーフローは、ユーザーがそれぞれの画面をナビゲートするためにたどるパスを示し、アプリ内での進行に影響を与える決定点を強調し、ユーザーが遭遇する特定の画面を描写します。",
-    
-      "mealcompassHeadingLowFi": "画面の初期のイテレーション：低忠実度ワイヤーフレームを設計する", 
-    
-      "mealcompassLowFi": "ユーザーフローの作成で、デザインする必要がある画面と機能を明確に理解したので、次はアプリの実際の画面と画面の間のナビゲーションの具体的な設計を検討し始めました。複数回のブレインストーミングとクレイジー8を経て、最終的に低忠実度ワイヤーフレームを作成しました。これは画面レイアウトの基本的な基盤となりました。",
-    
-      "mealcompassHeadline4": "画面の洗練：ユーザビリティテストから高忠実度ワイヤーフレームへ",
-    
-      "mealcompassHeadingUsability": "デザインのテストとユーザビリティの問題を解決する",
-    
-      "mealcompassUsability": "アプリのナビゲーションと全体的なデザインのユーザビリティを評価するために、低忠実度ワイヤーフレームに基づいたシンプルなプロトタイプを作りました。私は3人の参加者を募り、ナビゲーションに影響を与える可能性のある重大な問題点や困難を特定することを目的として、5つのタスクを完了してもらいました。テスターがアプリのナビゲーションやタスクの完了に大きな問題を経験することはありませんでしたが、全体的なユーザー体験を向上させるために、中忠実度ワイヤーフレームの作成において対処する予定のいくつかの点を特定しました。",
-    
-      "mealcompassHeadingProlem1": "問題１",
-    
-      "mealcompassProblem1": "最初のワイヤーフレームでは、プロファイルアイコンをクリックするだけでレシピウェブサイトに登録することができました。しかし、テスト中にある参加者がハンバーガーメニュー内に登録オプションを見つけることできなく、混乱を表明しました。",
-    
-      "mealcompassProblem2": "彼女は最終的にアイコンを介して登録オプションを見つけましたが、登録オプションを見つけるのに遅れが生じると、当初からユーザーが登録することを思いとどまらせる可能性があります。その結果、このユーザビリティの問題を重要な問題として特定し、対処すべきであると判断しました。", 
-    
-      "mealcompassHeadingSolution1": "解決策１",
-    
-      "mealcompassSolution1": "この問題を解決するために、私はハンバーガーメニューに登録とログインのボタンを追加しました。",
-    
-      "mealcompassHeadingProlem2": "問題２",
-    
-      "mealcompassProblem3": "レシピ提案画面があまりにも最小限であり、その目的やこのページでどのようなアクションを取るべきかについてユーザーに説明が不足していました。",
-    
-      "mealcompassHeadingSolution2": "解決策２",
-    
-      "mealcompassSolution2": "この問題に対処するため、ページの上部に説明を追加し、各アイテムにレシピの詳細を追加して、ページの目的をユーザーにより明確に理解してもらえるようにしました。",
-    
-      "mealcompassHeadingProblem3": "問題３",
-    
-      "mealcompassProblem4": "食事プランナーから買い物リストに材料を追加するボタンに「材料を表示」と書かれていましたが、これは一部のテスターにその目的を伝えるものではありませんでした。これはアプリの重要な機能であるため、ユーザーが買い物リストに材料を追加するのが難しいと感じた場合、重大なユーザビリティの問題となりました。",
-    
-      "mealcompassHeadingSolution3": "解決策３",
-    
-      "mealcompassSolution3": "このユーザビリティ問題に対処するため、ボタンの位置を調整し、サイズを大きくして、ユーザーが見つけやすくしました。さらに、「買い物リストに追加」にテキストを改訂し、ボタンの説明をより明確にしました。",
-    
-      "mealcompassHeadingStyleGuide": "スタイルガイド：デザインに個性を加える",
-    
-      "mealcompassStyleGuide": "ワイヤーフレームはレシピアプリの基本的な構造を提供しましたが、誰かがグレースケールだけのアプリを使いたくなるのは考えにくいです。そのため、焦点をアプリの外観とスタイルを洗練することに移しました。アプリのポジティブで明るい雰囲気に調和するために、主要色をオレンジにして丸みを帯びたタイポグラフィを選び、ユーザーがアプリを起動するたびに歓迎されていると感じるようにしました。さらに、視覚的魅力を高めるためにアイコンとロゴも作成しました。",
-    
-      "mealcompassTypographyType1": "見出しとボタン",
-    
-      "mealcompassTypographyType2": "サブ見出しと段落",
-    
-      "projectTertiary": "三次",
-    
-      "projectIcons": "アイコン：",
-    
-      "projectLogo": "ロゴ：",
-    
-      "mealcompassHeadingHighFi": "最終デザインと機能性",
-    
-      "mealcompassHighFi": "スタイルガイドでビジュアルスタイルを定義した後、そのスタイルをワイヤーフレームに取り入れて、高忠実度のワイヤーフレームを作成しました。しかし、ビジュアルスタイルは成功した製品を作るための一面に過ぎないので、以前に定義した機能をどのように実装したか、UXとUIデザインをどのように調和させたかを以下に説明します。",
-    
-      "mealcompassFlow1": "好みの設定を行う",
-    
-      "mealcompassFunctionality1": "ダイエットの好みやアレルギーをプロフィールに保存して、好みに合わせた事前に選択したフィルターオプションのもとでレシピの提案を受け取ることができます。",
-    
-      "mealcompassFlow2": "レシピを検索する",
-    
-      "mealcompassFunctionality2": "さまざまなフィルタリングオプションから選択して、要件に合うレシピを発見することができます。",
-    
-      "mealcompassFunctionality3": "多様な料理アイデアの中からレシピを選択することで、新しい料理のインスピレーションを発見することができます。",
-    
-      "mealcompassFunctionality4": "上下に連続してスクロールする必要なく、材料と調理手順の間を簡単に切り替えることができます。",
-    
-      "mealcompassFlow3": "食事を計画する",
-    
-      "mealcompassFunctionality5": "週間の食事を計画し、時間とストレスを節約するためにパーソナライズされたレシピの提案を受け取ることができます。",
-    
-      "mealcompassFunctionality6": "食事プランから材料を買い物リストに簡単に追加し、わずか数ステップで食料品の買い物を整理することができます。", 
-    
-      "mealcompassfHeadingLearning1": "最初からすべてのアイデアや可能な機能を実装しない", 
-    
-      "mealcompassLearning1": "ブレインストーミング中に多くのアイデアや解決策を思い付くことは素晴らしいことですが、最初からすべてのアイデアなどを実装することは貴重なリソースと時間を消費します。完成品を目指すのではなく、まずは製品の機能的なバージョン（MVP）を作成し、初期のローンチ後に追加機能に取り組むことがより有益です。このアプローチは、早期の利益を生み出し、それをさらなる開発に再投資するのに役立つだけでなく、ユーザーからの貴重なフィードバックや洞察を収集することもできます。",
-    
-      "mealcompassHeadingLearning2": "一人でデザインはしない",
-    
-      "mealcompassLearning2": "デザインプロセスにユーザーを巻き込むことが重要である一方で、同僚、デザイナー仲間、開発者、業界の専門家など、他のステークホルダーとの協力も同様に重要です。これらの個々の人々は、自分の作業を強化するための貴重な洞察と提案を提供することができます。別のデザイナーは新鮮な視点とデザイン改善のための貴重なアドバイスを提供するかもしれませんし、開発者だと自身のアイデアの技術的な実現可能性を評価することができます。批評を受け入れることは、よく設計された最終製品を達成するために不可欠であり、決して見過ごされるべきではありません。",
+  "mealcompassCatchphrase3": "で",
 
-      "projecUserInterview": "ユーザーインタビュー"
+  "mealcompassCatchphrase4": "楽しい",
 
+  "mealcompassCatchphrase5": "体験にする",
+
+  "projectMVP": "最も価値のある製品（MVP）",
+
+  "mealcompassBackground": "忙しいスケジュールを管理しながら健康的な食事を維持することはしばしば困難で、ストレスの原因になることがあります。特にやるべきことが多い時には、さまざまなレシピを調べて何を料理するかを決めるのはかなり大変で度々圧倒的に感じます。そのため、忙しい日常生活の中で、栄養バランスの取れた食事は最初におろそかにされることが多いです。",
+
+  "projectSolution": "解決策",
+
+  "mealcompassSolution": "ユーザーの手数を最小限に抑えて貴重な時間を節約するために、ユーザーは多くの時間を費やして様々なレシピを調べることより、迅速に食事計画を決定することが重要です。そのため、アプリがユーザーに好みに合わせたレシピを提案することで、ユーザーの手間を減らすことができます。さらに、食事プランナーから直接買い物リストに材料を追加できるオプションを提供することで、潜在的なストレスの原因を軽減し、料理を楽しくて報われる体験に変えることができます。",
+
+  "mealcompassHeadline1": "ユーザーを定義する：リサーチからペルソナへ",
+
+  "mealcompassHeading5WH": "誰のためにデザインしているのか？初期ユーザーベースの定義",
+
+  "mealcompass5WH": "アプリのデザインに取り掛かる前に、基本的にどのようなユーザーにデザインするかを理解することを目指しました。ユーザーの目標は何ですか？彼らはどのような困難や不満を経験していますか？ユーザーはどのタイミングで製品を利用するでしょうか？アプリの対象者をより明確に定義できるためにまずは５WH質問に回答することから始めました。",
+
+  "mealcompassWho": "誰？",
+
+  "mealcompassWhoAnswer": "スケジュールが忙しくて、時間を節約したいが、栄養豊富で健康的な食事にも気にする人。",
+
+  "mealcompassWhat": "何？",
+
+  "mealcompassWhatAnswer": "事前に食事と食料品の買い物を計画し、栄養分を管理し、自分のニーズに合わせてフィルターオプションを調整し、レシピに従って食事を調理する。",
+
+  "mealcompassWhere": "どこ？",
+
+  "mealcompassWhereAnswer": "主に家やキッチンで使用する。デスクトップだけでなく、モバイルデバイスでも使用する。",
+
+  "mealcompassWhen": "いつ？",
+
+  "mealcompassWhenAnswer": "食事の計画を立てるときや料理をしているとき。",
+
+  "mealcompassWhy": "なぜ？",
+
+  "mealcompassWhyAnswer": "食事計画と買い物リストの作成にかかる時間を節約するために。",
+
+  "mealcompassHow": "どうやって？",
+
+  "mealcompassHowAnswer": "ユーザーは、個人のニーズに応じてフィルタを設定し、レシピを検索する。レシピを「カレンダー」に入れて事前に食事計画を決定し、これらのレシピに基づいて購入する必要がある材料を整理し、買い物リストに追加する。",
+
+  "mealcompassHeadingUserInterviews": "ユーザーインタビューの実施：ユーザーのニーズと痛点を明らかにする",
+
+  "mealcompassUserInterviews": "プロジェクトについてより深い洞察を得るために、次にユーザーインタビューを行うことにしました。前に回答した５WH質問により、対象者をより明確に把握できたため、ユーザーインタビューに適した参加者を特定することができました。インタビューは、ユーザーの不満や目標を明らかにし、プロジェクトのアイデアと方向性をさらに形作るのに役立ちました。",
+
+  "mealcompassFrustrations": "痛点",
+
+  "mealcompassFrustration1": "新しくて革新的なレシピを見つけるのが困難",
+
+  "mealcompassFrustration2": "家族全員の食事ニーズや好みに合うものを満たすことが困難",
+
+  "mealcompassGoals": "目標",
+
+  "mealcompassGoal1": "よりバランスの取れた食事",
+
+  "mealcompassGoal2": "家族全員の食事ニーズを満たす",
+
+  "mealcompassGoal3": "忙しいライフスタイルと食事のより良い両立",
+
+  "mealcompassGoal4": "1週間前に食事を計画する",
+
+  "mealcompassHeadingPersonas": "ユーザーにアイデンティティを与える：ペルソナの作成",
+
+  "mealcompassPersonas": "ユーザーインタビュー中に得た情報をもとに、次に3つの異なるユーザーペルソナを作成しました。これらのペルソナは、対象者をより明確に定義し、ユーザーのニーズや痛点を理解するのに役立ちました。作成したペルソナを常に念頭に置くことで、私は意識的なデザイン決定を行い、ユーザーのニーズに共鳴する製品を開発することができました。",
+
+  "mealcompassHeadline2": "要件を明確にする：製品を成功させるために",
+
+  "mealcompassHeadingMVP": "最小限の実用的製品（MVP）の定義",
+
+  "mealcompassMVP1": "ペルソナを作成した後、ユーザーが誰であるかは理解しましたが、どの機能が効果的にユーザーの問題を解決し、彼らのニーズや目標と一致するのでしょうか？その課題に対処するためには、私がペルソナに基づいてユーザーストーリーを形成し始めました。これにより、対象者のニーズとレシピのWebアプリに求めるものをより深く理解しようとしました。",
+
+  "mealcompassMVP2": "機能やその範囲を繰り返し考え、機能のアイデアを思い付いた後、私はそれぞれを「持っていても良い機能」と「重要な機能」に分類し始めました。その後、これらの情報をすべてMVPドキュメントにまとめ、製品デザインの初期の方向性を明確にしました。",
+
+  "mealcompassObjective": "MVPの目的：",
+
+  "mealcompassObjective1": "健康的な食事を実現するために、忙しい人々の手数を減らし、栄養情報の概要を提供する。",
+
+  "mealcompassObjective2": "忙しい人々が労力をかけず、自分のニーズや好みに合わせた食事を計画できる方法を提供する。",
+
+  "mealcompassHeadingHypothesis": "仮説：",
+
+  "mealcompassHypothesis": "健康的で栄養価の高い食事と忙しいスケジュールの両立は常に簡単ではありません。健康的な食事を準備する際には、レシピの決定、事前に食事の予定を決めること、食料品の買い物の計画など様々な困難があります。そのため、多くの人は迅速だが不健康な選択肢を選びがちです。したがって、このWebアプリは忙しい人々の食事計画と健康的な食生活に対応することを目指しています。",
+
+  "mealcompassSucecessMetrics": "成功指標：",
+
+  "mealcompassSuccessMetric1": "ユーザープロファイルの数",
+
+  "mealcompassSuccessMetric2": "新たに作成されたユーザープロファイルの数",
+
+  "mealcompassSuccessMetric3": "作成された食事プランの数",
+
+  "mealcompassSuccessMetric4": "SEOランキン",
+
+  "mealcompassSuccessMetric5": "ユーザーからのレビュー",
+
+  "mealcompassUserStories": "ユーザーストーリー",
+
+  "mealcompassUserStory1": "忙しいときは、食事の計画にかける時間を減らし、簡単で迅速な食事のアイデアを得たいので、時間を節約し、他のことにもっとエネルギーを使えるようにしたいです。",
+
+  "mealcompassHeadingRequirements1": "要件：",
+
+  "mealcompassRequirement1": "統合型食事プランナー",
+
+  "mealcompassRequirement2": "好みに基づいたレシピ提案",
+
+  "mealcompassUserStory2": "週の食事を計画する際に、すべての栄養情報を把握したいので、どうやって食事のバランスを改善できるかを確認したいです。",
+
+  "mealcompassHeadingRequirements2": "要件：",
+
+  "mealcompassRequirement3": "各レシピの栄養情報",
+
+  "mealcompassRequirement4": "食事を計画する際の、1日ごとの栄養情報の概要",
+
+  "mealcompassUserStory3": "レシピを検索する際に、分のニーズに合わないレシピをたくさん見て回ることを避けるために、自分のニーズや好みに応じて検索をカスタマイズしたいです。",
+
+  "mealcompassHeadingRequirements3": "要件：",
+
+  "mealcompassRequirement5": "好みに応じて設定できる多くのフィルターオプション",
+
+  "mealcompassRequirement6": "プロフィールに直接、好みや制限を設定するオプション",
+
+  "mealcompassUserStory4": "レシピを作ることに決めたとき、簡単に食材の買い物を計画できるために、材料を直接にショッピングリストに追加したいです。",
+
+  "mealcompassHeadingRequirements4": "要件：",
+
+  "mealcompassRequirement7": "必要な材料をショッピングリストや外部のショッピングリストアプリに追加するオプション",
+
+  "mealcompassHeadline3": "ウェブアプリの構造を定義する",
+
+  "mealcompassHeadingUserFlow": "ユーザーフロー：ウェブアプリのナビゲーションを設計する",
+
+  "mealcompassUserFlow": "MVPに続いて、ユーザーストーリーに基づいてユーザーフローの概要を描き始めました。このユーザーフローは、ユーザーがそれぞれの画面をナビゲートするためにたどるパスを示し、アプリ内での進行に影響を与える決定点を強調し、ユーザーが遭遇する特定の画面を描写します。",
+
+  "mealcompassHeadingLowFi": "画面の初期のイテレーション：低忠実度ワイヤーフレームを設計する",
+
+  "mealcompassLowFi": "ユーザーフローの作成で、デザインする必要がある画面と機能を明確に理解したので、次はアプリの実際の画面と画面の間のナビゲーションの具体的な設計を検討し始めました。複数回のブレインストーミングとクレイジー8を経て、最終的に低忠実度ワイヤーフレームを作成しました。これは画面レイアウトの基本的な基盤となりました。",
+
+  "mealcompassHeadline4": "画面の洗練：ユーザビリティテストから高忠実度ワイヤーフレームへ",
+
+  "mealcompassHeadingUsability": "デザインのテストとユーザビリティの問題を解決する",
+
+  "mealcompassUsability": "アプリのナビゲーションと全体的なデザインのユーザビリティを評価するために、低忠実度ワイヤーフレームに基づいたシンプルなプロトタイプを作りました。私は3人の参加者を募り、ナビゲーションに影響を与える可能性のある重大な問題点や困難を特定することを目的として、5つのタスクを完了してもらいました。テスターがアプリのナビゲーションやタスクの完了に大きな問題を経験することはありませんでしたが、全体的なユーザー体験を向上させるために、中忠実度ワイヤーフレームの作成において対処する予定のいくつかの点を特定しました。",
+
+  "mealcompassHeadingProlem1": "問題１",
+
+  "mealcompassProblem1": "最初のワイヤーフレームでは、プロファイルアイコンをクリックするだけでレシピウェブサイトに登録することができました。しかし、テスト中にある参加者がハンバーガーメニュー内に登録オプションを見つけることできなく、混乱を表明しました。",
+
+  "mealcompassProblem2": "彼女は最終的にアイコンを介して登録オプションを見つけましたが、登録オプションを見つけるのに遅れが生じると、当初からユーザーが登録することを思いとどまらせる可能性があります。その結果、このユーザビリティの問題を重要な問題として特定し、対処すべきであると判断しました。",
+
+  "mealcompassHeadingSolution1": "解決策１",
+
+  "mealcompassSolution1": "この問題を解決するために、私はハンバーガーメニューに登録とログインのボタンを追加しました。",
+
+  "mealcompassHeadingProlem2": "問題２",
+
+  "mealcompassProblem3": "レシピ提案画面があまりにも最小限であり、その目的やこのページでどのようなアクションを取るべきかについてユーザーに説明が不足していました。",
+
+  "mealcompassHeadingSolution2": "解決策２",
+
+  "mealcompassSolution2": "この問題に対処するため、ページの上部に説明を追加し、各アイテムにレシピの詳細を追加して、ページの目的をユーザーにより明確に理解してもらえるようにしました。",
+
+  "mealcompassHeadingProblem3": "問題３",
+
+  "mealcompassProblem4": "食事プランナーから買い物リストに材料を追加するボタンに「材料を表示」と書かれていましたが、これは一部のテスターにその目的を伝えるものではありませんでした。これはアプリの重要な機能であるため、ユーザーが買い物リストに材料を追加するのが難しいと感じた場合、重大なユーザビリティの問題となりました。",
+
+  "mealcompassHeadingSolution3": "解決策３",
+
+  "mealcompassSolution3": "このユーザビリティ問題に対処するため、ボタンの位置を調整し、サイズを大きくして、ユーザーが見つけやすくしました。さらに、「買い物リストに追加」にテキストを改訂し、ボタンの説明をより明確にしました。",
+
+  "mealcompassHeadingStyleGuide": "スタイルガイド：デザインに個性を加える",
+
+  "mealcompassStyleGuide": "ワイヤーフレームはレシピアプリの基本的な構造を提供しましたが、誰かがグレースケールだけのアプリを使いたくなるのは考えにくいです。そのため、焦点をアプリの外観とスタイルを洗練することに移しました。アプリのポジティブで明るい雰囲気に調和するために、主要色をオレンジにして丸みを帯びたタイポグラフィを選び、ユーザーがアプリを起動するたびに歓迎されていると感じるようにしました。さらに、視覚的魅力を高めるためにアイコンとロゴも作成しました。",
+
+  "mealcompassTypographyType1": "見出しとボタン",
+
+  "mealcompassTypographyType2": "サブ見出しと段落",
+
+  "projectTertiary": "三次",
+
+  "projectIcons": "アイコン：",
+
+  "projectLogo": "ロゴ：",
+
+  "mealcompassHeadingHighFi": "最終デザインと機能性",
+
+  "mealcompassHighFi": "スタイルガイドでビジュアルスタイルを定義した後、そのスタイルをワイヤーフレームに取り入れて、高忠実度のワイヤーフレームを作成しました。しかし、ビジュアルスタイルは成功した製品を作るための一面に過ぎないので、以前に定義した機能をどのように実装したか、UXとUIデザインをどのように調和させたかを以下に説明します。",
+
+  "mealcompassFlow1": "好みの設定を行う",
+
+  "mealcompassFunctionality1": "ダイエットの好みやアレルギーをプロフィールに保存して、好みに合わせた事前に選択したフィルターオプションのもとでレシピの提案を受け取ることができます。",
+
+  "mealcompassFlow2": "レシピを検索する",
+
+  "mealcompassFunctionality2": "さまざまなフィルタリングオプションから選択して、要件に合うレシピを発見することができます。",
+
+  "mealcompassFunctionality3": "多様な料理アイデアの中からレシピを選択することで、新しい料理のインスピレーションを発見することができます。",
+
+  "mealcompassFunctionality4": "上下に連続してスクロールする必要なく、材料と調理手順の間を簡単に切り替えることができます。",
+
+  "mealcompassFlow3": "食事を計画する",
+
+  "mealcompassFunctionality5": "週間の食事を計画し、時間とストレスを節約するためにパーソナライズされたレシピの提案を受け取ることができます。",
+
+  "mealcompassFunctionality6": "食事プランから材料を買い物リストに簡単に追加し、わずか数ステップで食料品の買い物を整理することができます。",
+
+  "mealcompassfHeadingLearning1": "最初からすべてのアイデアや可能な機能を実装しない",
+
+  "mealcompassLearning1": "ブレインストーミング中に多くのアイデアや解決策を思い付くことは素晴らしいことですが、最初からすべてのアイデアなどを実装することは貴重なリソースと時間を消費します。完成品を目指すのではなく、まずは製品の機能的なバージョン（MVP）を作成し、初期のローンチ後に追加機能に取り組むことがより有益です。このアプローチは、早期の利益を生み出し、それをさらなる開発に再投資するのに役立つだけでなく、ユーザーからの貴重なフィードバックや洞察を収集することもできます。",
+
+  "mealcompassHeadingLearning2": "一人でデザインはしない",
+
+  "mealcompassLearning2": "デザインプロセスにユーザーを巻き込むことが重要である一方で、同僚、デザイナー仲間、開発者、業界の専門家など、他のステークホルダーとの協力も同様に重要です。これらの個々の人々は、自分の作業を強化するための貴重な洞察と提案を提供することができます。別のデザイナーは新鮮な視点とデザイン改善のための貴重なアドバイスを提供するかもしれませんし、開発者だと自身のアイデアの技術的な実現可能性を評価することができます。批評を受け入れることは、よく設計された最終製品を達成するために不可欠であり、決して見過ごされるべきではありません。",
+
+  "projecUserInterview": "ユーザーインタビュー",
+
+  "lingoshelfOnboarding1": "img/japanese/lingoshelf/lingo__onboarding-flow@x1.png",
+
+  "lingoshelfOnboarding2": "img/japanese/lingoshelf/lingo__onboarding-flow@x2.png",
+
+  "lingoshelfBookSearch1": "img/japanese/lingoshelf/lingo__book-search-flow@x1.png",
+
+  "lingoshelfBookSearch2": "img/japanese/lingoshelf/lingo__book-search-flow@x2.png",
+
+  "lingoshelfWordSave1": "img/japanese/lingoshelf/lingo__word-save-flow@x1.png",
+
+  "lingoshelfWordSave2": "img/japanese/lingoshelf/lingo__word-save-flow@x2.png",
+
+  "lingoshelfFlashcard1": "img/japanese/lingoshelf/lingo__flashcard-flow@x1.png",
+
+  "lingoshelfFlashcard2": "img/japanese/lingoshelf/lingo__flashcard-flow@x2.png",
+
+  "mealcompassPersona1x1": "img/japanese/mealcompass/mealcompass__persona--1@1x.png",
+
+  "mealcompassPersona1x2": "img/japanese/mealcompass/mealcompass__persona--1@2x.png",
+
+  "mealcompassPersona2x1": "img/japanese/mealcompass/mealcompass__persona--2@1x.png",
+
+  "mealcompassPersona2x2": "img/japanese/mealcompass/mealcompass__persona--2@2x.png",
+
+  "mealcompassPersona3x1": "img/japanese/mealcompass/mealcompass__persona--3@1x.png",
+
+  "mealcompassPersona3x2": "img/japanese/mealcompass/mealcompass__persona--3@2x.png",
+
+  "mealcompassImageUserFlow1": "img/japanese/mealcompass/mealcompass__user-flow@1x.png",
+
+  "mealcompassImageUserFlow2": "img/japanese/mealcompass/mealcompass__user-flow@2x.png",
+
+  "plantwiseUserFlowImage": "img/japanese/plantwise/plantwise__user-flow.svg",
+
+  "mealcompassPersona1C": "img/japanese/mealcompass/mealcompass__persona--1@2x.png",
+
+  "mealcompassPersona2C": "img/japanese/mealcompass/mealcompass__persona--2@2x.png",
+
+  "mealcompassPersona3C": "img/japanese/mealcompass/mealcompass__persona--3@2x.png"
 }

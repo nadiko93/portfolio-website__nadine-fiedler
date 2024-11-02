@@ -254,6 +254,23 @@ function loadTranslations(language) {
         data.lingoshelfHeadingLearning2;
       document.getElementById("lingoshelfLearning2").textContent =
         data.lingoshelfLearning2;
+
+      document.getElementById("lingoshelfOnboarding1").srcset =
+        data.lingoshelfOnboarding1;
+      document.getElementById("lingoshelfOnboarding2").src =
+        data.lingoshelfOnboarding2;
+      document.getElementById("lingoshelfBookSearch1").srcset =
+        data.lingoshelfBookSearch1;
+      document.getElementById("lingoshelfBookSearch2").src =
+        data.lingoshelfBookSearch2;
+      document.getElementById("lingoshelfWordSave1").srcset =
+        data.lingoshelfWordSave1;
+      document.getElementById("lingoshelfWordSave2").src =
+        data.lingoshelfWordSave2;
+      document.getElementById("lingoshelfFlashcard1").srcset =
+        data.lingoshelfFlashcard1;
+      document.getElementById("lingoshelfFlashcard2").src =
+        data.lingoshelfFlashcard2;
     })
     .catch((error) => console.error("Error loading language file:", error));
 }

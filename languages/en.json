@@ -479,7 +479,11 @@
 
   "projectPrimary": "Primary",
 
+  "mealcompassPrimary": "Primary",
+
   "projectSecondary": "Secondary",
+
+  "mealcompassSecondary": "Secondary",
 
   "projectAccent": "Accent",
 
@@ -757,5 +761,45 @@
 
   "mealcompassLearning2": "While involving users in the design process is essential, it's equally important to engage with other stakeholders, such as colleagues, fellow designers, developers, or industry experts. Each of these individuals can provide valuable insights and suggestions to enhance my work. Another designer might offer a fresh perspective and valuable tips for improving my design, while a developer can assess the technical feasibility of my ideas. Receiving, and more importantly, accepting critiques is crucial for achieving a well-designed end product and should never be overlooked.",
 
-  "projecUserInterview": "User Interviews"
+  "projecUserInterview": "User Interviews",
+
+  "lingoshelfOnboarding1": "img/lingoshelf/lingo__onboarding-flow@x1.png",
+
+  "lingoshelfOnboarding2": "img/lingoshelf/lingo__onboarding-flow@x3.png",
+
+  "lingoshelfBookSearch1": "img/lingoshelf/lingo__book-search-flow@x1.png",
+
+  "lingoshelfBookSearch2": "img/lingoshelf/lingo__book-search-flow@x3.png",
+
+  "lingoshelfWordSave1": "img/lingoshelf/lingo__word-save-flow@x1.png",
+
+  "lingoshelfWordSave2": "img/lingoshelf/lingo__word-save-flow@x3.png",
+
+  "lingoshelfFlashcard1": "img/lingoshelf/lingo__flashcard-flow@x1.png",
+
+  "lingoshelfFlashcard2": "img/lingoshelf/lingo__flashcard-flow@x3.png",
+
+  "mealcompassPersona1x1": "img/mealcompass/mealcompass__persona--1@1x.png",
+
+  "mealcompassPersona1x2": "img/mealcompass/mealcompass__persona--1@2x.png",
+
+  "mealcompassPersona2x1": "img/mealcompass/mealcompass__persona--2@1x.png",
+
+  "mealcompassPersona2x2": "img/mealcompass/mealcompass__persona--2@2x.png",
+
+  "mealcompassPersona3x1": "img/mealcompass/mealcompass__persona--3@1x.png",
+
+  "mealcompassPersona3x2": "img/mealcompass/mealcompass__persona--3@2x.png",
+
+  "mealcompassImageUserFlow1": "img/mealcompass/mealcompass__user-flow@1x.png",
+
+  "mealcompassImageUserFlow2": "img/mealcompass/mealcompass__user-flow@2x.png",
+
+  "plantwiseUserFlowImage": "img/plantwise/plantwise__user-flow.svg",
+
+  "mealcompassPersona1C": "img/mealcompass/mealcompass__persona--1@2x.png",
+
+  "mealcompassPersona2C": "img/mealcompass/mealcompass__persona--2@2x.png",
+
+  "mealcompassPersona3C": "img/mealcompass/mealcompass__persona--3@2x.png"
 }

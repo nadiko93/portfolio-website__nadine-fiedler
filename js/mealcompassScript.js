@@ -240,10 +240,10 @@ function loadTranslations(language) {
       document.getElementById("mealcompassStyleGuide").textContent =
         data.mealcompassStyleGuide;
       document.getElementById("projectColors").textContent = data.projectColors;
-      document.getElementById("projectPrimary").textContent =
-        data.projectPrimary;
-      document.getElementById("projectSecondary").textContent =
-        data.projectSecondary;
+      document.getElementById("mealcompassPrimary").textContent =
+        data.mealcompassPrimary;
+      document.getElementById("mealcompassSecondary").textContent =
+        data.mealcompassSecondary;
       document.getElementById("projectTypography").textContent =
         data.projectTypography;
       document.getElementById("projectHeadingButtons").textContent =
@@ -288,10 +288,33 @@ function loadTranslations(language) {
         data.mealcompassLearning2;
       document.getElementById("footerThankYou").textContent =
         data.footerThankYou;
-        document.getElementById("headlineLearnings").textContent =
+      document.getElementById("headlineLearnings").textContent =
         data.headlineLearnings;
-        document.getElementById("projectOverview").textContent =
+      document.getElementById("projectOverview").textContent =
         data.projectOverview;
+
+      document.getElementById("mealcompassPersona1x1").srcset =
+        data.mealcompassPersona1x1;
+      document.getElementById("mealcompassPersona1x2").src =
+        data.mealcompassPersona1x2;
+      document.getElementById("mealcompassPersona2x1").srcset =
+        data.mealcompassPersona2x1;
+      document.getElementById("mealcompassPersona2x2").src =
+        data.mealcompassPersona2x2;
+      document.getElementById("mealcompassPersona3x1").srcset =
+        data.mealcompassPersona3x1;
+      document.getElementById("mealcompassPersona3x2").src =
+        data.mealcompassPersona3x2;
+      document.getElementById("mealcompassImageUserFlow1").srcset =
+        data.mealcompassImageUserFlow1;
+      document.getElementById("mealcompassImageUserFlow2").src =
+        data.mealcompassImageUserFlow2;
+      document.getElementById("mealcompassPersona1C").src =
+        data.mealcompassPersona1C;
+      document.getElementById("mealcompassPersona2C").src =
+        data.mealcompassPersona2C;
+      document.getElementById("mealcompassPersona3C").src =
+        data.mealcompassPersona3C;
     })
     .catch((error) => console.error("Error loading language file:", error));
 }

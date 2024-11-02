@@ -103,11 +103,11 @@
         </p>
         <picture>
           <source
-            srcset="img/mealcompass/mealcompass__responsive@x1.png"
+            srcset="img/mealcompass/mealcompass__responsive@1x.png"
             media="(max-width:744px)" />
           <img
             class="img--center img__project--hero img__mealcompass--hero"
-            src="img/mealcompass/mealcompass__responsive@x3.png"
+            src="img/mealcompass/mealcompass__responsive@2x.png"
             alt="four screens of the lingoshelf app" />
         </picture>
       </div>
@@ -376,9 +376,11 @@
             <div class="media-element">
               <picture>
                 <source
+                  id="mealcompassPersona1x1"
                   srcset="img/mealcompass/mealcompass__persona--1@1x.png"
                   media="(max-width:744px)" />
                 <img
+                  id="mealcompassPersona1x2"
                   class="mealcompass__persona"
                   src="img/mealcompass/mealcompass__persona--1@2x.png"
                   alt="First Persona of the mealcompass web app" />
@@ -388,9 +390,11 @@
             <div class="media-element">
               <picture>
                 <source
+                  id="mealcompassPersona2x1"
                   srcset="img/mealcompass/mealcompass__persona--2@1x.png"
                   media="(max-width: 744px)" />
                 <img
+                  id="mealcompassPersona2x2"
                   class="mealcompass__persona"
                   src="img/mealcompass/mealcompass__persona--2@2x.png"
                   alt="Second Persona of the mealcompass web app" />
@@ -400,9 +404,11 @@
             <div class="media-element">
               <picture>
                 <source
+                  id="mealcompassPersona3x1"
                   srcset="img/mealcompass/mealcompass__persona--3@1x.png"
                   media="(max-width: 744px)" />
                 <img
+                  id="mealcompassPersona3x2"
                   class="mealcompass__persona"
                   src="img/mealcompass/mealcompass__persona--3@2x.png"
                   alt="Third Persona of the mealcompass web app" />
@@ -430,18 +436,21 @@
                 <ul class="carousel__track">
                   <li class="carousel__slide current-slide">
                     <img
+                      id="mealcompassPersona1C"
                       class="carousel__persona-image"
                       src="img/mealcompass/mealcompass__persona--1@2x.png"
                       alt="" />
                   </li>
                   <li class="carousel__slide">
                     <img
+                      id="mealcompassPersona2C"
                       class="carousel__persona-image"
                       src="img/mealcompass/mealcompass__persona--2@2x.png"
                       alt="" />
                   </li>
                   <li class="carousel__slide">
                     <img
+                      id="mealcompassPersona3C"
                       class="carousel__persona-image"
                       src="img/mealcompass/mealcompass__persona--3@2x.png"
                       alt="" />
@@ -660,9 +669,17 @@
               <p id="projectUserFlowDecision">Decision</p>
             </div>
           </div>
-          <img
-            class="img--100"
-            src="img/mealcompass/mealcompass__user-flow.svg" />
+          <picture>
+            <source
+              id="mealcompassImageUserFlow1"
+              srcset="img/mealcompass/mealcompass__user-flow@1x.png"
+              media="(max-width: 744px)" />
+            <img
+              id="mealcompassImageUserFlow2"
+              class="img--100"
+              src="img/mealcompass/mealcompass__user-flow@2x.png"
+              alt="Meal Compass user flow" />
+          </picture>
         </div>
       </div>
 
@@ -1040,10 +1057,10 @@
             <h4 id="projectHeadingButtons">Buttons</h4>
             <div class="media-scroller mealcompas__container-buttons">
               <div class="media-element">
-                <h5 id="projectPrimary">Primary</h5>
+                <h5 id="mealcompassPrimary">Primary</h5>
               </div>
               <div class="media-element">
-                <h5 id="projectSecondary">Secondary</h5>
+                <h5 id="mealcompassSecondary">Secondary</h5>
               </div>
               <div class="media-element">
                 <h5 id="projectTertiary">Tertiary</h5>

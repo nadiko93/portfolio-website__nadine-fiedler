@@ -811,5 +811,19 @@
 
   "mealcompassPersona2C": "img/japanese/mealcompass/mealcompass__persona--2@2x.png",
 
-  "mealcompassPersona3C": "img/japanese/mealcompass/mealcompass__persona--3@2x.png"
+  "mealcompassPersona3C": "img/japanese/mealcompass/mealcompass__persona--3@2x.png",
+
+  "hpProjectNameMealcompass": "Meal Compass (ミールコンパス)",
+
+  "hpMealcompassDescription": "忙しい人向けのレスポンシブなレシピWebアプリ、Meal Compassです。一週間分の食事を事前に計画し、Meal Compassの機能を利用して時間を節約できます。",
+
+  "tagNameUI3": "UIデザイン",
+
+  "tagNameUX3": "UXデザイン",
+
+  "tagNameResponsiveApp": "レスポンシブウェブアプリ",
+
+  "tagNameRecipe": "レシピアプリ",
+
+  "tagNameMealPlanner": "食事プランナー"
 }

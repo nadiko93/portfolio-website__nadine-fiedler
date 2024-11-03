@@ -801,5 +801,19 @@
 
   "mealcompassPersona2C": "img/mealcompass/mealcompass__persona--2@2x.png",
 
-  "mealcompassPersona3C": "img/mealcompass/mealcompass__persona--3@2x.png"
+  "mealcompassPersona3C": "img/mealcompass/mealcompass__persona--3@2x.png",
+
+  "hpProjectNameMealcompass": "Meal Compass",
+
+  "hpMealcompassDescription": "A responsive recipe web app for busy people. Plan your meals for the week in advance and save time by utilizing Meal Compass' features.",
+
+  "tagNameUI3": "UI Design",
+
+  "tagNameUX3": "UX Design",
+
+  "tagNameResponsiveApp": "Responsive Web App",
+
+  "tagNameRecipe": "Recipe App",
+
+  "tagNameMealPlanner": "Meal Planner"
 }

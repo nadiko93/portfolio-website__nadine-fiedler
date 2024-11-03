@@ -118,22 +118,17 @@ function loadTranslations(language) {
       document.getElementById("footerThankYou").textContent =
         data.footerThankYou;
 
-      // document.querySelector('body').style.fontSize = data.fontSizeBody;
-      // document.querySelector('body').style.fontFamily = data.fontFamilyBody;
-
-      // document.querySelectorAll('p').forEach(p =>
-      //   p.style.lineHeight = data.lineHeightBody);
-
-      document.getElementById("mealcompassCatchphrase1").textContent =
-        data.mealcompassCatchphrase1;
-      document.getElementById("mealcompassCatchphrase2").textContent =
-        data.mealcompassCatchphrase2;
-      document.getElementById("mealcompassCatchphrase3").textContent =
-        data.mealcompassCatchphrase3;
-      document.getElementById("mealcompassCatchphrase4").textContent =
-        data.mealcompassCatchphrase4;
-      document.getElementById("mealcompassCatchphrase5").textContent =
-        data.mealcompassCatchphrase5;
+      document.getElementById("hpProjectNameMealcompass").textContent =
+        data.hpProjectNameMealcompass;
+      document.getElementById("hpMealcompassDescription").textContent =
+        data.hpMealcompassDescription;
+      document.getElementById("tagNameUI3").textContent = data.tagNameUI3;
+      document.getElementById("tagNameUX3").textContent = data.tagNameUX3;
+      document.getElementById("tagNameResponsiveApp").textContent =
+        data.tagNameResponsiveApp;
+      document.getElementById("tagNameRecipe").textContent = data.tagNameRecipe;
+      document.getElementById("tagNameMealPlanner").textContent =
+        data.tagNameMealPlanner;
     })
     .catch((error) => console.error("Error loading language file:", error));
 }

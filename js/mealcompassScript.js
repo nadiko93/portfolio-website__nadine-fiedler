@@ -59,8 +59,6 @@ function loadTranslations(language) {
       document.getElementById("projectTagMockups").textContent =
         data.projectTagMockups;
       document.getElementById("projectMVP").textContent = data.projectMVP;
-      // document.getElementById("projectButtonPrototype").textContent =
-      //   data.projectButtonPrototype;
       document.getElementById("projectHeadingBackground").textContent =
         data.projectHeadingBackground;
       document.getElementById("mealcompassBackground").textContent =

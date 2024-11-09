@@ -301,6 +301,14 @@ function loadTranslations(language) {
 
       document.getElementById("plantwiseUserFlowImage").src =
         data.plantwiseUserFlowImage;
+      document.getElementById("plantwiseSpeechBubble1").srcset =
+        data.plantwiseSpeechBubble1;
+      document.getElementById("plantwiseSpeechBubble2").src =
+        data.plantwiseSpeechBubble2;
+      document.getElementById("plantwiseSpeechBubble3").srcset =
+        data.plantwiseSpeechBubble3;
+      document.getElementById("plantwiseSpeechBubble4").src =
+        data.plantwiseSpeechBubble4;
     })
     .catch((error) => console.error("Error loading language file:", error));
 }

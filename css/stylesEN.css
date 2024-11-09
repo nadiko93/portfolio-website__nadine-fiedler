@@ -694,6 +694,40 @@ footer p {
   5. ABOUT PAGE
 --------------------------------------------------------------*/
 
+.container__tools {
+  margin-top: 3rem;
+}
+
+.container__skills {
+  margin-top: 3rem;
+}
+
+.tool-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  /* padding-right: 50px; */
+}
+
+.tool-icon {
+height: 32px;
+width: 32px;
+}
+
+.footer__about {
+  margin-top: 5rem;
+}
+
+.about__tool-list {
+  margin-top: 1.5rem;
+}
+
+.about__skill-list {
+  margin-top: 1rem;
+}
+
 /* -----------------------------------------------------------
   6. PROJECT PAGES
 ---------------------------------------------------------------*/
@@ -1990,6 +2024,28 @@ footer p {
   }
 
   /* --------------------------------------------------------
+    ABOUT PAGE
+  --------------------------------------------------------- */
+
+  .about__tool-list {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    column-gap: 2rem;
+  }
+
+  .about__text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-page__image {
+    display: block;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+
+  /* --------------------------------------------------------
    PLANTWISE 
   --------------------------------------------------------- */
 
@@ -2340,6 +2396,20 @@ footer p {
 
   .user-flow__chart {
     margin-top: 5rem;
+  }
+
+  /* --------------------------------------------------------------
+    ABOUT PAGE
+  -----------------------------------------------------------------*/
+
+  .about__skillset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+
+  .about__tool-list {
+    grid-template-columns: 150px 150px;
   }
 
   /* -------------------------------------------------------------
@@ -3241,6 +3311,26 @@ footer p {
     margin: 0;
     right: 15%;
   }
+
+  /* -----------------------------------------------------
+    ABOUT PAGE
+  -------------------------------------------------------- */
+
+  .about__text {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-page__introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+
+  .about__skillset {
+    column-gap: 5rem;
+  }
+
 
   /*-------------------------------------------------------
     PLANTWISE

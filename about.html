@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="img/other/icon__logo.svg" />
+
+    <link id="styleSheet" rel="stylesheet" type="text/css" href="css/stylesJP.css" />
+
+    <title>Nadine Fiedler - Portfolio Website</title>
+  </head>
+  <body>
+    <header id="back-to-top">
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="index.html"
+            ><img
+              src="img/other/icon__logo.svg"
+              alt="The logo which contains a blue circle with the letter N inside"
+          /></a>
+          <nav>
+            <button
+              class="mobile-nav-toggle"
+              aria-controls="primary-navigation"
+              aria-expanded="false"></button>
+            <ul
+              id="primary-navigation"
+              data-visible="false"
+              class="primary-navigation">
+              <li class="active">
+                <a class="nav-item" href="index.html">
+                  <span aria-hidden="true">00</span>Home</a
+                >
+              </li>
+              <li>
+                <a class="nav-item" href="index.html#work"
+                  ><span aria-hidden="true">01</span>Work</a
+                >
+              </li>
+              <li>
+                <a class="nav-item" href="about.html"
+                  ><span aria-hidden="true">02</span>About</a
+                >
+              </li>
+              <li>
+                <div class="languages">
+                  <img
+                    class="lang--en btn__language"
+                    onclick="switchLanguage('en')"
+                    src="img/other/icon__flag--en.svg"
+                    alt="icon of a british flag" />
+                  <img
+                    class="lang--jp btn__language"
+                    onclick="switchLanguage('jp')"
+                    src="img/other/icon__flag--jp.svg"
+                    alt="icon of a japanese flag" />
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+ 
+        <h2 class="container__relative"><span class="heading-underline"><img src="img/other/decoration__heading-underline--blue--S.svg"></span>About</h2>
+        <div class="container">
+        <div class="about-page__introduction">
+            <div>
+        <p class="about__text">
+            <span id="hpAbout1"></span><span id="hpAbout2" class="bold"></span><span id="hpAbout3"></span><span id="hpAbout4" class="bold"></span><span id="hpAbout25"></span><span id="hpAbout26" class="bold"></span><span id="hpAbout5">. I'm passionate about finding</span>
+            <span id="hpAbout6" class="bold">engaging solutions</span><span id="hpAbout7"> for user problems and creating immersive and
+            visually appealing designs.</span>
+          </p>
+          <p class="about__text">
+            <span id="hpAbout8">After graduating from university with a degree in Japanese Studies, I
+            came to Japan in November 2020 to work for a Japanese company. During
+            this time, I discovered my </span><span id="hpAbout9" class="bold">passion</span><span id="hpAbout10"> for UI/UX Design, and in November
+            2023, I graduated in UI Design at Careerfoundry.</span>
+          </p>
+          <p class="about__text">
+            <span id="hpAbout11">My experience of living in different countries gives me a </span><span id="hpAbout12" class="bold">unique
+              perspective</span><span id="hpAbout13"> and understanding of both the Western and Japanese
+              markets, enabling me to find </span><span id="hpAbout14" class="bold">diverse solutions</span><span id="hpAbout15">based on user needs
+              from various regions.</span> 
+            </p>
+            <p class="about__text">
+              <span id="hpAbout16"></span><span id="hpAbout17" class="bold"></span><span id="hpAbout18"></span> 
+              <span id="hpAbout19" class="bold"></span><span id="hpAbout20"></span><span id="hpAbout21" class="bold"></span><span id="hpAbout22">
+              </span><span id="hpAbout23" class="bold"></span><span id="hpAbout24"></span> 
+            </p>
+        </div>
+            <picture>
+                <source
+                  srcset="img/about/img__about@1x.png"
+                  media="(max-width:744px)" />
+                <img
+                  class="img--100 about-page__image"
+                  src="img/about/img__about@2x.png"
+                  alt="Picture for about page" />
+              </picture>
+            </div>
+              <div class="about__skillset">
+              <div class="container__skills">
+                <h5 id="aboutSkills">Relevant Skills</h5>
+                <ul class="about__skill-list">
+                    <li><span id="aboutSkillArea1" class="bold">UI Design</span><span id="aboutSkill1">(High-Fidelity Wireframes, Mockups, Responsive Design, Prototyping)</span></li>
+                    <li><span id="aboutSkillArea2" class="bold">UX Design </span><span id="aboutSkill2">(User Research, Competitive Analyses, Personas, User Flow, Wireframes, Usability Testing)</span></li>
+                    <li><span id="aboutSkillArea3" class="bold">Frontend Development</span><span id="aboutSkill3">(HTML, CSS, JavaScript, Responsive Design)</span></li>
+                </ul>
+              </div>
+              <div class="container__tools">
+                <h5 id="aboutTools">Tools I use</h5>
+                <ul class="about__tool-list">
+                    <li class="tool-details"><img class="tool-icon" src="img/other/icon__figma.svg" alt="Figma Icon"><span id="aboutTool1">Figma</span></li>
+                    <li class="tool-details"><img class="tool-icon" src="img/other/icon__adobe-xd.svg"><span id="aboutTool2">Adobe XD</span></li>
+                    <li class="tool-details"><img class="tool-icon" src="img/other/icon__illustrator.svg"><span>Illustrator</span></li>
+                    <li class="tool-details"><img class="tool-icon" src="img/other/icon__photoshop.svg"><span>Photoshop</span></li>
+                    <li class="tool-details"><img class="tool-icon" src="img/other/icon__html.svg"><span>HTML5</span></li>
+                    <li class="tool-details"><img class="tool-icon" src="img/other/icon__css.svg"><span>CSS3</span></li>
+                    <li class="tool-details"><img class="tool-icon" src="img/other/icon__javascript.svg"><span>JavaScript</span></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </main>
+      <footer class="footer__about">
+        <p id="footerThankYou">Thank you for watching.</p>
+        <ul class="icons__sns">
+          <li>
+            <a href="mailto:fiedler.nadinef@gmail.com"
+              ><img src="img/other/icon__mail.svg" alt="icon of a letter"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/nadinefiedler" target="_blank"
+              ><img src="img/other/icon__behance.svg" alt="behance logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/nadiko93" target="_blank"
+              ><img src="img/other/icon__github.svg" alt="github logo"
+            /></a>
+          </li>
+        </ul>
+        <p class="copyright">© Copyright Nadine Fiedler 2024</p>
+      </footer>
+  </body>
+  <script src="js/aboutScript.js"></script>
+</html>

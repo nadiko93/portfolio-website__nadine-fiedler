@@ -815,5 +815,29 @@
 
   "tagNameRecipe": "Recipe App",
 
-  "tagNameMealPlanner": "Meal Planner"
+  "tagNameMealPlanner": "Meal Planner",
+
+  "aboutSkills": "Relevant Skills",
+
+  "aboutSkillArea1": "UI Design ",
+
+  "aboutSkill1": "(High-Fidelity Wireframes, Mockups, Responsive Design, Prototyping)",
+
+  "aboutSkillArea2": "UX Design ",
+
+  "aboutSkill2": "(User Research, Competitive Analyses, Personas, User Flow, Wireframes, Usability Testing)",
+
+  "aboutSkillArea3": "Frontend Development ",
+
+  "aboutSkill3": "(HTML, CSS, JavaScript, Responsive Design)",
+
+  "aboutTools": "Tools I use",
+
+  "plantwiseSpeechBubble1": "img/plantwise/plantwise__speech-bubble--1@1x.png",
+
+  "plantwiseSpeechBubble2": "img/plantwise/plantwise__speech-bubble--1@2x.png",
+
+  "plantwiseSpeechBubble3": "img/plantwise/plantwise__speech-bubble--2@1x.png",
+
+  "plantwiseSpeechBubble4": "img/plantwise/plantwise__speech-bubble--2@2x.png"
 }

@@ -825,5 +825,29 @@
 
   "tagNameRecipe": "レシピアプリ",
 
-  "tagNameMealPlanner": "食事プランナー"
+  "tagNameMealPlanner": "食事プランナー",
+
+  "aboutSkills": "スキル",
+
+  "aboutSkillArea1": "UIデザイン",
+
+  "aboutSkill1": "(高忠実度イヤーフレーム、モックアップ、レスポンシブデザイン、プロトタイプ)",
+
+  "aboutSkillArea2": "UXデザイン",
+
+  "aboutSkill2": "(UXリサーチ、競合分析、ペルソナ、ユーザーフロー、ワイヤーフレーム、ユーザビリティテスト)",
+
+  "aboutSkillArea3": "フロントエンド開発",
+
+  "aboutSkill3": "(HTML、CSS、JavaScript、レスポンシブデザイン)",
+
+  "aboutTools": "使用ツール",
+
+  "plantwiseSpeechBubble1": "img/japanese/plantwise/plantwise__speech-bubble--1@1x.png",
+
+  "plantwiseSpeechBubble2": "img/japanese/plantwise/plantwise__speech-bubble--1@2x.png",
+
+  "plantwiseSpeechBubble3": "img/japanese/plantwise/plantwise__speech-bubble--2@1x.png",
+
+  "plantwiseSpeechBubble4": "img/japanese/plantwise/plantwise__speech-bubble--2@2x.png"
 }
